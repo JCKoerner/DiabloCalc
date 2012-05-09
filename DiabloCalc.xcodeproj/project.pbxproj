@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFDBBE99155AACD800EA854D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDBBE98155AACD800EA854D /* UIKit.framework */; };
+		EFDBBE9B155AACD800EA854D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDBBE9A155AACD800EA854D /* Foundation.framework */; };
+		EFDBBE9D155AACD800EA854D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDBBE9C155AACD800EA854D /* CoreGraphics.framework */; };
+		EFDBBEA3155AACD800EA854D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBEA1155AACD800EA854D /* InfoPlist.strings */; };
+		EFDBBEA5155AACD800EA854D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDBBEA4155AACD800EA854D /* main.m */; };
+		EFDBBEA9155AACD800EA854D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDBBEA8155AACD800EA854D /* AppDelegate.m */; };
+		EFDBBEAC155AACD800EA854D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDBBEAB155AACD800EA854D /* ViewController.m */; };
+		EFDBBEAF155AACD800EA854D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBEAD155AACD800EA854D /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EFDBBE94155AACD800EA854D /* DiabloCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiabloCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDBBE98155AACD800EA854D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EFDBBE9A155AACD800EA854D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EFDBBE9C155AACD800EA854D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EFDBBEA0155AACD800EA854D /* DiabloCalc-Info.plist */ = {isa = PBXFileReference; path = "DiabloCalc-Info.plist"; sourceTree = "<group>"; };
+		EFDBBEA2155AACD800EA854D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EFDBBEA4155AACD800EA854D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFDBBEA6155AACD800EA854D /* DiabloCalc-Prefix.pch */ = {isa = PBXFileReference; path = "DiabloCalc-Prefix.pch"; sourceTree = "<group>"; };
+		EFDBBEA7155AACD800EA854D /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFDBBEA8155AACD800EA854D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFDBBEAA155AACD800EA854D /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		EFDBBEAB155AACD800EA854D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EFDBBEAE155AACD800EA854D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFDBBE91155AACD800EA854D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDBBE99155AACD800EA854D /* UIKit.framework in Frameworks */,
+				EFDBBE9B155AACD800EA854D /* Foundation.framework in Frameworks */,
+				EFDBBE9D155AACD800EA854D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFDBBE89155AACD800EA854D = {
+			isa = PBXGroup;
+			children = (
+				EFDBBE9E155AACD800EA854D /* DiabloCalc */,
+				EFDBBE97155AACD800EA854D /* Frameworks */,
+				EFDBBE95155AACD800EA854D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFDBBE95155AACD800EA854D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFDBBE94155AACD800EA854D /* DiabloCalc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFDBBE97155AACD800EA854D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFDBBE98155AACD800EA854D /* UIKit.framework */,
+				EFDBBE9A155AACD800EA854D /* Foundation.framework */,
+				EFDBBE9C155AACD800EA854D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFDBBE9E155AACD800EA854D /* DiabloCalc */ = {
+			isa = PBXGroup;
+			children = (
+				EFDBBEA7155AACD800EA854D /* AppDelegate.h */,
+				EFDBBEA8155AACD800EA854D /* AppDelegate.m */,
+				EFDBBEAA155AACD800EA854D /* ViewController.h */,
+				EFDBBEAB155AACD800EA854D /* ViewController.m */,
+				EFDBBEAD155AACD800EA854D /* ViewController.xib */,
+				EFDBBE9F155AACD800EA854D /* Supporting Files */,
+			);
+			path = DiabloCalc;
+			sourceTree = "<group>";
+		};
+		EFDBBE9F155AACD800EA854D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFDBBEA0155AACD800EA854D /* DiabloCalc-Info.plist */,
+				EFDBBEA1155AACD800EA854D /* InfoPlist.strings */,
+				EFDBBEA4155AACD800EA854D /* main.m */,
+				EFDBBEA6155AACD800EA854D /* DiabloCalc-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFDBBE93155AACD800EA854D /* DiabloCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDBBEB2155AACD800EA854D /* Build configuration list for PBXNativeTarget "DiabloCalc" */;
+			buildPhases = (
+				EFDBBE90155AACD800EA854D /* Sources */,
+				EFDBBE91155AACD800EA854D /* Frameworks */,
+				EFDBBE92155AACD800EA854D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiabloCalc;
+			productName = DiabloCalc;
+			productReference = EFDBBE94155AACD800EA854D /* DiabloCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFDBBE8B155AACD800EA854D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Etude Group";
+			};
+			buildConfigurationList = EFDBBE8E155AACD800EA854D /* Build configuration list for PBXProject "DiabloCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EFDBBE89155AACD800EA854D;
+			productRefGroup = EFDBBE95155AACD800EA854D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFDBBE93155AACD800EA854D /* DiabloCalc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFDBBE92155AACD800EA854D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDBBEA3155AACD800EA854D /* InfoPlist.strings in Resources */,
+				EFDBBEAF155AACD800EA854D /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFDBBE90155AACD800EA854D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDBBEA5155AACD800EA854D /* main.m in Sources */,
+				EFDBBEA9155AACD800EA854D /* AppDelegate.m in Sources */,
+				EFDBBEAC155AACD800EA854D /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EFDBBEA1155AACD800EA854D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFDBBEA2155AACD800EA854D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EFDBBEAD155AACD800EA854D /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFDBBEAE155AACD800EA854D /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFDBBEB0155AACD800EA854D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EFDBBEB1155AACD800EA854D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFDBBEB3155AACD800EA854D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DiabloCalc/DiabloCalc-Prefix.pch";
+				INFOPLIST_FILE = "DiabloCalc/DiabloCalc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EFDBBEB4155AACD800EA854D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DiabloCalc/DiabloCalc-Prefix.pch";
+				INFOPLIST_FILE = "DiabloCalc/DiabloCalc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFDBBE8E155AACD800EA854D /* Build configuration list for PBXProject "DiabloCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDBBEB0155AACD800EA854D /* Debug */,
+				EFDBBEB1155AACD800EA854D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFDBBEB2155AACD800EA854D /* Build configuration list for PBXNativeTarget "DiabloCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDBBEB3155AACD800EA854D /* Debug */,
+				EFDBBEB4155AACD800EA854D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFDBBE8B155AACD800EA854D /* Project object */;
+}
