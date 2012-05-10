@@ -14,13 +14,22 @@
 
 @synthesize window = _window;
 @synthesize viewController = _viewController;
-
+@synthesize rootNavigationController = _rootNavigationController;
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    
+    
     self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
+    self.rootNavigationController = [[UINavigationController alloc] initWithRootViewController:self.viewController];
+    [self.rootNavigationController setNavigationBarHidden:YES animated:NO];
+    //[[self.rootNavigationController navigationBar] setTintColor:[UIColor blackColor]];
+    [[self.rootNavigationController navigationBar] setBarStyle:UIBarStyleBlackTranslucent];
+    
+    
+    self.window.rootViewController = self.rootNavigationController;
     [self.window makeKeyAndVisible];
     return YES;
 }
