@@ -13,6 +13,7 @@
     NSDictionary *classDict;
     BOOL pageControlBeingUsed;
     NSMutableArray *spellPageViewsArray;
+    NSMutableArray *activeSpellButtonsArray;
 }
 
 
@@ -24,17 +25,27 @@
 
 -(void)styleUIElements;
 -(void)loadClassData;
+-(void)loadViewsInitialData;
+-(void)setImageForSpellPageViewButton:(SpellPageView *)pageView withTag:(int)tag withImageNamed:(NSString *)imageString;
+
+
+
 -(void)loadPopupViews;
+-(void)updateActiveSpellDescriptionText:(int)spellIndex forPage:(int)pageIndex;
+-(void)updateUITransparenciesForButtonTappedOnPage:(int)pageIndex;
+
+-(void)setInitialUIState;
+
 -(IBAction)removePopup:(id)sender;
 -(IBAction)changePage:(id)sender;
 
--(IBAction)updateLabelText:(id)sender;
-
+//-(void)buttonPressed:(int)tag;
 
 
 @property (assign) int characterClass;
 @property (retain, nonatomic) NSDictionary *classDict;
 @property (retain, nonatomic) NSMutableArray *spellPageViewsArray;
+@property (retain, nonatomic) NSMutableArray *activeSpellButtonsArray;
 @property (weak, nonatomic) IBOutlet UITextView *descriptionTextView;
 @property (weak, nonatomic) IBOutlet UILabel *requiredLevelLabel;
 @property (weak, nonatomic) IBOutlet UILabel *requiredLevelIntLabel;

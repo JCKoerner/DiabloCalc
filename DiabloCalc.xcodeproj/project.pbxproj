@@ -7,6 +7,208 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF0D2518155F28F0006A7785 /* runeA.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0D250E155F28F0006A7785 /* runeA.png */; };
+		EF0D2519155F28F0006A7785 /* runeA@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0D250F155F28F0006A7785 /* runeA@2x.png */; };
+		EF0D251A155F28F0006A7785 /* runeB.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0D2510155F28F0006A7785 /* runeB.png */; };
+		EF0D251B155F28F0006A7785 /* runeB@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0D2511155F28F0006A7785 /* runeB@2x.png */; };
+		EF0D251C155F28F0006A7785 /* runeC.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0D2512155F28F0006A7785 /* runeC.png */; };
+		EF0D251D155F28F0006A7785 /* runeC@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0D2513155F28F0006A7785 /* runeC@2x.png */; };
+		EF0D251E155F28F0006A7785 /* runeD.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0D2514155F28F0006A7785 /* runeD.png */; };
+		EF0D251F155F28F0006A7785 /* runeD@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0D2515155F28F0006A7785 /* runeD@2x.png */; };
+		EF0D2520155F28F0006A7785 /* runeE.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0D2516155F28F0006A7785 /* runeE.png */; };
+		EF0D2521155F28F0006A7785 /* runeE@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0D2517155F28F0006A7785 /* runeE@2x.png */; };
+		EF0D2525155F29EF006A7785 /* runeNone.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0D2523155F29EF006A7785 /* runeNone.png */; };
+		EF0D2526155F29EF006A7785 /* runeNone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0D2524155F29EF006A7785 /* runeNone@2x.png */; };
+		EF18A377155E142200C80596 /* barbarian_ancientspear.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2BB155E142200C80596 /* barbarian_ancientspear.png */; };
+		EF18A378155E142200C80596 /* barbarian_bash.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2BC155E142200C80596 /* barbarian_bash.png */; };
+		EF18A379155E142200C80596 /* barbarian_battlerage.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2BD155E142200C80596 /* barbarian_battlerage.png */; };
+		EF18A37A155E142200C80596 /* barbarian_calloftheancients.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2BE155E142200C80596 /* barbarian_calloftheancients.png */; };
+		EF18A37B155E142200C80596 /* barbarian_cleave.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2BF155E142200C80596 /* barbarian_cleave.png */; };
+		EF18A37C155E142200C80596 /* barbarian_earthquake.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2C0155E142200C80596 /* barbarian_earthquake.png */; };
+		EF18A37D155E142200C80596 /* barbarian_frenzy.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2C1155E142200C80596 /* barbarian_frenzy.png */; };
+		EF18A37E155E142200C80596 /* barbarian_furiouscharge.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2C2155E142200C80596 /* barbarian_furiouscharge.png */; };
+		EF18A37F155E142200C80596 /* barbarian_groundstomp.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2C3155E142200C80596 /* barbarian_groundstomp.png */; };
+		EF18A380155E142200C80596 /* barbarian_hammeroftheancients.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2C4155E142200C80596 /* barbarian_hammeroftheancients.png */; };
+		EF18A381155E142200C80596 /* barbarian_ignorepain.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2C5155E142200C80596 /* barbarian_ignorepain.png */; };
+		EF18A382155E142200C80596 /* barbarian_leap.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2C6155E142200C80596 /* barbarian_leap.png */; };
+		EF18A383155E142200C80596 /* barbarian_overpower.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2C7155E142200C80596 /* barbarian_overpower.png */; };
+		EF18A384155E142200C80596 /* barbarian_passive_animosity.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2C8155E142200C80596 /* barbarian_passive_animosity.png */; };
+		EF18A385155E142200C80596 /* barbarian_passive_berserkerrage.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2C9155E142200C80596 /* barbarian_passive_berserkerrage.png */; };
+		EF18A386155E142200C80596 /* barbarian_passive_bloodthirst.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2CA155E142200C80596 /* barbarian_passive_bloodthirst.png */; };
+		EF18A387155E142200C80596 /* barbarian_passive_boonofbulkathos.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2CB155E142200C80596 /* barbarian_passive_boonofbulkathos.png */; };
+		EF18A388155E142200C80596 /* barbarian_passive_brawler.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2CC155E142200C80596 /* barbarian_passive_brawler.png */; };
+		EF18A389155E142200C80596 /* barbarian_passive_inspiringpresence.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2CD155E142200C80596 /* barbarian_passive_inspiringpresence.png */; };
+		EF18A38A155E142200C80596 /* barbarian_passive_juggernaut.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2CE155E142200C80596 /* barbarian_passive_juggernaut.png */; };
+		EF18A38B155E142200C80596 /* barbarian_passive_nervesofsteel.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2CF155E142200C80596 /* barbarian_passive_nervesofsteel.png */; };
+		EF18A38C155E142200C80596 /* barbarian_passive_noescape.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2D0155E142200C80596 /* barbarian_passive_noescape.png */; };
+		EF18A38D155E142200C80596 /* barbarian_passive_poundofflesh.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2D1155E142200C80596 /* barbarian_passive_poundofflesh.png */; };
+		EF18A38E155E142200C80596 /* barbarian_passive_relentless.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2D2155E142200C80596 /* barbarian_passive_relentless.png */; };
+		EF18A38F155E142200C80596 /* barbarian_passive_ruthless.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2D3155E142200C80596 /* barbarian_passive_ruthless.png */; };
+		EF18A390155E142200C80596 /* barbarian_passive_superstition.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2D4155E142200C80596 /* barbarian_passive_superstition.png */; };
+		EF18A391155E142200C80596 /* barbarian_passive_toughasnails.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2D5155E142200C80596 /* barbarian_passive_toughasnails.png */; };
+		EF18A392155E142200C80596 /* barbarian_passive_unforgiving.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2D6155E142200C80596 /* barbarian_passive_unforgiving.png */; };
+		EF18A393155E142200C80596 /* barbarian_passive_weaponsmaster.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2D7155E142200C80596 /* barbarian_passive_weaponsmaster.png */; };
+		EF18A394155E142200C80596 /* barbarian_rend.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2D8155E142200C80596 /* barbarian_rend.png */; };
+		EF18A395155E142200C80596 /* barbarian_revenge.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2D9155E142200C80596 /* barbarian_revenge.png */; };
+		EF18A396155E142200C80596 /* barbarian_seismicslam.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2DA155E142200C80596 /* barbarian_seismicslam.png */; };
+		EF18A397155E142200C80596 /* barbarian_sprint.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2DB155E142200C80596 /* barbarian_sprint.png */; };
+		EF18A398155E142200C80596 /* barbarian_threateningshout.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2DC155E142200C80596 /* barbarian_threateningshout.png */; };
+		EF18A399155E142200C80596 /* barbarian_warcry.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2DD155E142200C80596 /* barbarian_warcry.png */; };
+		EF18A39A155E142200C80596 /* barbarian_weaponthrow.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2DE155E142200C80596 /* barbarian_weaponthrow.png */; };
+		EF18A39B155E142200C80596 /* barbarian_whirlwind.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2DF155E142200C80596 /* barbarian_whirlwind.png */; };
+		EF18A39C155E142200C80596 /* barbarian_wrathoftheberserker.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2E0155E142200C80596 /* barbarian_wrathoftheberserker.png */; };
+		EF18A39D155E142200C80596 /* demonhunter_bolashot.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2E1155E142200C80596 /* demonhunter_bolashot.png */; };
+		EF18A39E155E142200C80596 /* demonhunter_caltrops.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2E2155E142200C80596 /* demonhunter_caltrops.png */; };
+		EF18A39F155E142200C80596 /* demonhunter_chakram.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2E3155E142200C80596 /* demonhunter_chakram.png */; };
+		EF18A3A0155E142200C80596 /* demonhunter_clusterarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2E4155E142200C80596 /* demonhunter_clusterarrow.png */; };
+		EF18A3A1155E142200C80596 /* demonhunter_companion.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2E5155E142200C80596 /* demonhunter_companion.png */; };
+		EF18A3A2155E142200C80596 /* demonhunter_elementalarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2E6155E142200C80596 /* demonhunter_elementalarrow.png */; };
+		EF18A3A3155E142200C80596 /* demonhunter_entanglingshot.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2E7155E142200C80596 /* demonhunter_entanglingshot.png */; };
+		EF18A3A4155E142200C80596 /* demonhunter_evasivefire.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2E8155E142200C80596 /* demonhunter_evasivefire.png */; };
+		EF18A3A5155E142200C80596 /* demonhunter_fanofknives.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2E9155E142200C80596 /* demonhunter_fanofknives.png */; };
+		EF18A3A6155E142200C80596 /* demonhunter_grenades.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2EA155E142200C80596 /* demonhunter_grenades.png */; };
+		EF18A3A7155E142200C80596 /* demonhunter_hungeringarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2EB155E142200C80596 /* demonhunter_hungeringarrow.png */; };
+		EF18A3A8155E142200C80596 /* demonhunter_impale.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2EC155E142200C80596 /* demonhunter_impale.png */; };
+		EF18A3A9155E142200C80596 /* demonhunter_markedfordeath.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2ED155E142200C80596 /* demonhunter_markedfordeath.png */; };
+		EF18A3AA155E142200C80596 /* demonhunter_multishot.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2EE155E142200C80596 /* demonhunter_multishot.png */; };
+		EF18A3AB155E142200C80596 /* demonhunter_passive_archery.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2EF155E142200C80596 /* demonhunter_passive_archery.png */; };
+		EF18A3AC155E142200C80596 /* demonhunter_passive_ballistics.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2F0155E142200C80596 /* demonhunter_passive_ballistics.png */; };
+		EF18A3AD155E142200C80596 /* demonhunter_passive_brooding.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2F1155E142200C80596 /* demonhunter_passive_brooding.png */; };
+		EF18A3AE155E142200C80596 /* demonhunter_passive_culltheweak.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2F2155E142200C80596 /* demonhunter_passive_culltheweak.png */; };
+		EF18A3AF155E142200C80596 /* demonhunter_passive_customengineering.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2F3155E142200C80596 /* demonhunter_passive_customengineering.png */; };
+		EF18A3B0155E142200C80596 /* demonhunter_passive_grenadier.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2F4155E142200C80596 /* demonhunter_passive_grenadier.png */; };
+		EF18A3B1155E142200C80596 /* demonhunter_passive_hotpursuit.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2F5155E142200C80596 /* demonhunter_passive_hotpursuit.png */; };
+		EF18A3B2155E142200C80596 /* demonhunter_passive_nightstalker.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2F6155E142200C80596 /* demonhunter_passive_nightstalker.png */; };
+		EF18A3B3155E142200C80596 /* demonhunter_passive_numbingtraps.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2F7155E142200C80596 /* demonhunter_passive_numbingtraps.png */; };
+		EF18A3B4155E142200C80596 /* demonhunter_passive_perfectionist.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2F8155E142200C80596 /* demonhunter_passive_perfectionist.png */; };
+		EF18A3B5155E142200C80596 /* demonhunter_passive_sharpshooter.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2F9155E142200C80596 /* demonhunter_passive_sharpshooter.png */; };
+		EF18A3B6155E142200C80596 /* demonhunter_passive_steadyaim.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2FA155E142200C80596 /* demonhunter_passive_steadyaim.png */; };
+		EF18A3B7155E142200C80596 /* demonhunter_passive_tacticaladvantage.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2FB155E142200C80596 /* demonhunter_passive_tacticaladvantage.png */; };
+		EF18A3B8155E142200C80596 /* demonhunter_passive_thrillofthehunt.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2FC155E142200C80596 /* demonhunter_passive_thrillofthehunt.png */; };
+		EF18A3B9155E142200C80596 /* demonhunter_passive_vengeance.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2FD155E142200C80596 /* demonhunter_passive_vengeance.png */; };
+		EF18A3BA155E142200C80596 /* demonhunter_preparation.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2FE155E142200C80596 /* demonhunter_preparation.png */; };
+		EF18A3BB155E142200C80596 /* demonhunter_rainofvengeance.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2FF155E142200C80596 /* demonhunter_rainofvengeance.png */; };
+		EF18A3BC155E142200C80596 /* demonhunter_rapidfire.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A300155E142200C80596 /* demonhunter_rapidfire.png */; };
+		EF18A3BD155E142200C80596 /* demonhunter_sentry.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A301155E142200C80596 /* demonhunter_sentry.png */; };
+		EF18A3BE155E142200C80596 /* demonhunter_shadowpower.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A302155E142200C80596 /* demonhunter_shadowpower.png */; };
+		EF18A3BF155E142200C80596 /* demonhunter_smokescreen.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A303155E142200C80596 /* demonhunter_smokescreen.png */; };
+		EF18A3C0155E142200C80596 /* demonhunter_spiketrap.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A304155E142200C80596 /* demonhunter_spiketrap.png */; };
+		EF18A3C1155E142200C80596 /* demonhunter_strafe.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A305155E142200C80596 /* demonhunter_strafe.png */; };
+		EF18A3C2155E142200C80596 /* demonhunter_vault.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A306155E142200C80596 /* demonhunter_vault.png */; };
+		EF18A3C3155E142200C80596 /* monk_blindingflash.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A307155E142200C80596 /* monk_blindingflash.png */; };
+		EF18A3C4155E142200C80596 /* monk_breathofheaven.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A308155E142200C80596 /* monk_breathofheaven.png */; };
+		EF18A3C5155E142200C80596 /* monk_cripplingwave.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A309155E142200C80596 /* monk_cripplingwave.png */; };
+		EF18A3C6155E142200C80596 /* monk_cyclonestrike.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A30A155E142200C80596 /* monk_cyclonestrike.png */; };
+		EF18A3C7155E142200C80596 /* monk_dashingstrike.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A30B155E142200C80596 /* monk_dashingstrike.png */; };
+		EF18A3C8155E142200C80596 /* monk_deadlyreach.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A30C155E142200C80596 /* monk_deadlyreach.png */; };
+		EF18A3C9155E142200C80596 /* monk_explodingpalm.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A30D155E142200C80596 /* monk_explodingpalm.png */; };
+		EF18A3CA155E142200C80596 /* monk_fistsofthunder.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A30E155E142200C80596 /* monk_fistsofthunder.png */; };
+		EF18A3CB155E142200C80596 /* monk_innersanctuary.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A30F155E142200C80596 /* monk_innersanctuary.png */; };
+		EF18A3CC155E142200C80596 /* monk_lashingtailkick.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A310155E142200C80596 /* monk_lashingtailkick.png */; };
+		EF18A3CD155E142200C80596 /* monk_mantraofconviction.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A311155E142200C80596 /* monk_mantraofconviction.png */; };
+		EF18A3CE155E142200C80596 /* monk_mantraofevasion.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A312155E142200C80596 /* monk_mantraofevasion.png */; };
+		EF18A3CF155E142200C80596 /* monk_mantraofhealing.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A313155E142200C80596 /* monk_mantraofhealing.png */; };
+		EF18A3D0155E142200C80596 /* monk_mantraofretribution.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A314155E142200C80596 /* monk_mantraofretribution.png */; };
+		EF18A3D1155E142200C80596 /* monk_mystically.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A315155E142200C80596 /* monk_mystically.png */; };
+		EF18A3D2155E142200C80596 /* monk_passive_beaconofytar.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A316155E142200C80596 /* monk_passive_beaconofytar.png */; };
+		EF18A3D3155E142200C80596 /* monk_passive_chantofresonance.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A317155E142200C80596 /* monk_passive_chantofresonance.png */; };
+		EF18A3D4155E142200C80596 /* monk_passive_combinationstrike.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A318155E142200C80596 /* monk_passive_combinationstrike.png */; };
+		EF18A3D5155E142200C80596 /* monk_passive_exaltedsoul.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A319155E142200C80596 /* monk_passive_exaltedsoul.png */; };
+		EF18A3D6155E142200C80596 /* monk_passive_fleetfooted.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A31A155E142200C80596 /* monk_passive_fleetfooted.png */; };
+		EF18A3D7155E142200C80596 /* monk_passive_guidinglight.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A31B155E142200C80596 /* monk_passive_guidinglight.png */; };
+		EF18A3D8155E142200C80596 /* monk_passive_neardeathexperience.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A31C155E142200C80596 /* monk_passive_neardeathexperience.png */; };
+		EF18A3D9155E142200C80596 /* monk_passive_onewitheverything.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A31D155E142200C80596 /* monk_passive_onewitheverything.png */; };
+		EF18A3DA155E142200C80596 /* monk_passive_pacifism.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A31E155E142200C80596 /* monk_passive_pacifism.png */; };
+		EF18A3DB155E142200C80596 /* monk_passive_resolve.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A31F155E142200C80596 /* monk_passive_resolve.png */; };
+		EF18A3DC155E142200C80596 /* monk_passive_seizetheinitiative.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A320155E142200C80596 /* monk_passive_seizetheinitiative.png */; };
+		EF18A3DD155E142200C80596 /* monk_passive_sixthsense.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A321155E142200C80596 /* monk_passive_sixthsense.png */; };
+		EF18A3DE155E142200C80596 /* monk_passive_theguardianspath.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A322155E142200C80596 /* monk_passive_theguardianspath.png */; };
+		EF18A3DF155E142200C80596 /* monk_passive_transcendence.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A323155E142200C80596 /* monk_passive_transcendence.png */; };
+		EF18A3E0155E142200C80596 /* monk_serenity.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A324155E142200C80596 /* monk_serenity.png */; };
+		EF18A3E1155E142200C80596 /* monk_sevensidedstrike.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A325155E142200C80596 /* monk_sevensidedstrike.png */; };
+		EF18A3E2155E142200C80596 /* monk_sweepingwind.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A326155E142200C80596 /* monk_sweepingwind.png */; };
+		EF18A3E3155E142200C80596 /* monk_tempestrush.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A327155E142200C80596 /* monk_tempestrush.png */; };
+		EF18A3E4155E142200C80596 /* monk_waveoflight.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A328155E142200C80596 /* monk_waveoflight.png */; };
+		EF18A3E5155E142200C80596 /* monk_wayofthehundredfists.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A329155E142200C80596 /* monk_wayofthehundredfists.png */; };
+		EF18A3E6155E142200C80596 /* witchdoctor_acidcloud.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A32A155E142200C80596 /* witchdoctor_acidcloud.png */; };
+		EF18A3E7155E142200C80596 /* witchdoctor_bigbadvoodoo.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A32B155E142200C80596 /* witchdoctor_bigbadvoodoo.png */; };
+		EF18A3E8155E142200C80596 /* witchdoctor_corpsespider.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A32C155E142200C80596 /* witchdoctor_corpsespider.png */; };
+		EF18A3E9155E142200C80596 /* witchdoctor_fetisharmy.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A32D155E142200C80596 /* witchdoctor_fetisharmy.png */; };
+		EF18A3EA155E142200C80596 /* witchdoctor_firebats.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A32E155E142200C80596 /* witchdoctor_firebats.png */; };
+		EF18A3EB155E142200C80596 /* witchdoctor_firebomb.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A32F155E142200C80596 /* witchdoctor_firebomb.png */; };
+		EF18A3EC155E142200C80596 /* witchdoctor_gargantuan.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A330155E142200C80596 /* witchdoctor_gargantuan.png */; };
+		EF18A3ED155E142200C80596 /* witchdoctor_graspofthedead.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A331155E142200C80596 /* witchdoctor_graspofthedead.png */; };
+		EF18A3EE155E142200C80596 /* witchdoctor_haunt.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A332155E142200C80596 /* witchdoctor_haunt.png */; };
+		EF18A3EF155E142200C80596 /* witchdoctor_hex.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A333155E142200C80596 /* witchdoctor_hex.png */; };
+		EF18A3F0155E142200C80596 /* witchdoctor_horrify.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A334155E142200C80596 /* witchdoctor_horrify.png */; };
+		EF18A3F1155E142200C80596 /* witchdoctor_locust_swarm.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A335155E142200C80596 /* witchdoctor_locust_swarm.png */; };
+		EF18A3F2155E142200C80596 /* witchdoctor_massconfusion.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A336155E142200C80596 /* witchdoctor_massconfusion.png */; };
+		EF18A3F3155E142200C80596 /* witchdoctor_passive_badmedicine.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A337155E142200C80596 /* witchdoctor_passive_badmedicine.png */; };
+		EF18A3F4155E142200C80596 /* witchdoctor_passive_bloodritual.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A338155E142200C80596 /* witchdoctor_passive_bloodritual.png */; };
+		EF18A3F5155E142200C80596 /* witchdoctor_passive_circleoflife.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A339155E142200C80596 /* witchdoctor_passive_circleoflife.png */; };
+		EF18A3F6155E142200C80596 /* witchdoctor_passive_fetishsycophants.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A33A155E142200C80596 /* witchdoctor_passive_fetishsycophants.png */; };
+		EF18A3F7155E142200C80596 /* witchdoctor_passive_fierceloyalty.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A33B155E142200C80596 /* witchdoctor_passive_fierceloyalty.png */; };
+		EF18A3F8155E142200C80596 /* witchdoctor_passive_graveinjustice.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A33C155E142200C80596 /* witchdoctor_passive_graveinjustice.png */; };
+		EF18A3F9155E142200C80596 /* witchdoctor_passive_gruesomefeast.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A33D155E142200C80596 /* witchdoctor_passive_gruesomefeast.png */; };
+		EF18A3FA155E142200C80596 /* witchdoctor_passive_junglefortitude.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A33E155E142200C80596 /* witchdoctor_passive_junglefortitude.png */; };
+		EF18A3FB155E142200C80596 /* witchdoctor_passive_piercetheveil.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A33F155E142200C80596 /* witchdoctor_passive_piercetheveil.png */; };
+		EF18A3FC155E142200C80596 /* witchdoctor_passive_rushofessence.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A340155E142200C80596 /* witchdoctor_passive_rushofessence.png */; };
+		EF18A3FD155E142200C80596 /* witchdoctor_passive_spiritualattunement.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A341155E142200C80596 /* witchdoctor_passive_spiritualattunement.png */; };
+		EF18A3FE155E142200C80596 /* witchdoctor_passive_spiritvessel.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A342155E142200C80596 /* witchdoctor_passive_spiritvessel.png */; };
+		EF18A3FF155E142200C80596 /* witchdoctor_passive_tribalrites.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A343155E142200C80596 /* witchdoctor_passive_tribalrites.png */; };
+		EF18A400155E142200C80596 /* witchdoctor_passive_visionquest.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A344155E142200C80596 /* witchdoctor_passive_visionquest.png */; };
+		EF18A401155E142200C80596 /* witchdoctor_passive_zombiehandler.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A345155E142200C80596 /* witchdoctor_passive_zombiehandler.png */; };
+		EF18A402155E142200C80596 /* witchdoctor_plagueoftoads.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A346155E142200C80596 /* witchdoctor_plagueoftoads.png */; };
+		EF18A403155E142200C80596 /* witchdoctor_poisondart.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A347155E142200C80596 /* witchdoctor_poisondart.png */; };
+		EF18A404155E142200C80596 /* witchdoctor_sacrifice.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A348155E142200C80596 /* witchdoctor_sacrifice.png */; };
+		EF18A405155E142200C80596 /* witchdoctor_soulharvest.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A349155E142200C80596 /* witchdoctor_soulharvest.png */; };
+		EF18A406155E142200C80596 /* witchdoctor_spiritbarrage.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A34A155E142200C80596 /* witchdoctor_spiritbarrage.png */; };
+		EF18A407155E142200C80596 /* witchdoctor_spiritwalk.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A34B155E142200C80596 /* witchdoctor_spiritwalk.png */; };
+		EF18A408155E142200C80596 /* witchdoctor_summonzombiedog.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A34C155E142200C80596 /* witchdoctor_summonzombiedog.png */; };
+		EF18A409155E142200C80596 /* witchdoctor_wallofzombies.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A34D155E142200C80596 /* witchdoctor_wallofzombies.png */; };
+		EF18A40A155E142200C80596 /* witchdoctor_zombiecharger.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A34E155E142200C80596 /* witchdoctor_zombiecharger.png */; };
+		EF18A40B155E142200C80596 /* wizard_arcaneorb.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A34F155E142200C80596 /* wizard_arcaneorb.png */; };
+		EF18A40C155E142200C80596 /* wizard_arcanetorrent.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A350155E142200C80596 /* wizard_arcanetorrent.png */; };
+		EF18A40D155E142200C80596 /* wizard_archon.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A351155E142200C80596 /* wizard_archon.png */; };
+		EF18A40E155E142200C80596 /* wizard_blizzard.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A352155E142200C80596 /* wizard_blizzard.png */; };
+		EF18A40F155E142200C80596 /* wizard_diamondskin.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A353155E142200C80596 /* wizard_diamondskin.png */; };
+		EF18A410155E142200C80596 /* wizard_disintegrate.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A354155E142200C80596 /* wizard_disintegrate.png */; };
+		EF18A411155E142200C80596 /* wizard_electrocute.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A355155E142200C80596 /* wizard_electrocute.png */; };
+		EF18A412155E142200C80596 /* wizard_energyarmor.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A356155E142200C80596 /* wizard_energyarmor.png */; };
+		EF18A413155E142200C80596 /* wizard_energytwister.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A357155E142200C80596 /* wizard_energytwister.png */; };
+		EF18A414155E142200C80596 /* wizard_explosiveblast.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A358155E142200C80596 /* wizard_explosiveblast.png */; };
+		EF18A415155E142200C80596 /* wizard_familiar.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A359155E142200C80596 /* wizard_familiar.png */; };
+		EF18A416155E142200C80596 /* wizard_frostnova.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A35A155E142200C80596 /* wizard_frostnova.png */; };
+		EF18A417155E142200C80596 /* wizard_hydra.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A35B155E142200C80596 /* wizard_hydra.png */; };
+		EF18A418155E142200C80596 /* wizard_icearmor.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A35C155E142200C80596 /* wizard_icearmor.png */; };
+		EF18A419155E142200C80596 /* wizard_magicmissile.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A35D155E142200C80596 /* wizard_magicmissile.png */; };
+		EF18A41A155E142200C80596 /* wizard_magicweapon.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A35E155E142200C80596 /* wizard_magicweapon.png */; };
+		EF18A41B155E142200C80596 /* wizard_meteor.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A35F155E142200C80596 /* wizard_meteor.png */; };
+		EF18A41C155E142200C80596 /* wizard_mirrorimage.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A360155E142200C80596 /* wizard_mirrorimage.png */; };
+		EF18A41D155E142200C80596 /* wizard_passive_arcanedynamo.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A361155E142200C80596 /* wizard_passive_arcanedynamo.png */; };
+		EF18A41E155E142200C80596 /* wizard_passive_astralpresence.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A362155E142200C80596 /* wizard_passive_astralpresence.png */; };
+		EF18A41F155E142200C80596 /* wizard_passive_blur.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A363155E142200C80596 /* wizard_passive_blur.png */; };
+		EF18A420155E142200C80596 /* wizard_passive_coldblooded.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A364155E142200C80596 /* wizard_passive_coldblooded.png */; };
+		EF18A421155E142200C80596 /* wizard_passive_conflagration.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A365155E142200C80596 /* wizard_passive_conflagration.png */; };
+		EF18A422155E142200C80596 /* wizard_passive_criticalmass.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A366155E142200C80596 /* wizard_passive_criticalmass.png */; };
+		EF18A423155E142200C80596 /* wizard_passive_evocation.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A367155E142200C80596 /* wizard_passive_evocation.png */; };
+		EF18A424155E142200C80596 /* wizard_passive_galvanizingward.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A368155E142200C80596 /* wizard_passive_galvanizingward.png */; };
+		EF18A425155E142200C80596 /* wizard_passive_glasscannon.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A369155E142200C80596 /* wizard_passive_glasscannon.png */; };
+		EF18A426155E142200C80596 /* wizard_passive_illusionist.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A36A155E142200C80596 /* wizard_passive_illusionist.png */; };
+		EF18A427155E142200C80596 /* wizard_passive_paralysis.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A36B155E142200C80596 /* wizard_passive_paralysis.png */; };
+		EF18A428155E142200C80596 /* wizard_passive_powerhungry.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A36C155E142200C80596 /* wizard_passive_powerhungry.png */; };
+		EF18A429155E142200C80596 /* wizard_passive_prodigy.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A36D155E142200C80596 /* wizard_passive_prodigy.png */; };
+		EF18A42A155E142200C80596 /* wizard_passive_temporalflux.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A36E155E142200C80596 /* wizard_passive_temporalflux.png */; };
+		EF18A42B155E142200C80596 /* wizard_passive_unstableanomaly.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A36F155E142200C80596 /* wizard_passive_unstableanomaly.png */; };
+		EF18A42C155E142200C80596 /* wizard_rayoffrost.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A370155E142200C80596 /* wizard_rayoffrost.png */; };
+		EF18A42D155E142200C80596 /* wizard_shockpulse.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A371155E142200C80596 /* wizard_shockpulse.png */; };
+		EF18A42E155E142200C80596 /* wizard_slowtime.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A372155E142200C80596 /* wizard_slowtime.png */; };
+		EF18A42F155E142200C80596 /* wizard_spectralblade.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A373155E142200C80596 /* wizard_spectralblade.png */; };
+		EF18A430155E142200C80596 /* wizard_stormarmor.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A374155E142200C80596 /* wizard_stormarmor.png */; };
+		EF18A431155E142200C80596 /* wizard_teleport.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A375155E142200C80596 /* wizard_teleport.png */; };
+		EF18A432155E142200C80596 /* wizard_waveofforce.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A376155E142200C80596 /* wizard_waveofforce.png */; };
+		EFBBA8F8155EE333007BCDB6 /* RuneTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBBA8F7155EE333007BCDB6 /* RuneTableViewCell.m */; };
+		EFBBA8FA155EE359007BCDB6 /* RuneTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFBBA8F9155EE359007BCDB6 /* RuneTableViewCell.xib */; };
 		EFDBBE99155AACD800EA854D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDBBE98155AACD800EA854D /* UIKit.framework */; };
 		EFDBBE9B155AACD800EA854D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDBBE9A155AACD800EA854D /* Foundation.framework */; };
 		EFDBBE9D155AACD800EA854D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDBBE9C155AACD800EA854D /* CoreGraphics.framework */; };
@@ -51,8 +253,8 @@
 		EFDBBF1F155B176100EA854D /* descriptionBG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF1D155B176100EA854D /* descriptionBG@2x.png */; };
 		EFDBBF22155B1BA100EA854D /* skillFrame.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF20155B1BA000EA854D /* skillFrame.png */; };
 		EFDBBF23155B1BA100EA854D /* skillFrame@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF21155B1BA000EA854D /* skillFrame@2x.png */; };
-		EFDBBF26155B24FF00EA854D /* barbClassCrest.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF24155B24FF00EA854D /* barbClassCrest.png */; };
-		EFDBBF27155B24FF00EA854D /* barbClassCrest@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF25155B24FF00EA854D /* barbClassCrest@2x.png */; };
+		EFDBBF26155B24FF00EA854D /* barbarianClassCrest.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF24155B24FF00EA854D /* barbarianClassCrest.png */; };
+		EFDBBF27155B24FF00EA854D /* barbarianClassCrest@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF25155B24FF00EA854D /* barbarianClassCrest@2x.png */; };
 		EFDBBF2A155B2BFB00EA854D /* angelStatue.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF28155B2BFB00EA854D /* angelStatue.png */; };
 		EFDBBF2B155B2BFB00EA854D /* angelStatue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF29155B2BFB00EA854D /* angelStatue@2x.png */; };
 		EFDBBF2E155B2F5500EA854D /* buttonPassive.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF2C155B2F5500EA854D /* buttonPassive.png */; };
@@ -61,15 +263,15 @@
 		EFDBBF44155B3BEF00EA854D /* buttonActive@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF42155B3BEF00EA854D /* buttonActive@2x.png */; };
 		EFDBBF47155B3C6600EA854D /* buttonActiveHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF45155B3C6600EA854D /* buttonActiveHighlighted.png */; };
 		EFDBBF48155B3C6600EA854D /* buttonActiveHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF46155B3C6600EA854D /* buttonActiveHighlighted@2x.png */; };
-		EFDBBF4C155B680300EA854D /* dhClassCrest.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF4A155B680300EA854D /* dhClassCrest.png */; };
-		EFDBBF4D155B680300EA854D /* dhClassCrest@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF4B155B680300EA854D /* dhClassCrest@2x.png */; };
+		EFDBBF4C155B680300EA854D /* demon-hunterClassCrest.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF4A155B680300EA854D /* demon-hunterClassCrest.png */; };
+		EFDBBF4D155B680300EA854D /* demon-hunterClassCrest@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF4B155B680300EA854D /* demon-hunterClassCrest@2x.png */; };
 		EFDBBF50155B681300EA854D /* monkClassCrest.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF4E155B681300EA854D /* monkClassCrest.png */; };
 		EFDBBF51155B681300EA854D /* monkClassCrest@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF4F155B681300EA854D /* monkClassCrest@2x.png */; };
-		EFDBBF54155B681D00EA854D /* wdClassCrest.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF52155B681D00EA854D /* wdClassCrest.png */; };
-		EFDBBF55155B681D00EA854D /* wdClassCrest@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF53155B681D00EA854D /* wdClassCrest@2x.png */; };
-		EFDBBF58155B683000EA854D /* wizClassCrest.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF56155B683000EA854D /* wizClassCrest.png */; };
-		EFDBBF59155B683000EA854D /* wizClassCrest@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF57155B683000EA854D /* wizClassCrest@2x.png */; };
-		EFDBBF5B155B6FF300EA854D /* classData.plist in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF5A155B6FF300EA854D /* classData.plist */; };
+		EFDBBF54155B681D00EA854D /* witch-doctorClassCrest.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF52155B681D00EA854D /* witch-doctorClassCrest.png */; };
+		EFDBBF55155B681D00EA854D /* witch-doctorClassCrest@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF53155B681D00EA854D /* witch-doctorClassCrest@2x.png */; };
+		EFDBBF58155B683000EA854D /* wizardClassCrest.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF56155B683000EA854D /* wizardClassCrest.png */; };
+		EFDBBF59155B683000EA854D /* wizardClassCrest@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF57155B683000EA854D /* wizardClassCrest@2x.png */; };
+		EFDBBF5B155B6FF300EA854D /* classData1.plist in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF5A155B6FF300EA854D /* classData1.plist */; };
 		EFDBBF65155C417900EA854D /* parchmentBG.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF64155C417900EA854D /* parchmentBG.png */; };
 		EFDBBF6A155C460600EA854D /* closePopupButton.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF66155C460500EA854D /* closePopupButton.png */; };
 		EFDBBF6B155C460600EA854D /* closePopupButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF67155C460500EA854D /* closePopupButton@2x.png */; };
@@ -78,9 +280,214 @@
 		EFDBBF73155C6CD300EA854D /* spellPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF72155C6CD300EA854D /* spellPageView.xib */; };
 		EFDBBF76155C71C400EA854D /* SpellPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDBBF75155C71C300EA854D /* SpellPageView.m */; };
 		EFDBBF78155C80B500EA854D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDBBF77155C80B500EA854D /* QuartzCore.framework */; };
+		EFDBBF7E155DB0EF00EA854D /* out.plist in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF7D155DB0EF00EA854D /* out.plist */; };
+		EFDBBF80155DCB1800EA854D /* classData.plist in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF7F155DCB1800EA854D /* classData.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF0D250E155F28F0006A7785 /* runeA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = runeA.png; sourceTree = "<group>"; };
+		EF0D250F155F28F0006A7785 /* runeA@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "runeA@2x.png"; sourceTree = "<group>"; };
+		EF0D2510155F28F0006A7785 /* runeB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = runeB.png; sourceTree = "<group>"; };
+		EF0D2511155F28F0006A7785 /* runeB@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "runeB@2x.png"; sourceTree = "<group>"; };
+		EF0D2512155F28F0006A7785 /* runeC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = runeC.png; sourceTree = "<group>"; };
+		EF0D2513155F28F0006A7785 /* runeC@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "runeC@2x.png"; sourceTree = "<group>"; };
+		EF0D2514155F28F0006A7785 /* runeD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = runeD.png; sourceTree = "<group>"; };
+		EF0D2515155F28F0006A7785 /* runeD@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "runeD@2x.png"; sourceTree = "<group>"; };
+		EF0D2516155F28F0006A7785 /* runeE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = runeE.png; sourceTree = "<group>"; };
+		EF0D2517155F28F0006A7785 /* runeE@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "runeE@2x.png"; sourceTree = "<group>"; };
+		EF0D2523155F29EF006A7785 /* runeNone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = runeNone.png; sourceTree = "<group>"; };
+		EF0D2524155F29EF006A7785 /* runeNone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "runeNone@2x.png"; sourceTree = "<group>"; };
+		EF18A2BB155E142200C80596 /* barbarian_ancientspear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_ancientspear.png; sourceTree = "<group>"; };
+		EF18A2BC155E142200C80596 /* barbarian_bash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_bash.png; sourceTree = "<group>"; };
+		EF18A2BD155E142200C80596 /* barbarian_battlerage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_battlerage.png; sourceTree = "<group>"; };
+		EF18A2BE155E142200C80596 /* barbarian_calloftheancients.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_calloftheancients.png; sourceTree = "<group>"; };
+		EF18A2BF155E142200C80596 /* barbarian_cleave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_cleave.png; sourceTree = "<group>"; };
+		EF18A2C0155E142200C80596 /* barbarian_earthquake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_earthquake.png; sourceTree = "<group>"; };
+		EF18A2C1155E142200C80596 /* barbarian_frenzy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_frenzy.png; sourceTree = "<group>"; };
+		EF18A2C2155E142200C80596 /* barbarian_furiouscharge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_furiouscharge.png; sourceTree = "<group>"; };
+		EF18A2C3155E142200C80596 /* barbarian_groundstomp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_groundstomp.png; sourceTree = "<group>"; };
+		EF18A2C4155E142200C80596 /* barbarian_hammeroftheancients.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_hammeroftheancients.png; sourceTree = "<group>"; };
+		EF18A2C5155E142200C80596 /* barbarian_ignorepain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_ignorepain.png; sourceTree = "<group>"; };
+		EF18A2C6155E142200C80596 /* barbarian_leap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_leap.png; sourceTree = "<group>"; };
+		EF18A2C7155E142200C80596 /* barbarian_overpower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_overpower.png; sourceTree = "<group>"; };
+		EF18A2C8155E142200C80596 /* barbarian_passive_animosity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_passive_animosity.png; sourceTree = "<group>"; };
+		EF18A2C9155E142200C80596 /* barbarian_passive_berserkerrage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_passive_berserkerrage.png; sourceTree = "<group>"; };
+		EF18A2CA155E142200C80596 /* barbarian_passive_bloodthirst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_passive_bloodthirst.png; sourceTree = "<group>"; };
+		EF18A2CB155E142200C80596 /* barbarian_passive_boonofbulkathos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_passive_boonofbulkathos.png; sourceTree = "<group>"; };
+		EF18A2CC155E142200C80596 /* barbarian_passive_brawler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_passive_brawler.png; sourceTree = "<group>"; };
+		EF18A2CD155E142200C80596 /* barbarian_passive_inspiringpresence.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_passive_inspiringpresence.png; sourceTree = "<group>"; };
+		EF18A2CE155E142200C80596 /* barbarian_passive_juggernaut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_passive_juggernaut.png; sourceTree = "<group>"; };
+		EF18A2CF155E142200C80596 /* barbarian_passive_nervesofsteel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_passive_nervesofsteel.png; sourceTree = "<group>"; };
+		EF18A2D0155E142200C80596 /* barbarian_passive_noescape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_passive_noescape.png; sourceTree = "<group>"; };
+		EF18A2D1155E142200C80596 /* barbarian_passive_poundofflesh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_passive_poundofflesh.png; sourceTree = "<group>"; };
+		EF18A2D2155E142200C80596 /* barbarian_passive_relentless.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_passive_relentless.png; sourceTree = "<group>"; };
+		EF18A2D3155E142200C80596 /* barbarian_passive_ruthless.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_passive_ruthless.png; sourceTree = "<group>"; };
+		EF18A2D4155E142200C80596 /* barbarian_passive_superstition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_passive_superstition.png; sourceTree = "<group>"; };
+		EF18A2D5155E142200C80596 /* barbarian_passive_toughasnails.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_passive_toughasnails.png; sourceTree = "<group>"; };
+		EF18A2D6155E142200C80596 /* barbarian_passive_unforgiving.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_passive_unforgiving.png; sourceTree = "<group>"; };
+		EF18A2D7155E142200C80596 /* barbarian_passive_weaponsmaster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_passive_weaponsmaster.png; sourceTree = "<group>"; };
+		EF18A2D8155E142200C80596 /* barbarian_rend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_rend.png; sourceTree = "<group>"; };
+		EF18A2D9155E142200C80596 /* barbarian_revenge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_revenge.png; sourceTree = "<group>"; };
+		EF18A2DA155E142200C80596 /* barbarian_seismicslam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_seismicslam.png; sourceTree = "<group>"; };
+		EF18A2DB155E142200C80596 /* barbarian_sprint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_sprint.png; sourceTree = "<group>"; };
+		EF18A2DC155E142200C80596 /* barbarian_threateningshout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_threateningshout.png; sourceTree = "<group>"; };
+		EF18A2DD155E142200C80596 /* barbarian_warcry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_warcry.png; sourceTree = "<group>"; };
+		EF18A2DE155E142200C80596 /* barbarian_weaponthrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_weaponthrow.png; sourceTree = "<group>"; };
+		EF18A2DF155E142200C80596 /* barbarian_whirlwind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_whirlwind.png; sourceTree = "<group>"; };
+		EF18A2E0155E142200C80596 /* barbarian_wrathoftheberserker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_wrathoftheberserker.png; sourceTree = "<group>"; };
+		EF18A2E1155E142200C80596 /* demonhunter_bolashot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_bolashot.png; sourceTree = "<group>"; };
+		EF18A2E2155E142200C80596 /* demonhunter_caltrops.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_caltrops.png; sourceTree = "<group>"; };
+		EF18A2E3155E142200C80596 /* demonhunter_chakram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_chakram.png; sourceTree = "<group>"; };
+		EF18A2E4155E142200C80596 /* demonhunter_clusterarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_clusterarrow.png; sourceTree = "<group>"; };
+		EF18A2E5155E142200C80596 /* demonhunter_companion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_companion.png; sourceTree = "<group>"; };
+		EF18A2E6155E142200C80596 /* demonhunter_elementalarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_elementalarrow.png; sourceTree = "<group>"; };
+		EF18A2E7155E142200C80596 /* demonhunter_entanglingshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_entanglingshot.png; sourceTree = "<group>"; };
+		EF18A2E8155E142200C80596 /* demonhunter_evasivefire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_evasivefire.png; sourceTree = "<group>"; };
+		EF18A2E9155E142200C80596 /* demonhunter_fanofknives.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_fanofknives.png; sourceTree = "<group>"; };
+		EF18A2EA155E142200C80596 /* demonhunter_grenades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_grenades.png; sourceTree = "<group>"; };
+		EF18A2EB155E142200C80596 /* demonhunter_hungeringarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_hungeringarrow.png; sourceTree = "<group>"; };
+		EF18A2EC155E142200C80596 /* demonhunter_impale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_impale.png; sourceTree = "<group>"; };
+		EF18A2ED155E142200C80596 /* demonhunter_markedfordeath.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_markedfordeath.png; sourceTree = "<group>"; };
+		EF18A2EE155E142200C80596 /* demonhunter_multishot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_multishot.png; sourceTree = "<group>"; };
+		EF18A2EF155E142200C80596 /* demonhunter_passive_archery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_passive_archery.png; sourceTree = "<group>"; };
+		EF18A2F0155E142200C80596 /* demonhunter_passive_ballistics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_passive_ballistics.png; sourceTree = "<group>"; };
+		EF18A2F1155E142200C80596 /* demonhunter_passive_brooding.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_passive_brooding.png; sourceTree = "<group>"; };
+		EF18A2F2155E142200C80596 /* demonhunter_passive_culltheweak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_passive_culltheweak.png; sourceTree = "<group>"; };
+		EF18A2F3155E142200C80596 /* demonhunter_passive_customengineering.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_passive_customengineering.png; sourceTree = "<group>"; };
+		EF18A2F4155E142200C80596 /* demonhunter_passive_grenadier.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_passive_grenadier.png; sourceTree = "<group>"; };
+		EF18A2F5155E142200C80596 /* demonhunter_passive_hotpursuit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_passive_hotpursuit.png; sourceTree = "<group>"; };
+		EF18A2F6155E142200C80596 /* demonhunter_passive_nightstalker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_passive_nightstalker.png; sourceTree = "<group>"; };
+		EF18A2F7155E142200C80596 /* demonhunter_passive_numbingtraps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_passive_numbingtraps.png; sourceTree = "<group>"; };
+		EF18A2F8155E142200C80596 /* demonhunter_passive_perfectionist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_passive_perfectionist.png; sourceTree = "<group>"; };
+		EF18A2F9155E142200C80596 /* demonhunter_passive_sharpshooter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_passive_sharpshooter.png; sourceTree = "<group>"; };
+		EF18A2FA155E142200C80596 /* demonhunter_passive_steadyaim.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_passive_steadyaim.png; sourceTree = "<group>"; };
+		EF18A2FB155E142200C80596 /* demonhunter_passive_tacticaladvantage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_passive_tacticaladvantage.png; sourceTree = "<group>"; };
+		EF18A2FC155E142200C80596 /* demonhunter_passive_thrillofthehunt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_passive_thrillofthehunt.png; sourceTree = "<group>"; };
+		EF18A2FD155E142200C80596 /* demonhunter_passive_vengeance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_passive_vengeance.png; sourceTree = "<group>"; };
+		EF18A2FE155E142200C80596 /* demonhunter_preparation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_preparation.png; sourceTree = "<group>"; };
+		EF18A2FF155E142200C80596 /* demonhunter_rainofvengeance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_rainofvengeance.png; sourceTree = "<group>"; };
+		EF18A300155E142200C80596 /* demonhunter_rapidfire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_rapidfire.png; sourceTree = "<group>"; };
+		EF18A301155E142200C80596 /* demonhunter_sentry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_sentry.png; sourceTree = "<group>"; };
+		EF18A302155E142200C80596 /* demonhunter_shadowpower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_shadowpower.png; sourceTree = "<group>"; };
+		EF18A303155E142200C80596 /* demonhunter_smokescreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_smokescreen.png; sourceTree = "<group>"; };
+		EF18A304155E142200C80596 /* demonhunter_spiketrap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_spiketrap.png; sourceTree = "<group>"; };
+		EF18A305155E142200C80596 /* demonhunter_strafe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_strafe.png; sourceTree = "<group>"; };
+		EF18A306155E142200C80596 /* demonhunter_vault.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_vault.png; sourceTree = "<group>"; };
+		EF18A307155E142200C80596 /* monk_blindingflash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_blindingflash.png; sourceTree = "<group>"; };
+		EF18A308155E142200C80596 /* monk_breathofheaven.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_breathofheaven.png; sourceTree = "<group>"; };
+		EF18A309155E142200C80596 /* monk_cripplingwave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_cripplingwave.png; sourceTree = "<group>"; };
+		EF18A30A155E142200C80596 /* monk_cyclonestrike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_cyclonestrike.png; sourceTree = "<group>"; };
+		EF18A30B155E142200C80596 /* monk_dashingstrike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_dashingstrike.png; sourceTree = "<group>"; };
+		EF18A30C155E142200C80596 /* monk_deadlyreach.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_deadlyreach.png; sourceTree = "<group>"; };
+		EF18A30D155E142200C80596 /* monk_explodingpalm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_explodingpalm.png; sourceTree = "<group>"; };
+		EF18A30E155E142200C80596 /* monk_fistsofthunder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_fistsofthunder.png; sourceTree = "<group>"; };
+		EF18A30F155E142200C80596 /* monk_innersanctuary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_innersanctuary.png; sourceTree = "<group>"; };
+		EF18A310155E142200C80596 /* monk_lashingtailkick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_lashingtailkick.png; sourceTree = "<group>"; };
+		EF18A311155E142200C80596 /* monk_mantraofconviction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_mantraofconviction.png; sourceTree = "<group>"; };
+		EF18A312155E142200C80596 /* monk_mantraofevasion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_mantraofevasion.png; sourceTree = "<group>"; };
+		EF18A313155E142200C80596 /* monk_mantraofhealing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_mantraofhealing.png; sourceTree = "<group>"; };
+		EF18A314155E142200C80596 /* monk_mantraofretribution.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_mantraofretribution.png; sourceTree = "<group>"; };
+		EF18A315155E142200C80596 /* monk_mystically.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_mystically.png; sourceTree = "<group>"; };
+		EF18A316155E142200C80596 /* monk_passive_beaconofytar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_passive_beaconofytar.png; sourceTree = "<group>"; };
+		EF18A317155E142200C80596 /* monk_passive_chantofresonance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_passive_chantofresonance.png; sourceTree = "<group>"; };
+		EF18A318155E142200C80596 /* monk_passive_combinationstrike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_passive_combinationstrike.png; sourceTree = "<group>"; };
+		EF18A319155E142200C80596 /* monk_passive_exaltedsoul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_passive_exaltedsoul.png; sourceTree = "<group>"; };
+		EF18A31A155E142200C80596 /* monk_passive_fleetfooted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_passive_fleetfooted.png; sourceTree = "<group>"; };
+		EF18A31B155E142200C80596 /* monk_passive_guidinglight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_passive_guidinglight.png; sourceTree = "<group>"; };
+		EF18A31C155E142200C80596 /* monk_passive_neardeathexperience.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_passive_neardeathexperience.png; sourceTree = "<group>"; };
+		EF18A31D155E142200C80596 /* monk_passive_onewitheverything.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_passive_onewitheverything.png; sourceTree = "<group>"; };
+		EF18A31E155E142200C80596 /* monk_passive_pacifism.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_passive_pacifism.png; sourceTree = "<group>"; };
+		EF18A31F155E142200C80596 /* monk_passive_resolve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_passive_resolve.png; sourceTree = "<group>"; };
+		EF18A320155E142200C80596 /* monk_passive_seizetheinitiative.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_passive_seizetheinitiative.png; sourceTree = "<group>"; };
+		EF18A321155E142200C80596 /* monk_passive_sixthsense.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_passive_sixthsense.png; sourceTree = "<group>"; };
+		EF18A322155E142200C80596 /* monk_passive_theguardianspath.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_passive_theguardianspath.png; sourceTree = "<group>"; };
+		EF18A323155E142200C80596 /* monk_passive_transcendence.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_passive_transcendence.png; sourceTree = "<group>"; };
+		EF18A324155E142200C80596 /* monk_serenity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_serenity.png; sourceTree = "<group>"; };
+		EF18A325155E142200C80596 /* monk_sevensidedstrike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_sevensidedstrike.png; sourceTree = "<group>"; };
+		EF18A326155E142200C80596 /* monk_sweepingwind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_sweepingwind.png; sourceTree = "<group>"; };
+		EF18A327155E142200C80596 /* monk_tempestrush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_tempestrush.png; sourceTree = "<group>"; };
+		EF18A328155E142200C80596 /* monk_waveoflight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_waveoflight.png; sourceTree = "<group>"; };
+		EF18A329155E142200C80596 /* monk_wayofthehundredfists.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_wayofthehundredfists.png; sourceTree = "<group>"; };
+		EF18A32A155E142200C80596 /* witchdoctor_acidcloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_acidcloud.png; sourceTree = "<group>"; };
+		EF18A32B155E142200C80596 /* witchdoctor_bigbadvoodoo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_bigbadvoodoo.png; sourceTree = "<group>"; };
+		EF18A32C155E142200C80596 /* witchdoctor_corpsespider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_corpsespider.png; sourceTree = "<group>"; };
+		EF18A32D155E142200C80596 /* witchdoctor_fetisharmy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_fetisharmy.png; sourceTree = "<group>"; };
+		EF18A32E155E142200C80596 /* witchdoctor_firebats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_firebats.png; sourceTree = "<group>"; };
+		EF18A32F155E142200C80596 /* witchdoctor_firebomb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_firebomb.png; sourceTree = "<group>"; };
+		EF18A330155E142200C80596 /* witchdoctor_gargantuan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_gargantuan.png; sourceTree = "<group>"; };
+		EF18A331155E142200C80596 /* witchdoctor_graspofthedead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_graspofthedead.png; sourceTree = "<group>"; };
+		EF18A332155E142200C80596 /* witchdoctor_haunt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_haunt.png; sourceTree = "<group>"; };
+		EF18A333155E142200C80596 /* witchdoctor_hex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_hex.png; sourceTree = "<group>"; };
+		EF18A334155E142200C80596 /* witchdoctor_horrify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_horrify.png; sourceTree = "<group>"; };
+		EF18A335155E142200C80596 /* witchdoctor_locust_swarm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_locust_swarm.png; sourceTree = "<group>"; };
+		EF18A336155E142200C80596 /* witchdoctor_massconfusion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_massconfusion.png; sourceTree = "<group>"; };
+		EF18A337155E142200C80596 /* witchdoctor_passive_badmedicine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_passive_badmedicine.png; sourceTree = "<group>"; };
+		EF18A338155E142200C80596 /* witchdoctor_passive_bloodritual.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_passive_bloodritual.png; sourceTree = "<group>"; };
+		EF18A339155E142200C80596 /* witchdoctor_passive_circleoflife.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_passive_circleoflife.png; sourceTree = "<group>"; };
+		EF18A33A155E142200C80596 /* witchdoctor_passive_fetishsycophants.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_passive_fetishsycophants.png; sourceTree = "<group>"; };
+		EF18A33B155E142200C80596 /* witchdoctor_passive_fierceloyalty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_passive_fierceloyalty.png; sourceTree = "<group>"; };
+		EF18A33C155E142200C80596 /* witchdoctor_passive_graveinjustice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_passive_graveinjustice.png; sourceTree = "<group>"; };
+		EF18A33D155E142200C80596 /* witchdoctor_passive_gruesomefeast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_passive_gruesomefeast.png; sourceTree = "<group>"; };
+		EF18A33E155E142200C80596 /* witchdoctor_passive_junglefortitude.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_passive_junglefortitude.png; sourceTree = "<group>"; };
+		EF18A33F155E142200C80596 /* witchdoctor_passive_piercetheveil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_passive_piercetheveil.png; sourceTree = "<group>"; };
+		EF18A340155E142200C80596 /* witchdoctor_passive_rushofessence.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_passive_rushofessence.png; sourceTree = "<group>"; };
+		EF18A341155E142200C80596 /* witchdoctor_passive_spiritualattunement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_passive_spiritualattunement.png; sourceTree = "<group>"; };
+		EF18A342155E142200C80596 /* witchdoctor_passive_spiritvessel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_passive_spiritvessel.png; sourceTree = "<group>"; };
+		EF18A343155E142200C80596 /* witchdoctor_passive_tribalrites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_passive_tribalrites.png; sourceTree = "<group>"; };
+		EF18A344155E142200C80596 /* witchdoctor_passive_visionquest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_passive_visionquest.png; sourceTree = "<group>"; };
+		EF18A345155E142200C80596 /* witchdoctor_passive_zombiehandler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_passive_zombiehandler.png; sourceTree = "<group>"; };
+		EF18A346155E142200C80596 /* witchdoctor_plagueoftoads.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_plagueoftoads.png; sourceTree = "<group>"; };
+		EF18A347155E142200C80596 /* witchdoctor_poisondart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_poisondart.png; sourceTree = "<group>"; };
+		EF18A348155E142200C80596 /* witchdoctor_sacrifice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_sacrifice.png; sourceTree = "<group>"; };
+		EF18A349155E142200C80596 /* witchdoctor_soulharvest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_soulharvest.png; sourceTree = "<group>"; };
+		EF18A34A155E142200C80596 /* witchdoctor_spiritbarrage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_spiritbarrage.png; sourceTree = "<group>"; };
+		EF18A34B155E142200C80596 /* witchdoctor_spiritwalk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_spiritwalk.png; sourceTree = "<group>"; };
+		EF18A34C155E142200C80596 /* witchdoctor_summonzombiedog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_summonzombiedog.png; sourceTree = "<group>"; };
+		EF18A34D155E142200C80596 /* witchdoctor_wallofzombies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_wallofzombies.png; sourceTree = "<group>"; };
+		EF18A34E155E142200C80596 /* witchdoctor_zombiecharger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_zombiecharger.png; sourceTree = "<group>"; };
+		EF18A34F155E142200C80596 /* wizard_arcaneorb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_arcaneorb.png; sourceTree = "<group>"; };
+		EF18A350155E142200C80596 /* wizard_arcanetorrent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_arcanetorrent.png; sourceTree = "<group>"; };
+		EF18A351155E142200C80596 /* wizard_archon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_archon.png; sourceTree = "<group>"; };
+		EF18A352155E142200C80596 /* wizard_blizzard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_blizzard.png; sourceTree = "<group>"; };
+		EF18A353155E142200C80596 /* wizard_diamondskin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_diamondskin.png; sourceTree = "<group>"; };
+		EF18A354155E142200C80596 /* wizard_disintegrate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_disintegrate.png; sourceTree = "<group>"; };
+		EF18A355155E142200C80596 /* wizard_electrocute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_electrocute.png; sourceTree = "<group>"; };
+		EF18A356155E142200C80596 /* wizard_energyarmor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_energyarmor.png; sourceTree = "<group>"; };
+		EF18A357155E142200C80596 /* wizard_energytwister.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_energytwister.png; sourceTree = "<group>"; };
+		EF18A358155E142200C80596 /* wizard_explosiveblast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_explosiveblast.png; sourceTree = "<group>"; };
+		EF18A359155E142200C80596 /* wizard_familiar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_familiar.png; sourceTree = "<group>"; };
+		EF18A35A155E142200C80596 /* wizard_frostnova.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_frostnova.png; sourceTree = "<group>"; };
+		EF18A35B155E142200C80596 /* wizard_hydra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_hydra.png; sourceTree = "<group>"; };
+		EF18A35C155E142200C80596 /* wizard_icearmor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_icearmor.png; sourceTree = "<group>"; };
+		EF18A35D155E142200C80596 /* wizard_magicmissile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_magicmissile.png; sourceTree = "<group>"; };
+		EF18A35E155E142200C80596 /* wizard_magicweapon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_magicweapon.png; sourceTree = "<group>"; };
+		EF18A35F155E142200C80596 /* wizard_meteor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_meteor.png; sourceTree = "<group>"; };
+		EF18A360155E142200C80596 /* wizard_mirrorimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_mirrorimage.png; sourceTree = "<group>"; };
+		EF18A361155E142200C80596 /* wizard_passive_arcanedynamo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_passive_arcanedynamo.png; sourceTree = "<group>"; };
+		EF18A362155E142200C80596 /* wizard_passive_astralpresence.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_passive_astralpresence.png; sourceTree = "<group>"; };
+		EF18A363155E142200C80596 /* wizard_passive_blur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_passive_blur.png; sourceTree = "<group>"; };
+		EF18A364155E142200C80596 /* wizard_passive_coldblooded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_passive_coldblooded.png; sourceTree = "<group>"; };
+		EF18A365155E142200C80596 /* wizard_passive_conflagration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_passive_conflagration.png; sourceTree = "<group>"; };
+		EF18A366155E142200C80596 /* wizard_passive_criticalmass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_passive_criticalmass.png; sourceTree = "<group>"; };
+		EF18A367155E142200C80596 /* wizard_passive_evocation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_passive_evocation.png; sourceTree = "<group>"; };
+		EF18A368155E142200C80596 /* wizard_passive_galvanizingward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_passive_galvanizingward.png; sourceTree = "<group>"; };
+		EF18A369155E142200C80596 /* wizard_passive_glasscannon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_passive_glasscannon.png; sourceTree = "<group>"; };
+		EF18A36A155E142200C80596 /* wizard_passive_illusionist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_passive_illusionist.png; sourceTree = "<group>"; };
+		EF18A36B155E142200C80596 /* wizard_passive_paralysis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_passive_paralysis.png; sourceTree = "<group>"; };
+		EF18A36C155E142200C80596 /* wizard_passive_powerhungry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_passive_powerhungry.png; sourceTree = "<group>"; };
+		EF18A36D155E142200C80596 /* wizard_passive_prodigy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_passive_prodigy.png; sourceTree = "<group>"; };
+		EF18A36E155E142200C80596 /* wizard_passive_temporalflux.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_passive_temporalflux.png; sourceTree = "<group>"; };
+		EF18A36F155E142200C80596 /* wizard_passive_unstableanomaly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_passive_unstableanomaly.png; sourceTree = "<group>"; };
+		EF18A370155E142200C80596 /* wizard_rayoffrost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_rayoffrost.png; sourceTree = "<group>"; };
+		EF18A371155E142200C80596 /* wizard_shockpulse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_shockpulse.png; sourceTree = "<group>"; };
+		EF18A372155E142200C80596 /* wizard_slowtime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_slowtime.png; sourceTree = "<group>"; };
+		EF18A373155E142200C80596 /* wizard_spectralblade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_spectralblade.png; sourceTree = "<group>"; };
+		EF18A374155E142200C80596 /* wizard_stormarmor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_stormarmor.png; sourceTree = "<group>"; };
+		EF18A375155E142200C80596 /* wizard_teleport.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_teleport.png; sourceTree = "<group>"; };
+		EF18A376155E142200C80596 /* wizard_waveofforce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_waveofforce.png; sourceTree = "<group>"; };
+		EFBBA8F6155EE333007BCDB6 /* RuneTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuneTableViewCell.h; sourceTree = "<group>"; };
+		EFBBA8F7155EE333007BCDB6 /* RuneTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuneTableViewCell.m; sourceTree = "<group>"; };
+		EFBBA8F9155EE359007BCDB6 /* RuneTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RuneTableViewCell.xib; sourceTree = "<group>"; };
 		EFDBBE94155AACD800EA854D /* DiabloCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiabloCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFDBBE98155AACD800EA854D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EFDBBE9A155AACD800EA854D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -131,8 +538,8 @@
 		EFDBBF1D155B176100EA854D /* descriptionBG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "descriptionBG@2x.png"; sourceTree = "<group>"; };
 		EFDBBF20155B1BA000EA854D /* skillFrame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skillFrame.png; sourceTree = "<group>"; };
 		EFDBBF21155B1BA000EA854D /* skillFrame@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "skillFrame@2x.png"; sourceTree = "<group>"; };
-		EFDBBF24155B24FF00EA854D /* barbClassCrest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbClassCrest.png; sourceTree = "<group>"; };
-		EFDBBF25155B24FF00EA854D /* barbClassCrest@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barbClassCrest@2x.png"; sourceTree = "<group>"; };
+		EFDBBF24155B24FF00EA854D /* barbarianClassCrest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarianClassCrest.png; sourceTree = "<group>"; };
+		EFDBBF25155B24FF00EA854D /* barbarianClassCrest@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barbarianClassCrest@2x.png"; sourceTree = "<group>"; };
 		EFDBBF28155B2BFB00EA854D /* angelStatue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angelStatue.png; sourceTree = "<group>"; };
 		EFDBBF29155B2BFB00EA854D /* angelStatue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "angelStatue@2x.png"; sourceTree = "<group>"; };
 		EFDBBF2C155B2F5500EA854D /* buttonPassive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonPassive.png; sourceTree = "<group>"; };
@@ -141,15 +548,15 @@
 		EFDBBF42155B3BEF00EA854D /* buttonActive@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonActive@2x.png"; sourceTree = "<group>"; };
 		EFDBBF45155B3C6600EA854D /* buttonActiveHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonActiveHighlighted.png; sourceTree = "<group>"; };
 		EFDBBF46155B3C6600EA854D /* buttonActiveHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonActiveHighlighted@2x.png"; sourceTree = "<group>"; };
-		EFDBBF4A155B680300EA854D /* dhClassCrest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dhClassCrest.png; sourceTree = "<group>"; };
-		EFDBBF4B155B680300EA854D /* dhClassCrest@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dhClassCrest@2x.png"; sourceTree = "<group>"; };
+		EFDBBF4A155B680300EA854D /* demon-hunterClassCrest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "demon-hunterClassCrest.png"; sourceTree = "<group>"; };
+		EFDBBF4B155B680300EA854D /* demon-hunterClassCrest@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "demon-hunterClassCrest@2x.png"; sourceTree = "<group>"; };
 		EFDBBF4E155B681300EA854D /* monkClassCrest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monkClassCrest.png; sourceTree = "<group>"; };
 		EFDBBF4F155B681300EA854D /* monkClassCrest@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "monkClassCrest@2x.png"; sourceTree = "<group>"; };
-		EFDBBF52155B681D00EA854D /* wdClassCrest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wdClassCrest.png; sourceTree = "<group>"; };
-		EFDBBF53155B681D00EA854D /* wdClassCrest@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wdClassCrest@2x.png"; sourceTree = "<group>"; };
-		EFDBBF56155B683000EA854D /* wizClassCrest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizClassCrest.png; sourceTree = "<group>"; };
-		EFDBBF57155B683000EA854D /* wizClassCrest@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wizClassCrest@2x.png"; sourceTree = "<group>"; };
-		EFDBBF5A155B6FF300EA854D /* classData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = classData.plist; sourceTree = "<group>"; };
+		EFDBBF52155B681D00EA854D /* witch-doctorClassCrest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "witch-doctorClassCrest.png"; sourceTree = "<group>"; };
+		EFDBBF53155B681D00EA854D /* witch-doctorClassCrest@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "witch-doctorClassCrest@2x.png"; sourceTree = "<group>"; };
+		EFDBBF56155B683000EA854D /* wizardClassCrest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizardClassCrest.png; sourceTree = "<group>"; };
+		EFDBBF57155B683000EA854D /* wizardClassCrest@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wizardClassCrest@2x.png"; sourceTree = "<group>"; };
+		EFDBBF5A155B6FF300EA854D /* classData1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = classData1.plist; sourceTree = "<group>"; };
 		EFDBBF64155C417900EA854D /* parchmentBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = parchmentBG.png; sourceTree = "<group>"; };
 		EFDBBF66155C460500EA854D /* closePopupButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = closePopupButton.png; sourceTree = "<group>"; };
 		EFDBBF67155C460500EA854D /* closePopupButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "closePopupButton@2x.png"; sourceTree = "<group>"; };
@@ -159,6 +566,8 @@
 		EFDBBF74155C71C300EA854D /* SpellPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpellPageView.h; sourceTree = "<group>"; };
 		EFDBBF75155C71C300EA854D /* SpellPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpellPageView.m; sourceTree = "<group>"; };
 		EFDBBF77155C80B500EA854D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EFDBBF7D155DB0EF00EA854D /* out.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = out.plist; sourceTree = "<group>"; };
+		EFDBBF7F155DCB1800EA854D /* classData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = classData.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +585,220 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF18A139155DD68A00C80596 /* skill_icons */ = {
+			isa = PBXGroup;
+			children = (
+				EF18A2BB155E142200C80596 /* barbarian_ancientspear.png */,
+				EF18A2BC155E142200C80596 /* barbarian_bash.png */,
+				EF18A2BD155E142200C80596 /* barbarian_battlerage.png */,
+				EF18A2BE155E142200C80596 /* barbarian_calloftheancients.png */,
+				EF18A2BF155E142200C80596 /* barbarian_cleave.png */,
+				EF18A2C0155E142200C80596 /* barbarian_earthquake.png */,
+				EF18A2C1155E142200C80596 /* barbarian_frenzy.png */,
+				EF18A2C2155E142200C80596 /* barbarian_furiouscharge.png */,
+				EF18A2C3155E142200C80596 /* barbarian_groundstomp.png */,
+				EF18A2C4155E142200C80596 /* barbarian_hammeroftheancients.png */,
+				EF18A2C5155E142200C80596 /* barbarian_ignorepain.png */,
+				EF18A2C6155E142200C80596 /* barbarian_leap.png */,
+				EF18A2C7155E142200C80596 /* barbarian_overpower.png */,
+				EF18A2C8155E142200C80596 /* barbarian_passive_animosity.png */,
+				EF18A2C9155E142200C80596 /* barbarian_passive_berserkerrage.png */,
+				EF18A2CA155E142200C80596 /* barbarian_passive_bloodthirst.png */,
+				EF18A2CB155E142200C80596 /* barbarian_passive_boonofbulkathos.png */,
+				EF18A2CC155E142200C80596 /* barbarian_passive_brawler.png */,
+				EF18A2CD155E142200C80596 /* barbarian_passive_inspiringpresence.png */,
+				EF18A2CE155E142200C80596 /* barbarian_passive_juggernaut.png */,
+				EF18A2CF155E142200C80596 /* barbarian_passive_nervesofsteel.png */,
+				EF18A2D0155E142200C80596 /* barbarian_passive_noescape.png */,
+				EF18A2D1155E142200C80596 /* barbarian_passive_poundofflesh.png */,
+				EF18A2D2155E142200C80596 /* barbarian_passive_relentless.png */,
+				EF18A2D3155E142200C80596 /* barbarian_passive_ruthless.png */,
+				EF18A2D4155E142200C80596 /* barbarian_passive_superstition.png */,
+				EF18A2D5155E142200C80596 /* barbarian_passive_toughasnails.png */,
+				EF18A2D6155E142200C80596 /* barbarian_passive_unforgiving.png */,
+				EF18A2D7155E142200C80596 /* barbarian_passive_weaponsmaster.png */,
+				EF18A2D8155E142200C80596 /* barbarian_rend.png */,
+				EF18A2D9155E142200C80596 /* barbarian_revenge.png */,
+				EF18A2DA155E142200C80596 /* barbarian_seismicslam.png */,
+				EF18A2DB155E142200C80596 /* barbarian_sprint.png */,
+				EF18A2DC155E142200C80596 /* barbarian_threateningshout.png */,
+				EF18A2DD155E142200C80596 /* barbarian_warcry.png */,
+				EF18A2DE155E142200C80596 /* barbarian_weaponthrow.png */,
+				EF18A2DF155E142200C80596 /* barbarian_whirlwind.png */,
+				EF18A2E0155E142200C80596 /* barbarian_wrathoftheberserker.png */,
+				EF18A2E1155E142200C80596 /* demonhunter_bolashot.png */,
+				EF18A2E2155E142200C80596 /* demonhunter_caltrops.png */,
+				EF18A2E3155E142200C80596 /* demonhunter_chakram.png */,
+				EF18A2E4155E142200C80596 /* demonhunter_clusterarrow.png */,
+				EF18A2E5155E142200C80596 /* demonhunter_companion.png */,
+				EF18A2E6155E142200C80596 /* demonhunter_elementalarrow.png */,
+				EF18A2E7155E142200C80596 /* demonhunter_entanglingshot.png */,
+				EF18A2E8155E142200C80596 /* demonhunter_evasivefire.png */,
+				EF18A2E9155E142200C80596 /* demonhunter_fanofknives.png */,
+				EF18A2EA155E142200C80596 /* demonhunter_grenades.png */,
+				EF18A2EB155E142200C80596 /* demonhunter_hungeringarrow.png */,
+				EF18A2EC155E142200C80596 /* demonhunter_impale.png */,
+				EF18A2ED155E142200C80596 /* demonhunter_markedfordeath.png */,
+				EF18A2EE155E142200C80596 /* demonhunter_multishot.png */,
+				EF18A2EF155E142200C80596 /* demonhunter_passive_archery.png */,
+				EF18A2F0155E142200C80596 /* demonhunter_passive_ballistics.png */,
+				EF18A2F1155E142200C80596 /* demonhunter_passive_brooding.png */,
+				EF18A2F2155E142200C80596 /* demonhunter_passive_culltheweak.png */,
+				EF18A2F3155E142200C80596 /* demonhunter_passive_customengineering.png */,
+				EF18A2F4155E142200C80596 /* demonhunter_passive_grenadier.png */,
+				EF18A2F5155E142200C80596 /* demonhunter_passive_hotpursuit.png */,
+				EF18A2F6155E142200C80596 /* demonhunter_passive_nightstalker.png */,
+				EF18A2F7155E142200C80596 /* demonhunter_passive_numbingtraps.png */,
+				EF18A2F8155E142200C80596 /* demonhunter_passive_perfectionist.png */,
+				EF18A2F9155E142200C80596 /* demonhunter_passive_sharpshooter.png */,
+				EF18A2FA155E142200C80596 /* demonhunter_passive_steadyaim.png */,
+				EF18A2FB155E142200C80596 /* demonhunter_passive_tacticaladvantage.png */,
+				EF18A2FC155E142200C80596 /* demonhunter_passive_thrillofthehunt.png */,
+				EF18A2FD155E142200C80596 /* demonhunter_passive_vengeance.png */,
+				EF18A2FE155E142200C80596 /* demonhunter_preparation.png */,
+				EF18A2FF155E142200C80596 /* demonhunter_rainofvengeance.png */,
+				EF18A300155E142200C80596 /* demonhunter_rapidfire.png */,
+				EF18A301155E142200C80596 /* demonhunter_sentry.png */,
+				EF18A302155E142200C80596 /* demonhunter_shadowpower.png */,
+				EF18A303155E142200C80596 /* demonhunter_smokescreen.png */,
+				EF18A304155E142200C80596 /* demonhunter_spiketrap.png */,
+				EF18A305155E142200C80596 /* demonhunter_strafe.png */,
+				EF18A306155E142200C80596 /* demonhunter_vault.png */,
+				EF18A307155E142200C80596 /* monk_blindingflash.png */,
+				EF18A308155E142200C80596 /* monk_breathofheaven.png */,
+				EF18A309155E142200C80596 /* monk_cripplingwave.png */,
+				EF18A30A155E142200C80596 /* monk_cyclonestrike.png */,
+				EF18A30B155E142200C80596 /* monk_dashingstrike.png */,
+				EF18A30C155E142200C80596 /* monk_deadlyreach.png */,
+				EF18A30D155E142200C80596 /* monk_explodingpalm.png */,
+				EF18A30E155E142200C80596 /* monk_fistsofthunder.png */,
+				EF18A30F155E142200C80596 /* monk_innersanctuary.png */,
+				EF18A310155E142200C80596 /* monk_lashingtailkick.png */,
+				EF18A311155E142200C80596 /* monk_mantraofconviction.png */,
+				EF18A312155E142200C80596 /* monk_mantraofevasion.png */,
+				EF18A313155E142200C80596 /* monk_mantraofhealing.png */,
+				EF18A314155E142200C80596 /* monk_mantraofretribution.png */,
+				EF18A315155E142200C80596 /* monk_mystically.png */,
+				EF18A316155E142200C80596 /* monk_passive_beaconofytar.png */,
+				EF18A317155E142200C80596 /* monk_passive_chantofresonance.png */,
+				EF18A318155E142200C80596 /* monk_passive_combinationstrike.png */,
+				EF18A319155E142200C80596 /* monk_passive_exaltedsoul.png */,
+				EF18A31A155E142200C80596 /* monk_passive_fleetfooted.png */,
+				EF18A31B155E142200C80596 /* monk_passive_guidinglight.png */,
+				EF18A31C155E142200C80596 /* monk_passive_neardeathexperience.png */,
+				EF18A31D155E142200C80596 /* monk_passive_onewitheverything.png */,
+				EF18A31E155E142200C80596 /* monk_passive_pacifism.png */,
+				EF18A31F155E142200C80596 /* monk_passive_resolve.png */,
+				EF18A320155E142200C80596 /* monk_passive_seizetheinitiative.png */,
+				EF18A321155E142200C80596 /* monk_passive_sixthsense.png */,
+				EF18A322155E142200C80596 /* monk_passive_theguardianspath.png */,
+				EF18A323155E142200C80596 /* monk_passive_transcendence.png */,
+				EF18A324155E142200C80596 /* monk_serenity.png */,
+				EF18A325155E142200C80596 /* monk_sevensidedstrike.png */,
+				EF18A326155E142200C80596 /* monk_sweepingwind.png */,
+				EF18A327155E142200C80596 /* monk_tempestrush.png */,
+				EF18A328155E142200C80596 /* monk_waveoflight.png */,
+				EF18A329155E142200C80596 /* monk_wayofthehundredfists.png */,
+				EF18A32A155E142200C80596 /* witchdoctor_acidcloud.png */,
+				EF18A32B155E142200C80596 /* witchdoctor_bigbadvoodoo.png */,
+				EF18A32C155E142200C80596 /* witchdoctor_corpsespider.png */,
+				EF18A32D155E142200C80596 /* witchdoctor_fetisharmy.png */,
+				EF18A32E155E142200C80596 /* witchdoctor_firebats.png */,
+				EF18A32F155E142200C80596 /* witchdoctor_firebomb.png */,
+				EF18A330155E142200C80596 /* witchdoctor_gargantuan.png */,
+				EF18A331155E142200C80596 /* witchdoctor_graspofthedead.png */,
+				EF18A332155E142200C80596 /* witchdoctor_haunt.png */,
+				EF18A333155E142200C80596 /* witchdoctor_hex.png */,
+				EF18A334155E142200C80596 /* witchdoctor_horrify.png */,
+				EF18A335155E142200C80596 /* witchdoctor_locust_swarm.png */,
+				EF18A336155E142200C80596 /* witchdoctor_massconfusion.png */,
+				EF18A337155E142200C80596 /* witchdoctor_passive_badmedicine.png */,
+				EF18A338155E142200C80596 /* witchdoctor_passive_bloodritual.png */,
+				EF18A339155E142200C80596 /* witchdoctor_passive_circleoflife.png */,
+				EF18A33A155E142200C80596 /* witchdoctor_passive_fetishsycophants.png */,
+				EF18A33B155E142200C80596 /* witchdoctor_passive_fierceloyalty.png */,
+				EF18A33C155E142200C80596 /* witchdoctor_passive_graveinjustice.png */,
+				EF18A33D155E142200C80596 /* witchdoctor_passive_gruesomefeast.png */,
+				EF18A33E155E142200C80596 /* witchdoctor_passive_junglefortitude.png */,
+				EF18A33F155E142200C80596 /* witchdoctor_passive_piercetheveil.png */,
+				EF18A340155E142200C80596 /* witchdoctor_passive_rushofessence.png */,
+				EF18A341155E142200C80596 /* witchdoctor_passive_spiritualattunement.png */,
+				EF18A342155E142200C80596 /* witchdoctor_passive_spiritvessel.png */,
+				EF18A343155E142200C80596 /* witchdoctor_passive_tribalrites.png */,
+				EF18A344155E142200C80596 /* witchdoctor_passive_visionquest.png */,
+				EF18A345155E142200C80596 /* witchdoctor_passive_zombiehandler.png */,
+				EF18A346155E142200C80596 /* witchdoctor_plagueoftoads.png */,
+				EF18A347155E142200C80596 /* witchdoctor_poisondart.png */,
+				EF18A348155E142200C80596 /* witchdoctor_sacrifice.png */,
+				EF18A349155E142200C80596 /* witchdoctor_soulharvest.png */,
+				EF18A34A155E142200C80596 /* witchdoctor_spiritbarrage.png */,
+				EF18A34B155E142200C80596 /* witchdoctor_spiritwalk.png */,
+				EF18A34C155E142200C80596 /* witchdoctor_summonzombiedog.png */,
+				EF18A34D155E142200C80596 /* witchdoctor_wallofzombies.png */,
+				EF18A34E155E142200C80596 /* witchdoctor_zombiecharger.png */,
+				EF18A34F155E142200C80596 /* wizard_arcaneorb.png */,
+				EF18A350155E142200C80596 /* wizard_arcanetorrent.png */,
+				EF18A351155E142200C80596 /* wizard_archon.png */,
+				EF18A352155E142200C80596 /* wizard_blizzard.png */,
+				EF18A353155E142200C80596 /* wizard_diamondskin.png */,
+				EF18A354155E142200C80596 /* wizard_disintegrate.png */,
+				EF18A355155E142200C80596 /* wizard_electrocute.png */,
+				EF18A356155E142200C80596 /* wizard_energyarmor.png */,
+				EF18A357155E142200C80596 /* wizard_energytwister.png */,
+				EF18A358155E142200C80596 /* wizard_explosiveblast.png */,
+				EF18A359155E142200C80596 /* wizard_familiar.png */,
+				EF18A35A155E142200C80596 /* wizard_frostnova.png */,
+				EF18A35B155E142200C80596 /* wizard_hydra.png */,
+				EF18A35C155E142200C80596 /* wizard_icearmor.png */,
+				EF18A35D155E142200C80596 /* wizard_magicmissile.png */,
+				EF18A35E155E142200C80596 /* wizard_magicweapon.png */,
+				EF18A35F155E142200C80596 /* wizard_meteor.png */,
+				EF18A360155E142200C80596 /* wizard_mirrorimage.png */,
+				EF18A361155E142200C80596 /* wizard_passive_arcanedynamo.png */,
+				EF18A362155E142200C80596 /* wizard_passive_astralpresence.png */,
+				EF18A363155E142200C80596 /* wizard_passive_blur.png */,
+				EF18A364155E142200C80596 /* wizard_passive_coldblooded.png */,
+				EF18A365155E142200C80596 /* wizard_passive_conflagration.png */,
+				EF18A366155E142200C80596 /* wizard_passive_criticalmass.png */,
+				EF18A367155E142200C80596 /* wizard_passive_evocation.png */,
+				EF18A368155E142200C80596 /* wizard_passive_galvanizingward.png */,
+				EF18A369155E142200C80596 /* wizard_passive_glasscannon.png */,
+				EF18A36A155E142200C80596 /* wizard_passive_illusionist.png */,
+				EF18A36B155E142200C80596 /* wizard_passive_paralysis.png */,
+				EF18A36C155E142200C80596 /* wizard_passive_powerhungry.png */,
+				EF18A36D155E142200C80596 /* wizard_passive_prodigy.png */,
+				EF18A36E155E142200C80596 /* wizard_passive_temporalflux.png */,
+				EF18A36F155E142200C80596 /* wizard_passive_unstableanomaly.png */,
+				EF18A370155E142200C80596 /* wizard_rayoffrost.png */,
+				EF18A371155E142200C80596 /* wizard_shockpulse.png */,
+				EF18A372155E142200C80596 /* wizard_slowtime.png */,
+				EF18A373155E142200C80596 /* wizard_spectralblade.png */,
+				EF18A374155E142200C80596 /* wizard_stormarmor.png */,
+				EF18A375155E142200C80596 /* wizard_teleport.png */,
+				EF18A376155E142200C80596 /* wizard_waveofforce.png */,
+			);
+			name = skill_icons;
+			sourceTree = "<group>";
+		};
+		EFBBA8EA155ECF91007BCDB6 /* runes */ = {
+			isa = PBXGroup;
+			children = (
+				EF0D250E155F28F0006A7785 /* runeA.png */,
+				EF0D250F155F28F0006A7785 /* runeA@2x.png */,
+				EF0D2510155F28F0006A7785 /* runeB.png */,
+				EF0D2511155F28F0006A7785 /* runeB@2x.png */,
+				EF0D2512155F28F0006A7785 /* runeC.png */,
+				EF0D2513155F28F0006A7785 /* runeC@2x.png */,
+				EF0D2514155F28F0006A7785 /* runeD.png */,
+				EF0D2515155F28F0006A7785 /* runeD@2x.png */,
+				EF0D2516155F28F0006A7785 /* runeE.png */,
+				EF0D2517155F28F0006A7785 /* runeE@2x.png */,
+				EF0D2523155F29EF006A7785 /* runeNone.png */,
+				EF0D2524155F29EF006A7785 /* runeNone@2x.png */,
+			);
+			name = runes;
+			sourceTree = "<group>";
+		};
 		EFDBBE89155AACD800EA854D = {
 			isa = PBXGroup;
 			children = (
@@ -218,6 +841,9 @@
 				EFDBBF74155C71C300EA854D /* SpellPageView.h */,
 				EFDBBF75155C71C300EA854D /* SpellPageView.m */,
 				EFDBBF72155C6CD300EA854D /* spellPageView.xib */,
+				EFBBA8F6155EE333007BCDB6 /* RuneTableViewCell.h */,
+				EFBBA8F7155EE333007BCDB6 /* RuneTableViewCell.m */,
+				EFBBA8F9155EE359007BCDB6 /* RuneTableViewCell.xib */,
 				EFDBBE9F155AACD800EA854D /* Supporting Files */,
 			);
 			path = DiabloCalc;
@@ -233,7 +859,9 @@
 				EFDBBEA1155AACD800EA854D /* InfoPlist.strings */,
 				EFDBBEA4155AACD800EA854D /* main.m */,
 				EFDBBEA6155AACD800EA854D /* DiabloCalc-Prefix.pch */,
-				EFDBBF5A155B6FF300EA854D /* classData.plist */,
+				EFDBBF7D155DB0EF00EA854D /* out.plist */,
+				EFDBBF7F155DCB1800EA854D /* classData.plist */,
+				EFDBBF5A155B6FF300EA854D /* classData1.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -272,6 +900,8 @@
 		EFDBBEED155AD15A00EA854D /* images */ = {
 			isa = PBXGroup;
 			children = (
+				EFBBA8EA155ECF91007BCDB6 /* runes */,
+				EF18A139155DD68A00C80596 /* skill_icons */,
 				EFDBBF49155B67D900EA854D /* class_crests */,
 				EFDBBEC4155AD11000EA854D /* buttons */,
 				EFDBBF30155B399E00EA854D /* skill_buttons */,
@@ -326,16 +956,16 @@
 		EFDBBF49155B67D900EA854D /* class_crests */ = {
 			isa = PBXGroup;
 			children = (
-				EFDBBF24155B24FF00EA854D /* barbClassCrest.png */,
-				EFDBBF25155B24FF00EA854D /* barbClassCrest@2x.png */,
-				EFDBBF4A155B680300EA854D /* dhClassCrest.png */,
-				EFDBBF4B155B680300EA854D /* dhClassCrest@2x.png */,
+				EFDBBF24155B24FF00EA854D /* barbarianClassCrest.png */,
+				EFDBBF25155B24FF00EA854D /* barbarianClassCrest@2x.png */,
+				EFDBBF4A155B680300EA854D /* demon-hunterClassCrest.png */,
+				EFDBBF4B155B680300EA854D /* demon-hunterClassCrest@2x.png */,
 				EFDBBF4E155B681300EA854D /* monkClassCrest.png */,
 				EFDBBF4F155B681300EA854D /* monkClassCrest@2x.png */,
-				EFDBBF52155B681D00EA854D /* wdClassCrest.png */,
-				EFDBBF53155B681D00EA854D /* wdClassCrest@2x.png */,
-				EFDBBF56155B683000EA854D /* wizClassCrest.png */,
-				EFDBBF57155B683000EA854D /* wizClassCrest@2x.png */,
+				EFDBBF52155B681D00EA854D /* witch-doctorClassCrest.png */,
+				EFDBBF53155B681D00EA854D /* witch-doctorClassCrest@2x.png */,
+				EFDBBF56155B683000EA854D /* wizardClassCrest.png */,
+				EFDBBF57155B683000EA854D /* wizardClassCrest@2x.png */,
 			);
 			name = class_crests;
 			sourceTree = "<group>";
@@ -428,8 +1058,8 @@
 				EFDBBF1F155B176100EA854D /* descriptionBG@2x.png in Resources */,
 				EFDBBF22155B1BA100EA854D /* skillFrame.png in Resources */,
 				EFDBBF23155B1BA100EA854D /* skillFrame@2x.png in Resources */,
-				EFDBBF26155B24FF00EA854D /* barbClassCrest.png in Resources */,
-				EFDBBF27155B24FF00EA854D /* barbClassCrest@2x.png in Resources */,
+				EFDBBF26155B24FF00EA854D /* barbarianClassCrest.png in Resources */,
+				EFDBBF27155B24FF00EA854D /* barbarianClassCrest@2x.png in Resources */,
 				EFDBBF2A155B2BFB00EA854D /* angelStatue.png in Resources */,
 				EFDBBF2B155B2BFB00EA854D /* angelStatue@2x.png in Resources */,
 				EFDBBF2E155B2F5500EA854D /* buttonPassive.png in Resources */,
@@ -438,21 +1068,224 @@
 				EFDBBF44155B3BEF00EA854D /* buttonActive@2x.png in Resources */,
 				EFDBBF47155B3C6600EA854D /* buttonActiveHighlighted.png in Resources */,
 				EFDBBF48155B3C6600EA854D /* buttonActiveHighlighted@2x.png in Resources */,
-				EFDBBF4C155B680300EA854D /* dhClassCrest.png in Resources */,
-				EFDBBF4D155B680300EA854D /* dhClassCrest@2x.png in Resources */,
+				EFDBBF4C155B680300EA854D /* demon-hunterClassCrest.png in Resources */,
+				EFDBBF4D155B680300EA854D /* demon-hunterClassCrest@2x.png in Resources */,
 				EFDBBF50155B681300EA854D /* monkClassCrest.png in Resources */,
 				EFDBBF51155B681300EA854D /* monkClassCrest@2x.png in Resources */,
-				EFDBBF54155B681D00EA854D /* wdClassCrest.png in Resources */,
-				EFDBBF55155B681D00EA854D /* wdClassCrest@2x.png in Resources */,
-				EFDBBF58155B683000EA854D /* wizClassCrest.png in Resources */,
-				EFDBBF59155B683000EA854D /* wizClassCrest@2x.png in Resources */,
-				EFDBBF5B155B6FF300EA854D /* classData.plist in Resources */,
+				EFDBBF54155B681D00EA854D /* witch-doctorClassCrest.png in Resources */,
+				EFDBBF55155B681D00EA854D /* witch-doctorClassCrest@2x.png in Resources */,
+				EFDBBF58155B683000EA854D /* wizardClassCrest.png in Resources */,
+				EFDBBF59155B683000EA854D /* wizardClassCrest@2x.png in Resources */,
+				EFDBBF5B155B6FF300EA854D /* classData1.plist in Resources */,
 				EFDBBF65155C417900EA854D /* parchmentBG.png in Resources */,
 				EFDBBF6A155C460600EA854D /* closePopupButton.png in Resources */,
 				EFDBBF6B155C460600EA854D /* closePopupButton@2x.png in Resources */,
 				EFDBBF6C155C460600EA854D /* closePopupButtonActive.png in Resources */,
 				EFDBBF6D155C460600EA854D /* closePopupButtonActive@2x.png in Resources */,
 				EFDBBF73155C6CD300EA854D /* spellPageView.xib in Resources */,
+				EFDBBF7E155DB0EF00EA854D /* out.plist in Resources */,
+				EFDBBF80155DCB1800EA854D /* classData.plist in Resources */,
+				EF18A377155E142200C80596 /* barbarian_ancientspear.png in Resources */,
+				EF18A378155E142200C80596 /* barbarian_bash.png in Resources */,
+				EF18A379155E142200C80596 /* barbarian_battlerage.png in Resources */,
+				EF18A37A155E142200C80596 /* barbarian_calloftheancients.png in Resources */,
+				EF18A37B155E142200C80596 /* barbarian_cleave.png in Resources */,
+				EF18A37C155E142200C80596 /* barbarian_earthquake.png in Resources */,
+				EF18A37D155E142200C80596 /* barbarian_frenzy.png in Resources */,
+				EF18A37E155E142200C80596 /* barbarian_furiouscharge.png in Resources */,
+				EF18A37F155E142200C80596 /* barbarian_groundstomp.png in Resources */,
+				EF18A380155E142200C80596 /* barbarian_hammeroftheancients.png in Resources */,
+				EF18A381155E142200C80596 /* barbarian_ignorepain.png in Resources */,
+				EF18A382155E142200C80596 /* barbarian_leap.png in Resources */,
+				EF18A383155E142200C80596 /* barbarian_overpower.png in Resources */,
+				EF18A384155E142200C80596 /* barbarian_passive_animosity.png in Resources */,
+				EF18A385155E142200C80596 /* barbarian_passive_berserkerrage.png in Resources */,
+				EF18A386155E142200C80596 /* barbarian_passive_bloodthirst.png in Resources */,
+				EF18A387155E142200C80596 /* barbarian_passive_boonofbulkathos.png in Resources */,
+				EF18A388155E142200C80596 /* barbarian_passive_brawler.png in Resources */,
+				EF18A389155E142200C80596 /* barbarian_passive_inspiringpresence.png in Resources */,
+				EF18A38A155E142200C80596 /* barbarian_passive_juggernaut.png in Resources */,
+				EF18A38B155E142200C80596 /* barbarian_passive_nervesofsteel.png in Resources */,
+				EF18A38C155E142200C80596 /* barbarian_passive_noescape.png in Resources */,
+				EF18A38D155E142200C80596 /* barbarian_passive_poundofflesh.png in Resources */,
+				EF18A38E155E142200C80596 /* barbarian_passive_relentless.png in Resources */,
+				EF18A38F155E142200C80596 /* barbarian_passive_ruthless.png in Resources */,
+				EF18A390155E142200C80596 /* barbarian_passive_superstition.png in Resources */,
+				EF18A391155E142200C80596 /* barbarian_passive_toughasnails.png in Resources */,
+				EF18A392155E142200C80596 /* barbarian_passive_unforgiving.png in Resources */,
+				EF18A393155E142200C80596 /* barbarian_passive_weaponsmaster.png in Resources */,
+				EF18A394155E142200C80596 /* barbarian_rend.png in Resources */,
+				EF18A395155E142200C80596 /* barbarian_revenge.png in Resources */,
+				EF18A396155E142200C80596 /* barbarian_seismicslam.png in Resources */,
+				EF18A397155E142200C80596 /* barbarian_sprint.png in Resources */,
+				EF18A398155E142200C80596 /* barbarian_threateningshout.png in Resources */,
+				EF18A399155E142200C80596 /* barbarian_warcry.png in Resources */,
+				EF18A39A155E142200C80596 /* barbarian_weaponthrow.png in Resources */,
+				EF18A39B155E142200C80596 /* barbarian_whirlwind.png in Resources */,
+				EF18A39C155E142200C80596 /* barbarian_wrathoftheberserker.png in Resources */,
+				EF18A39D155E142200C80596 /* demonhunter_bolashot.png in Resources */,
+				EF18A39E155E142200C80596 /* demonhunter_caltrops.png in Resources */,
+				EF18A39F155E142200C80596 /* demonhunter_chakram.png in Resources */,
+				EF18A3A0155E142200C80596 /* demonhunter_clusterarrow.png in Resources */,
+				EF18A3A1155E142200C80596 /* demonhunter_companion.png in Resources */,
+				EF18A3A2155E142200C80596 /* demonhunter_elementalarrow.png in Resources */,
+				EF18A3A3155E142200C80596 /* demonhunter_entanglingshot.png in Resources */,
+				EF18A3A4155E142200C80596 /* demonhunter_evasivefire.png in Resources */,
+				EF18A3A5155E142200C80596 /* demonhunter_fanofknives.png in Resources */,
+				EF18A3A6155E142200C80596 /* demonhunter_grenades.png in Resources */,
+				EF18A3A7155E142200C80596 /* demonhunter_hungeringarrow.png in Resources */,
+				EF18A3A8155E142200C80596 /* demonhunter_impale.png in Resources */,
+				EF18A3A9155E142200C80596 /* demonhunter_markedfordeath.png in Resources */,
+				EF18A3AA155E142200C80596 /* demonhunter_multishot.png in Resources */,
+				EF18A3AB155E142200C80596 /* demonhunter_passive_archery.png in Resources */,
+				EF18A3AC155E142200C80596 /* demonhunter_passive_ballistics.png in Resources */,
+				EF18A3AD155E142200C80596 /* demonhunter_passive_brooding.png in Resources */,
+				EF18A3AE155E142200C80596 /* demonhunter_passive_culltheweak.png in Resources */,
+				EF18A3AF155E142200C80596 /* demonhunter_passive_customengineering.png in Resources */,
+				EF18A3B0155E142200C80596 /* demonhunter_passive_grenadier.png in Resources */,
+				EF18A3B1155E142200C80596 /* demonhunter_passive_hotpursuit.png in Resources */,
+				EF18A3B2155E142200C80596 /* demonhunter_passive_nightstalker.png in Resources */,
+				EF18A3B3155E142200C80596 /* demonhunter_passive_numbingtraps.png in Resources */,
+				EF18A3B4155E142200C80596 /* demonhunter_passive_perfectionist.png in Resources */,
+				EF18A3B5155E142200C80596 /* demonhunter_passive_sharpshooter.png in Resources */,
+				EF18A3B6155E142200C80596 /* demonhunter_passive_steadyaim.png in Resources */,
+				EF18A3B7155E142200C80596 /* demonhunter_passive_tacticaladvantage.png in Resources */,
+				EF18A3B8155E142200C80596 /* demonhunter_passive_thrillofthehunt.png in Resources */,
+				EF18A3B9155E142200C80596 /* demonhunter_passive_vengeance.png in Resources */,
+				EF18A3BA155E142200C80596 /* demonhunter_preparation.png in Resources */,
+				EF18A3BB155E142200C80596 /* demonhunter_rainofvengeance.png in Resources */,
+				EF18A3BC155E142200C80596 /* demonhunter_rapidfire.png in Resources */,
+				EF18A3BD155E142200C80596 /* demonhunter_sentry.png in Resources */,
+				EF18A3BE155E142200C80596 /* demonhunter_shadowpower.png in Resources */,
+				EF18A3BF155E142200C80596 /* demonhunter_smokescreen.png in Resources */,
+				EF18A3C0155E142200C80596 /* demonhunter_spiketrap.png in Resources */,
+				EF18A3C1155E142200C80596 /* demonhunter_strafe.png in Resources */,
+				EF18A3C2155E142200C80596 /* demonhunter_vault.png in Resources */,
+				EF18A3C3155E142200C80596 /* monk_blindingflash.png in Resources */,
+				EF18A3C4155E142200C80596 /* monk_breathofheaven.png in Resources */,
+				EF18A3C5155E142200C80596 /* monk_cripplingwave.png in Resources */,
+				EF18A3C6155E142200C80596 /* monk_cyclonestrike.png in Resources */,
+				EF18A3C7155E142200C80596 /* monk_dashingstrike.png in Resources */,
+				EF18A3C8155E142200C80596 /* monk_deadlyreach.png in Resources */,
+				EF18A3C9155E142200C80596 /* monk_explodingpalm.png in Resources */,
+				EF18A3CA155E142200C80596 /* monk_fistsofthunder.png in Resources */,
+				EF18A3CB155E142200C80596 /* monk_innersanctuary.png in Resources */,
+				EF18A3CC155E142200C80596 /* monk_lashingtailkick.png in Resources */,
+				EF18A3CD155E142200C80596 /* monk_mantraofconviction.png in Resources */,
+				EF18A3CE155E142200C80596 /* monk_mantraofevasion.png in Resources */,
+				EF18A3CF155E142200C80596 /* monk_mantraofhealing.png in Resources */,
+				EF18A3D0155E142200C80596 /* monk_mantraofretribution.png in Resources */,
+				EF18A3D1155E142200C80596 /* monk_mystically.png in Resources */,
+				EF18A3D2155E142200C80596 /* monk_passive_beaconofytar.png in Resources */,
+				EF18A3D3155E142200C80596 /* monk_passive_chantofresonance.png in Resources */,
+				EF18A3D4155E142200C80596 /* monk_passive_combinationstrike.png in Resources */,
+				EF18A3D5155E142200C80596 /* monk_passive_exaltedsoul.png in Resources */,
+				EF18A3D6155E142200C80596 /* monk_passive_fleetfooted.png in Resources */,
+				EF18A3D7155E142200C80596 /* monk_passive_guidinglight.png in Resources */,
+				EF18A3D8155E142200C80596 /* monk_passive_neardeathexperience.png in Resources */,
+				EF18A3D9155E142200C80596 /* monk_passive_onewitheverything.png in Resources */,
+				EF18A3DA155E142200C80596 /* monk_passive_pacifism.png in Resources */,
+				EF18A3DB155E142200C80596 /* monk_passive_resolve.png in Resources */,
+				EF18A3DC155E142200C80596 /* monk_passive_seizetheinitiative.png in Resources */,
+				EF18A3DD155E142200C80596 /* monk_passive_sixthsense.png in Resources */,
+				EF18A3DE155E142200C80596 /* monk_passive_theguardianspath.png in Resources */,
+				EF18A3DF155E142200C80596 /* monk_passive_transcendence.png in Resources */,
+				EF18A3E0155E142200C80596 /* monk_serenity.png in Resources */,
+				EF18A3E1155E142200C80596 /* monk_sevensidedstrike.png in Resources */,
+				EF18A3E2155E142200C80596 /* monk_sweepingwind.png in Resources */,
+				EF18A3E3155E142200C80596 /* monk_tempestrush.png in Resources */,
+				EF18A3E4155E142200C80596 /* monk_waveoflight.png in Resources */,
+				EF18A3E5155E142200C80596 /* monk_wayofthehundredfists.png in Resources */,
+				EF18A3E6155E142200C80596 /* witchdoctor_acidcloud.png in Resources */,
+				EF18A3E7155E142200C80596 /* witchdoctor_bigbadvoodoo.png in Resources */,
+				EF18A3E8155E142200C80596 /* witchdoctor_corpsespider.png in Resources */,
+				EF18A3E9155E142200C80596 /* witchdoctor_fetisharmy.png in Resources */,
+				EF18A3EA155E142200C80596 /* witchdoctor_firebats.png in Resources */,
+				EF18A3EB155E142200C80596 /* witchdoctor_firebomb.png in Resources */,
+				EF18A3EC155E142200C80596 /* witchdoctor_gargantuan.png in Resources */,
+				EF18A3ED155E142200C80596 /* witchdoctor_graspofthedead.png in Resources */,
+				EF18A3EE155E142200C80596 /* witchdoctor_haunt.png in Resources */,
+				EF18A3EF155E142200C80596 /* witchdoctor_hex.png in Resources */,
+				EF18A3F0155E142200C80596 /* witchdoctor_horrify.png in Resources */,
+				EF18A3F1155E142200C80596 /* witchdoctor_locust_swarm.png in Resources */,
+				EF18A3F2155E142200C80596 /* witchdoctor_massconfusion.png in Resources */,
+				EF18A3F3155E142200C80596 /* witchdoctor_passive_badmedicine.png in Resources */,
+				EF18A3F4155E142200C80596 /* witchdoctor_passive_bloodritual.png in Resources */,
+				EF18A3F5155E142200C80596 /* witchdoctor_passive_circleoflife.png in Resources */,
+				EF18A3F6155E142200C80596 /* witchdoctor_passive_fetishsycophants.png in Resources */,
+				EF18A3F7155E142200C80596 /* witchdoctor_passive_fierceloyalty.png in Resources */,
+				EF18A3F8155E142200C80596 /* witchdoctor_passive_graveinjustice.png in Resources */,
+				EF18A3F9155E142200C80596 /* witchdoctor_passive_gruesomefeast.png in Resources */,
+				EF18A3FA155E142200C80596 /* witchdoctor_passive_junglefortitude.png in Resources */,
+				EF18A3FB155E142200C80596 /* witchdoctor_passive_piercetheveil.png in Resources */,
+				EF18A3FC155E142200C80596 /* witchdoctor_passive_rushofessence.png in Resources */,
+				EF18A3FD155E142200C80596 /* witchdoctor_passive_spiritualattunement.png in Resources */,
+				EF18A3FE155E142200C80596 /* witchdoctor_passive_spiritvessel.png in Resources */,
+				EF18A3FF155E142200C80596 /* witchdoctor_passive_tribalrites.png in Resources */,
+				EF18A400155E142200C80596 /* witchdoctor_passive_visionquest.png in Resources */,
+				EF18A401155E142200C80596 /* witchdoctor_passive_zombiehandler.png in Resources */,
+				EF18A402155E142200C80596 /* witchdoctor_plagueoftoads.png in Resources */,
+				EF18A403155E142200C80596 /* witchdoctor_poisondart.png in Resources */,
+				EF18A404155E142200C80596 /* witchdoctor_sacrifice.png in Resources */,
+				EF18A405155E142200C80596 /* witchdoctor_soulharvest.png in Resources */,
+				EF18A406155E142200C80596 /* witchdoctor_spiritbarrage.png in Resources */,
+				EF18A407155E142200C80596 /* witchdoctor_spiritwalk.png in Resources */,
+				EF18A408155E142200C80596 /* witchdoctor_summonzombiedog.png in Resources */,
+				EF18A409155E142200C80596 /* witchdoctor_wallofzombies.png in Resources */,
+				EF18A40A155E142200C80596 /* witchdoctor_zombiecharger.png in Resources */,
+				EF18A40B155E142200C80596 /* wizard_arcaneorb.png in Resources */,
+				EF18A40C155E142200C80596 /* wizard_arcanetorrent.png in Resources */,
+				EF18A40D155E142200C80596 /* wizard_archon.png in Resources */,
+				EF18A40E155E142200C80596 /* wizard_blizzard.png in Resources */,
+				EF18A40F155E142200C80596 /* wizard_diamondskin.png in Resources */,
+				EF18A410155E142200C80596 /* wizard_disintegrate.png in Resources */,
+				EF18A411155E142200C80596 /* wizard_electrocute.png in Resources */,
+				EF18A412155E142200C80596 /* wizard_energyarmor.png in Resources */,
+				EF18A413155E142200C80596 /* wizard_energytwister.png in Resources */,
+				EF18A414155E142200C80596 /* wizard_explosiveblast.png in Resources */,
+				EF18A415155E142200C80596 /* wizard_familiar.png in Resources */,
+				EF18A416155E142200C80596 /* wizard_frostnova.png in Resources */,
+				EF18A417155E142200C80596 /* wizard_hydra.png in Resources */,
+				EF18A418155E142200C80596 /* wizard_icearmor.png in Resources */,
+				EF18A419155E142200C80596 /* wizard_magicmissile.png in Resources */,
+				EF18A41A155E142200C80596 /* wizard_magicweapon.png in Resources */,
+				EF18A41B155E142200C80596 /* wizard_meteor.png in Resources */,
+				EF18A41C155E142200C80596 /* wizard_mirrorimage.png in Resources */,
+				EF18A41D155E142200C80596 /* wizard_passive_arcanedynamo.png in Resources */,
+				EF18A41E155E142200C80596 /* wizard_passive_astralpresence.png in Resources */,
+				EF18A41F155E142200C80596 /* wizard_passive_blur.png in Resources */,
+				EF18A420155E142200C80596 /* wizard_passive_coldblooded.png in Resources */,
+				EF18A421155E142200C80596 /* wizard_passive_conflagration.png in Resources */,
+				EF18A422155E142200C80596 /* wizard_passive_criticalmass.png in Resources */,
+				EF18A423155E142200C80596 /* wizard_passive_evocation.png in Resources */,
+				EF18A424155E142200C80596 /* wizard_passive_galvanizingward.png in Resources */,
+				EF18A425155E142200C80596 /* wizard_passive_glasscannon.png in Resources */,
+				EF18A426155E142200C80596 /* wizard_passive_illusionist.png in Resources */,
+				EF18A427155E142200C80596 /* wizard_passive_paralysis.png in Resources */,
+				EF18A428155E142200C80596 /* wizard_passive_powerhungry.png in Resources */,
+				EF18A429155E142200C80596 /* wizard_passive_prodigy.png in Resources */,
+				EF18A42A155E142200C80596 /* wizard_passive_temporalflux.png in Resources */,
+				EF18A42B155E142200C80596 /* wizard_passive_unstableanomaly.png in Resources */,
+				EF18A42C155E142200C80596 /* wizard_rayoffrost.png in Resources */,
+				EF18A42D155E142200C80596 /* wizard_shockpulse.png in Resources */,
+				EF18A42E155E142200C80596 /* wizard_slowtime.png in Resources */,
+				EF18A42F155E142200C80596 /* wizard_spectralblade.png in Resources */,
+				EF18A430155E142200C80596 /* wizard_stormarmor.png in Resources */,
+				EF18A431155E142200C80596 /* wizard_teleport.png in Resources */,
+				EF18A432155E142200C80596 /* wizard_waveofforce.png in Resources */,
+				EFBBA8FA155EE359007BCDB6 /* RuneTableViewCell.xib in Resources */,
+				EF0D2518155F28F0006A7785 /* runeA.png in Resources */,
+				EF0D2519155F28F0006A7785 /* runeA@2x.png in Resources */,
+				EF0D251A155F28F0006A7785 /* runeB.png in Resources */,
+				EF0D251B155F28F0006A7785 /* runeB@2x.png in Resources */,
+				EF0D251C155F28F0006A7785 /* runeC.png in Resources */,
+				EF0D251D155F28F0006A7785 /* runeC@2x.png in Resources */,
+				EF0D251E155F28F0006A7785 /* runeD.png in Resources */,
+				EF0D251F155F28F0006A7785 /* runeD@2x.png in Resources */,
+				EF0D2520155F28F0006A7785 /* runeE.png in Resources */,
+				EF0D2521155F28F0006A7785 /* runeE@2x.png in Resources */,
+				EF0D2525155F29EF006A7785 /* runeNone.png in Resources */,
+				EF0D2526155F29EF006A7785 /* runeNone@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +1301,7 @@
 				EFDBBEAC155AACD800EA854D /* ViewController.m in Sources */,
 				EFDBBEBC155AB02900EA854D /* ClassViewController.m in Sources */,
 				EFDBBF76155C71C400EA854D /* SpellPageView.m in Sources */,
+				EFBBA8F8155EE333007BCDB6 /* RuneTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -579,6 +1413,7 @@
 				EFDBBEB4155AACD800EA854D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

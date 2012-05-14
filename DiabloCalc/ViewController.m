@@ -71,7 +71,7 @@
     [wizLabel setFont:[UIFont fontWithName:fontString size:size]]; 
     
     //set choose label
-    [chooseClassLabel setFont:[UIFont fontWithName:@"ExocetLight" size:17.0]];
+    [chooseClassLabel setFont:[UIFont fontWithName:@"ExocetLight" size:19.0]];
 }
 
 

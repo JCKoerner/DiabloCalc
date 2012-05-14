@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Root</key>
+	<dict>
+		<key>1</key>
+		<dict>
+			<key>active-skills</key>
+			<array>
+				<dict>
+					<key>cooldown</key>
+					<string></string>
+					<key>description</key>
+					<string>Brutally smash an enemy for 150% weapon damage with a 20% chance to Knockback.</string>
+					<key>icon</key>
+					<string>barbarian_bash.png</string>
+					<key>lvlReq</key>
+					<string>1</string>
+					<key>name</key>
+					<string>Bash</string>
+					<key>runes</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>Instead of Knockback, each hit has a 35% chance to Stun the target for 1.5 seconds.</string>
+							<key>lvlReq</key>
+							<integer>6</integer>
+							<key>name</key>
+							<string>Clobber</string>
+							<key>runeClass</key>
+							<string>c</string>
+						</dict>
+						<dict>
+							<key>description</key>
+							<string>Add 2 reverberations that cause 22% weapon damage per strike. Removes the chance for Knockback.</string>
+							<key>lvlReq</key>
+							<integer>13</integer>
+							<key>name</key>
+							<string>Onslaught</string>
+							<key>runeClass</key>
+							<string>a</string>
+						</dict>
+						<dict>
+							<key>description</key>
+							<string>Increases the damage of your skills by 6% for 5 seconds after using Bash. This effect stacks up to 3 times.</string>
+							<key>lvlReq</key>
+							<integer>26</integer>
+							<key>name</key>
+							<string>Punish</string>
+							<key>runeClass</key>
+							<string>b</string>
+						</dict>
+						<dict>
+							<key>description</key>
+							<string>Generate 6 additional Fury per attack.</string>
+							<key>lvlReq</key>
+							<integer>44</integer>
+							<key>name</key>
+							<string>Instigation</string>
+							<key>runeClass</key>
+							<string>d</string>
+						</dict>
+						<dict>
+							<key>description</key>
+							<string>Cause a shockwave that inflicts 38% weapon damage to enemies in a 26 yard line behind the targeted enemy.</string>
+							<key>lvlReq</key>
+							<integer>52</integer>
+							<key>name</key>
+							<string>Pulverize</string>
+							<key>runeClass</key>
+							<string>e</string>
+						</dict>
+					</array>
+					<key>special</key>
+					<string>Generate: 6 Fury per attack</string>
+					<key>type</key>
+					<string>Primary</string>
+				</dict>
+			</array>
+			<key>crest</key>
+			<string>barbarianClassCrest</string>
+			<key>description</key>
+			<string></string>
+			<key>passive-skills</key>
+			<array>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>
