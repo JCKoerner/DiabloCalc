@@ -19,6 +19,28 @@
 		EF0D2521155F28F0006A7785 /* runeE@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0D2517155F28F0006A7785 /* runeE@2x.png */; };
 		EF0D2525155F29EF006A7785 /* runeNone.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0D2523155F29EF006A7785 /* runeNone.png */; };
 		EF0D2526155F29EF006A7785 /* runeNone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0D2524155F29EF006A7785 /* runeNone@2x.png */; };
+		EF0D254015618EB3006A7785 /* passiveHighlightBG.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0D253F15618EB3006A7785 /* passiveHighlightBG.png */; };
+		EF0D25451561966D006A7785 /* buttonPassive.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0D25411561966D006A7785 /* buttonPassive.png */; };
+		EF0D25461561966D006A7785 /* buttonPassive@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0D25421561966D006A7785 /* buttonPassive@2x.png */; };
+		EF0D25471561966D006A7785 /* buttonPassiveHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0D25431561966D006A7785 /* buttonPassiveHighlighted.png */; };
+		EF0D25481561966D006A7785 /* buttonPassiveHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0D25441561966D006A7785 /* buttonPassiveHighlighted@2x.png */; };
+		EF0D254B1561A033006A7785 /* ClassSpell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0D254A1561A033006A7785 /* ClassSpell.m */; };
+		EF0D254E1561DAE4006A7785 /* skillFrame_r.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0D254C1561DAE4006A7785 /* skillFrame_r.png */; };
+		EF0D254F1561DAE4006A7785 /* skillFrame_r@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0D254D1561DAE4006A7785 /* skillFrame_r@2x.png */; };
+		EF0D256815620931006A7785 /* runeAsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0D255E15620931006A7785 /* runeAsmall.png */; };
+		EF0D256915620931006A7785 /* runeAsmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0D255F15620931006A7785 /* runeAsmall@2x.png */; };
+		EF0D256A15620931006A7785 /* runeBsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0D256015620931006A7785 /* runeBsmall.png */; };
+		EF0D256B15620931006A7785 /* runeBsmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0D256115620931006A7785 /* runeBsmall@2x.png */; };
+		EF0D256C15620931006A7785 /* runeCsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0D256215620931006A7785 /* runeCsmall.png */; };
+		EF0D256D15620931006A7785 /* runeCsmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0D256315620931006A7785 /* runeCsmall@2x.png */; };
+		EF0D256E15620931006A7785 /* runeDsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0D256415620931006A7785 /* runeDsmall.png */; };
+		EF0D256F15620931006A7785 /* runeDsmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0D256515620931006A7785 /* runeDsmall@2x.png */; };
+		EF0D257315620AD7006A7785 /* runeEsmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0D257215620AD7006A7785 /* runeEsmall@2x.png */; };
+		EF0D257515620B11006A7785 /* runeEsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0D257415620B11006A7785 /* runeEsmall.png */; };
+		EF0D2583156210A6006A7785 /* buttonActive@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0D2582156210A6006A7785 /* buttonActive@2x.png */; };
+		EF0D258615621284006A7785 /* buttonActiveHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0D258415621284006A7785 /* buttonActiveHighlighted.png */; };
+		EF0D2589156212A7006A7785 /* buttonActive.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0D2588156212A7006A7785 /* buttonActive.png */; };
+		EF0D258B15621354006A7785 /* buttonActiveHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0D258A15621354006A7785 /* buttonActiveHighlighted@2x.png */; };
 		EF18A377155E142200C80596 /* barbarian_ancientspear.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2BB155E142200C80596 /* barbarian_ancientspear.png */; };
 		EF18A378155E142200C80596 /* barbarian_bash.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2BC155E142200C80596 /* barbarian_bash.png */; };
 		EF18A379155E142200C80596 /* barbarian_battlerage.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A2BD155E142200C80596 /* barbarian_battlerage.png */; };
@@ -257,12 +279,6 @@
 		EFDBBF27155B24FF00EA854D /* barbarianClassCrest@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF25155B24FF00EA854D /* barbarianClassCrest@2x.png */; };
 		EFDBBF2A155B2BFB00EA854D /* angelStatue.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF28155B2BFB00EA854D /* angelStatue.png */; };
 		EFDBBF2B155B2BFB00EA854D /* angelStatue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF29155B2BFB00EA854D /* angelStatue@2x.png */; };
-		EFDBBF2E155B2F5500EA854D /* buttonPassive.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF2C155B2F5500EA854D /* buttonPassive.png */; };
-		EFDBBF2F155B2F5500EA854D /* buttonPassive@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF2D155B2F5500EA854D /* buttonPassive@2x.png */; };
-		EFDBBF43155B3BEF00EA854D /* buttonActive.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF41155B3BEF00EA854D /* buttonActive.png */; };
-		EFDBBF44155B3BEF00EA854D /* buttonActive@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF42155B3BEF00EA854D /* buttonActive@2x.png */; };
-		EFDBBF47155B3C6600EA854D /* buttonActiveHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF45155B3C6600EA854D /* buttonActiveHighlighted.png */; };
-		EFDBBF48155B3C6600EA854D /* buttonActiveHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF46155B3C6600EA854D /* buttonActiveHighlighted@2x.png */; };
 		EFDBBF4C155B680300EA854D /* demon-hunterClassCrest.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF4A155B680300EA854D /* demon-hunterClassCrest.png */; };
 		EFDBBF4D155B680300EA854D /* demon-hunterClassCrest@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF4B155B680300EA854D /* demon-hunterClassCrest@2x.png */; };
 		EFDBBF50155B681300EA854D /* monkClassCrest.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF4E155B681300EA854D /* monkClassCrest.png */; };
@@ -297,6 +313,29 @@
 		EF0D2517155F28F0006A7785 /* runeE@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "runeE@2x.png"; sourceTree = "<group>"; };
 		EF0D2523155F29EF006A7785 /* runeNone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = runeNone.png; sourceTree = "<group>"; };
 		EF0D2524155F29EF006A7785 /* runeNone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "runeNone@2x.png"; sourceTree = "<group>"; };
+		EF0D253F15618EB3006A7785 /* passiveHighlightBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = passiveHighlightBG.png; sourceTree = "<group>"; };
+		EF0D25411561966D006A7785 /* buttonPassive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonPassive.png; sourceTree = "<group>"; };
+		EF0D25421561966D006A7785 /* buttonPassive@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonPassive@2x.png"; sourceTree = "<group>"; };
+		EF0D25431561966D006A7785 /* buttonPassiveHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonPassiveHighlighted.png; sourceTree = "<group>"; };
+		EF0D25441561966D006A7785 /* buttonPassiveHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonPassiveHighlighted@2x.png"; sourceTree = "<group>"; };
+		EF0D25491561A033006A7785 /* ClassSpell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassSpell.h; sourceTree = "<group>"; };
+		EF0D254A1561A033006A7785 /* ClassSpell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassSpell.m; sourceTree = "<group>"; };
+		EF0D254C1561DAE4006A7785 /* skillFrame_r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skillFrame_r.png; sourceTree = "<group>"; };
+		EF0D254D1561DAE4006A7785 /* skillFrame_r@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "skillFrame_r@2x.png"; sourceTree = "<group>"; };
+		EF0D255E15620931006A7785 /* runeAsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = runeAsmall.png; sourceTree = "<group>"; };
+		EF0D255F15620931006A7785 /* runeAsmall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "runeAsmall@2x.png"; sourceTree = "<group>"; };
+		EF0D256015620931006A7785 /* runeBsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = runeBsmall.png; sourceTree = "<group>"; };
+		EF0D256115620931006A7785 /* runeBsmall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "runeBsmall@2x.png"; sourceTree = "<group>"; };
+		EF0D256215620931006A7785 /* runeCsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = runeCsmall.png; sourceTree = "<group>"; };
+		EF0D256315620931006A7785 /* runeCsmall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "runeCsmall@2x.png"; sourceTree = "<group>"; };
+		EF0D256415620931006A7785 /* runeDsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = runeDsmall.png; sourceTree = "<group>"; };
+		EF0D256515620931006A7785 /* runeDsmall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "runeDsmall@2x.png"; sourceTree = "<group>"; };
+		EF0D257215620AD7006A7785 /* runeEsmall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "runeEsmall@2x.png"; sourceTree = "<group>"; };
+		EF0D257415620B11006A7785 /* runeEsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = runeEsmall.png; sourceTree = "<group>"; };
+		EF0D2582156210A6006A7785 /* buttonActive@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonActive@2x.png"; sourceTree = "<group>"; };
+		EF0D258415621284006A7785 /* buttonActiveHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonActiveHighlighted.png; sourceTree = "<group>"; };
+		EF0D2588156212A7006A7785 /* buttonActive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonActive.png; sourceTree = "<group>"; };
+		EF0D258A15621354006A7785 /* buttonActiveHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonActiveHighlighted@2x.png"; sourceTree = "<group>"; };
 		EF18A2BB155E142200C80596 /* barbarian_ancientspear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_ancientspear.png; sourceTree = "<group>"; };
 		EF18A2BC155E142200C80596 /* barbarian_bash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_bash.png; sourceTree = "<group>"; };
 		EF18A2BD155E142200C80596 /* barbarian_battlerage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_battlerage.png; sourceTree = "<group>"; };
@@ -542,12 +581,6 @@
 		EFDBBF25155B24FF00EA854D /* barbarianClassCrest@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barbarianClassCrest@2x.png"; sourceTree = "<group>"; };
 		EFDBBF28155B2BFB00EA854D /* angelStatue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angelStatue.png; sourceTree = "<group>"; };
 		EFDBBF29155B2BFB00EA854D /* angelStatue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "angelStatue@2x.png"; sourceTree = "<group>"; };
-		EFDBBF2C155B2F5500EA854D /* buttonPassive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonPassive.png; sourceTree = "<group>"; };
-		EFDBBF2D155B2F5500EA854D /* buttonPassive@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonPassive@2x.png"; sourceTree = "<group>"; };
-		EFDBBF41155B3BEF00EA854D /* buttonActive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonActive.png; sourceTree = "<group>"; };
-		EFDBBF42155B3BEF00EA854D /* buttonActive@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonActive@2x.png"; sourceTree = "<group>"; };
-		EFDBBF45155B3C6600EA854D /* buttonActiveHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonActiveHighlighted.png; sourceTree = "<group>"; };
-		EFDBBF46155B3C6600EA854D /* buttonActiveHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonActiveHighlighted@2x.png"; sourceTree = "<group>"; };
 		EFDBBF4A155B680300EA854D /* demon-hunterClassCrest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "demon-hunterClassCrest.png"; sourceTree = "<group>"; };
 		EFDBBF4B155B680300EA854D /* demon-hunterClassCrest@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "demon-hunterClassCrest@2x.png"; sourceTree = "<group>"; };
 		EFDBBF4E155B681300EA854D /* monkClassCrest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monkClassCrest.png; sourceTree = "<group>"; };
@@ -795,6 +828,16 @@
 				EF0D2517155F28F0006A7785 /* runeE@2x.png */,
 				EF0D2523155F29EF006A7785 /* runeNone.png */,
 				EF0D2524155F29EF006A7785 /* runeNone@2x.png */,
+				EF0D255E15620931006A7785 /* runeAsmall.png */,
+				EF0D255F15620931006A7785 /* runeAsmall@2x.png */,
+				EF0D256015620931006A7785 /* runeBsmall.png */,
+				EF0D256115620931006A7785 /* runeBsmall@2x.png */,
+				EF0D256215620931006A7785 /* runeCsmall.png */,
+				EF0D256315620931006A7785 /* runeCsmall@2x.png */,
+				EF0D256415620931006A7785 /* runeDsmall.png */,
+				EF0D256515620931006A7785 /* runeDsmall@2x.png */,
+				EF0D257415620B11006A7785 /* runeEsmall.png */,
+				EF0D257215620AD7006A7785 /* runeEsmall@2x.png */,
 			);
 			name = runes;
 			sourceTree = "<group>";
@@ -830,6 +873,8 @@
 		EFDBBE9E155AACD800EA854D /* DiabloCalc */ = {
 			isa = PBXGroup;
 			children = (
+				EF0D25491561A033006A7785 /* ClassSpell.h */,
+				EF0D254A1561A033006A7785 /* ClassSpell.m */,
 				EFDBBEA7155AACD800EA854D /* AppDelegate.h */,
 				EFDBBEA8155AACD800EA854D /* AppDelegate.m */,
 				EFDBBEAA155AACD800EA854D /* ViewController.h */,
@@ -923,6 +968,8 @@
 				EFDBBF64155C417900EA854D /* parchmentBG.png */,
 				EFDBBF20155B1BA000EA854D /* skillFrame.png */,
 				EFDBBF21155B1BA000EA854D /* skillFrame@2x.png */,
+				EF0D254C1561DAE4006A7785 /* skillFrame_r.png */,
+				EF0D254D1561DAE4006A7785 /* skillFrame_r@2x.png */,
 			);
 			name = backgrounds;
 			sourceTree = "<group>";
@@ -936,6 +983,7 @@
 				EFDBBF29155B2BFB00EA854D /* angelStatue@2x.png */,
 				EFDBBF18155B0F5E00EA854D /* demonStatueReversed.png */,
 				EFDBBF19155B0F5E00EA854D /* demonStatueReversed@2x.png */,
+				EF0D253F15618EB3006A7785 /* passiveHighlightBG.png */,
 			);
 			name = random;
 			sourceTree = "<group>";
@@ -943,12 +991,14 @@
 		EFDBBF30155B399E00EA854D /* skill_buttons */ = {
 			isa = PBXGroup;
 			children = (
-				EFDBBF41155B3BEF00EA854D /* buttonActive.png */,
-				EFDBBF42155B3BEF00EA854D /* buttonActive@2x.png */,
-				EFDBBF45155B3C6600EA854D /* buttonActiveHighlighted.png */,
-				EFDBBF46155B3C6600EA854D /* buttonActiveHighlighted@2x.png */,
-				EFDBBF2C155B2F5500EA854D /* buttonPassive.png */,
-				EFDBBF2D155B2F5500EA854D /* buttonPassive@2x.png */,
+				EF0D2588156212A7006A7785 /* buttonActive.png */,
+				EF0D2582156210A6006A7785 /* buttonActive@2x.png */,
+				EF0D258415621284006A7785 /* buttonActiveHighlighted.png */,
+				EF0D258A15621354006A7785 /* buttonActiveHighlighted@2x.png */,
+				EF0D25411561966D006A7785 /* buttonPassive.png */,
+				EF0D25421561966D006A7785 /* buttonPassive@2x.png */,
+				EF0D25431561966D006A7785 /* buttonPassiveHighlighted.png */,
+				EF0D25441561966D006A7785 /* buttonPassiveHighlighted@2x.png */,
 			);
 			name = skill_buttons;
 			sourceTree = "<group>";
@@ -1062,12 +1112,6 @@
 				EFDBBF27155B24FF00EA854D /* barbarianClassCrest@2x.png in Resources */,
 				EFDBBF2A155B2BFB00EA854D /* angelStatue.png in Resources */,
 				EFDBBF2B155B2BFB00EA854D /* angelStatue@2x.png in Resources */,
-				EFDBBF2E155B2F5500EA854D /* buttonPassive.png in Resources */,
-				EFDBBF2F155B2F5500EA854D /* buttonPassive@2x.png in Resources */,
-				EFDBBF43155B3BEF00EA854D /* buttonActive.png in Resources */,
-				EFDBBF44155B3BEF00EA854D /* buttonActive@2x.png in Resources */,
-				EFDBBF47155B3C6600EA854D /* buttonActiveHighlighted.png in Resources */,
-				EFDBBF48155B3C6600EA854D /* buttonActiveHighlighted@2x.png in Resources */,
 				EFDBBF4C155B680300EA854D /* demon-hunterClassCrest.png in Resources */,
 				EFDBBF4D155B680300EA854D /* demon-hunterClassCrest@2x.png in Resources */,
 				EFDBBF50155B681300EA854D /* monkClassCrest.png in Resources */,
@@ -1286,6 +1330,27 @@
 				EF0D2521155F28F0006A7785 /* runeE@2x.png in Resources */,
 				EF0D2525155F29EF006A7785 /* runeNone.png in Resources */,
 				EF0D2526155F29EF006A7785 /* runeNone@2x.png in Resources */,
+				EF0D254015618EB3006A7785 /* passiveHighlightBG.png in Resources */,
+				EF0D25451561966D006A7785 /* buttonPassive.png in Resources */,
+				EF0D25461561966D006A7785 /* buttonPassive@2x.png in Resources */,
+				EF0D25471561966D006A7785 /* buttonPassiveHighlighted.png in Resources */,
+				EF0D25481561966D006A7785 /* buttonPassiveHighlighted@2x.png in Resources */,
+				EF0D254E1561DAE4006A7785 /* skillFrame_r.png in Resources */,
+				EF0D254F1561DAE4006A7785 /* skillFrame_r@2x.png in Resources */,
+				EF0D256815620931006A7785 /* runeAsmall.png in Resources */,
+				EF0D256915620931006A7785 /* runeAsmall@2x.png in Resources */,
+				EF0D256A15620931006A7785 /* runeBsmall.png in Resources */,
+				EF0D256B15620931006A7785 /* runeBsmall@2x.png in Resources */,
+				EF0D256C15620931006A7785 /* runeCsmall.png in Resources */,
+				EF0D256D15620931006A7785 /* runeCsmall@2x.png in Resources */,
+				EF0D256E15620931006A7785 /* runeDsmall.png in Resources */,
+				EF0D256F15620931006A7785 /* runeDsmall@2x.png in Resources */,
+				EF0D257315620AD7006A7785 /* runeEsmall@2x.png in Resources */,
+				EF0D257515620B11006A7785 /* runeEsmall.png in Resources */,
+				EF0D2583156210A6006A7785 /* buttonActive@2x.png in Resources */,
+				EF0D258615621284006A7785 /* buttonActiveHighlighted.png in Resources */,
+				EF0D2589156212A7006A7785 /* buttonActive.png in Resources */,
+				EF0D258B15621354006A7785 /* buttonActiveHighlighted@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1302,6 +1367,7 @@
 				EFDBBEBC155AB02900EA854D /* ClassViewController.m in Sources */,
 				EFDBBF76155C71C400EA854D /* SpellPageView.m in Sources */,
 				EFBBA8F8155EE333007BCDB6 /* RuneTableViewCell.m in Sources */,
+				EF0D254B1561A033006A7785 /* ClassSpell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

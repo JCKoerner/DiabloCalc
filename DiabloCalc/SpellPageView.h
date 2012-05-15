@@ -13,7 +13,7 @@
 @protocol SpellPageViewDelegate <NSObject>
 @required
 -(void)buttonPressed:(int)tag inSuperview:(int)superViewTag;
-
+-(void)tableRowTapped:(int)row;
 @end
 
 @interface SpellPageView : UIView <UITableViewDelegate, UITableViewDataSource> {
@@ -26,10 +26,13 @@
     
     UITableView *runeTableView;
     NSMutableArray *runeTableViewCells;
+   
 }
 
 
 -(IBAction)buttonWasPressed:(id)sender;
+
+
 
 @property (nonatomic, retain) IBOutlet UITableView *runeTableView;
 @property (nonatomic, retain) NSMutableArray *runeTableViewCells;

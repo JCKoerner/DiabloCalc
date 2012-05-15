@@ -9,6 +9,7 @@
 #import "SpellPageView.h"
 
 @implementation SpellPageView
+
 @synthesize skillRunesLabel;
 @synthesize runesPlaceholderLabel;
 @synthesize runeTableView;
@@ -37,6 +38,11 @@
         //[self.runeTableView.layer setBackgroundColor:[UIColor clearColor].CGColor];
         //[self.runeTableView setRowHeight:65];
         self.runeTableViewCells = [[NSMutableArray alloc] initWithCapacity:6];
+        [self.skillButton1 setAlpha:.95];
+        [self.skillButton2 setAlpha:.95];
+        [self.skillButton3 setAlpha:.95];
+        [self.skillButton4 setAlpha:.95];
+        
         for (int i=0; i<6; i++) {
             RuneTableViewCell *cell = [[RuneTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
             if(i==0) {
@@ -51,6 +57,7 @@
             
         }
         self.runeTableView.layer.cornerRadius = 5;
+        
         
     }
     return self;
@@ -125,10 +132,18 @@
     }
 }
 
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+//    RuneTableViewCell *storedCell = [runeTableViewCells objectAtIndex:indexPath.row];
+//    [storedCell.r
+    [self.delegate tableRowTapped:indexPath.row];
+}
+
 #pragma mark Interface logic
 
 -(IBAction)buttonWasPressed:(id)sender {
-    [self.delegate buttonPressed:[sender tag] inSuperview:[[sender superview] tag]];
+    int tempTag = [[sender superview] tag];
+    //[self setActivePageTag:tempTag];
+    [self.delegate buttonPressed:[sender tag] inSuperview:tempTag];
     //NSLog(@"%@, %d %d", sender, [sender tag], [[sender superview] tag]);
   
   
