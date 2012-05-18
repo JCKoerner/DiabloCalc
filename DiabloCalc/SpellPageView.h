@@ -34,6 +34,7 @@
 
 
 
+@property (weak, nonatomic) IBOutlet UIView *activeButtonHighlightedSquareView;
 @property (nonatomic, retain) IBOutlet UITableView *runeTableView;
 @property (nonatomic, retain) NSMutableArray *runeTableViewCells;
 @property (nonatomic, retain) IBOutlet UIView *view;

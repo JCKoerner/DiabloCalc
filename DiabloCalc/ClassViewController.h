@@ -9,7 +9,11 @@
 #import <UIKit/UIKit.h>
 #import "SpellPageView.h"
 #import "ClassSpell.h"
-@interface ClassViewController : UIViewController <UIScrollViewDelegate, SpellPageViewDelegate>{
+#import "MBProgressHUD.h"
+#import "SavedViewController.h"
+#define decode_string @"aZbYcXdWeVfUgThSiRjQkPlOmNnMoLpK"
+
+@interface ClassViewController : UIViewController <UIScrollViewDelegate, SpellPageViewDelegate, UIActionSheetDelegate, UIAlertViewDelegate, MBProgressHUDDelegate>{
     int characterClass;
     NSDictionary *classDict;
     BOOL pageControlBeingUsed;
@@ -19,15 +23,21 @@
 
     NSMutableArray *calculatorModelState;
     //IBOutlet UIView *passiveButtonHighlightedCircleView;
+    NSMutableDictionary *pageIndexForSpellIndex;
+    NSMutableDictionary *buttonIndexForSpellIndex;
     int selectedButtonTag;
     int activeSpellSelectedIndex;
+    MBProgressHUD *HUD;
+    NSString *buildString;
 }
+
+
 
 
 -(id)initWithCharacterClass:(int)classInt;
 -(NSString *)classNameForInt:(int)classInt;
 
-
+-(void)showHudWithCheckmark;
 -(IBAction)showPopup:(id)sender;
 -(IBAction)showPassivePopup:(id)sender;
 -(void)styleUIElements;
@@ -44,14 +54,47 @@
 -(void)updateActiveSpellDescriptionText:(int)spellIndex forPage:(int)pageIndex;
 -(void)updateUITransparenciesForButtonTappedOnPage:(int)pageIndex;
 
-
+-(void)showSettingsPopup;
 
 -(IBAction)removePopup:(id)sender;
 -(IBAction)changePage:(id)sender;
+-(void)scrollToPage:(int)pageIndex;
 -(void)initializeModel;
 -(void)updateMainUIElements;
+-(void)resetButtonAlphas;
+
+
+-(IBAction)resetCalculator;
+
+
+//save load builds
+
+
+-(void)saveBuildToFileFromNormalEncodedString:(NSString *)normalString withTitle:(NSString *)title;
+-(NSMutableDictionary *)loadSavedBuilds;
+-(NSString *)dataFilePath;
+-(int)decodeIndexForLetter:(NSString *)letter;
+-(NSString *)encodeStringForIndex:(int)index;
+-(int)spellIndexForCodedLetter:(NSString *)letter;
+-(NSString *)codedLetterForSpellIndex:(int)index;
+
+-(NSString *)blizzEncodedStringForDataModel;
+-(NSString *)stringWithTrimmedDots:(NSString *)input;
+-(NSString *)blizzFullURLStringForDataModel;
+
+-(NSString *)normalEncodedStringForDataModel;
+
+-(void)loadNormalEncodedStringForDataModel:(NSString *)encodedString;
+//-(void)loadBlizzEncodedStringForDataMode;
 
 @property (assign) int selectedButtonTag;
+
+
+
+
+
+@property (nonatomic, retain) NSString *buildString;
+
 
 // main view
 @property (assign) int activeSpellSelectedIndex;
@@ -91,6 +134,8 @@
 @property (retain, nonatomic) NSMutableArray *activeSpellButtonsArray;
 @property (retain, nonatomic) NSMutableArray *passiveSpellButtonsArray;
 @property (retain, nonatomic) NSMutableArray *calculatorModelState;
+@property (retain, nonatomic) NSMutableDictionary *pageIndexForSpellIndex;
+@property (retain, nonatomic) NSMutableDictionary *buttonIndexForSpellIndex;
 @property (weak, nonatomic) IBOutlet UITextView *descriptionTextView;
 @property (weak, nonatomic) IBOutlet UILabel *requiredLevelLabel;
 @property (weak, nonatomic) IBOutlet UILabel *requiredLevelIntLabel;

@@ -10,7 +10,7 @@
 
 @implementation ClassSpell
 @synthesize icon, type, category, name, description, rune;
-@synthesize characterClass, lvlReq;
+@synthesize characterClass, lvlReq, spellIndex, runeIndex, runeLvlReq;
 
 
 
@@ -27,6 +27,9 @@
     self.rune = nil;
     self.characterClass = 0;
     self.lvlReq = 0;
+    self.spellIndex = 0;
+    self.runeIndex = 0;
+    self.runeLvlReq = 0;
 }
 
 -(void)resetAllValues {
@@ -39,6 +42,16 @@
     self.characterClass = 0;
     self.lvlReq = 0;
 }
+
+
+-(NSComparisonResult)compareLvlReq:(id)otherItem {
+    if ([self lvlReq] > [otherItem lvlReq]) {
+        return NSOrderedDescending;
+    } else {
+        return NSOrderedAscending;
+    }
+}
+
 
 
 

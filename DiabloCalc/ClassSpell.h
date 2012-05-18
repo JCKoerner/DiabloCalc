@@ -17,7 +17,9 @@
     NSString *name;
     NSString *description;
     NSString *rune;
-    
+    int spellIndex;
+    int runeIndex;
+    int runeLvlReq;
 }
 
 -(void)removeAllValues;
@@ -26,6 +28,9 @@
 
 @property(assign) int characterClass;
 @property(assign) int lvlReq;
+@property(assign) int spellIndex;
+@property(assign) int runeIndex;
+@property(assign) int runeLvlReq;
 @property(nonatomic, retain) NSString *icon;
 @property(nonatomic, retain) NSString *type;
 @property(nonatomic, retain) NSString *category;

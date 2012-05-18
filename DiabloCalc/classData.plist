@@ -5263,16 +5263,16 @@ Hand Crossbows: 10% Critical Hit Chance</string>
 					<key>name</key>
 					<string>Resolve</string>
 				</dict>
-				<dict>
+                <dict>
 					<key>description</key>
-					<string>While dual-wielding, you gain a 15% chance to dodge incoming attacks. While using a two-handed weapon, all Spirit generation is increased by 25%.</string>
+					<string>Increases maximum Spirit by 100.</string>
 					<key>icon</key>
-					<string>monk_passive_theguardianspath.png</string>
+					<string>monk_passive_exaltedsoul.png</string>
 					<key>lvlReq</key>
-					<integer>24</integer>
+					<integer>13</integer>
 					<key>name</key>
-					<string>The Guardian&apos;s Path</string>
-				</dict>
+					<string>Exalted Soul</string>
+				</dict>                
 				<dict>
 					<key>description</key>
 					<string>Every point of Spirit spent heals you for 62.0 Life.</string>
@@ -5303,15 +5303,15 @@ Hand Crossbows: 10% Critical Hit Chance</string>
 					<key>name</key>
 					<string>Seize the Initiative</string>
 				</dict>
-				<dict>
+                <dict>
 					<key>description</key>
-					<string>Increases maximum Spirit by 100.</string>
+					<string>While dual-wielding, you gain a 15% chance to dodge incoming attacks. While using a two-handed weapon, all Spirit generation is increased by 25%.</string>
 					<key>icon</key>
-					<string>monk_passive_exaltedsoul.png</string>
+					<string>monk_passive_theguardianspath.png</string>
 					<key>lvlReq</key>
-					<integer>13</integer>
+					<integer>24</integer>
 					<key>name</key>
-					<string>Exalted Soul</string>
+					<string>The Guardian&apos;s Path</string>
 				</dict>
 				<dict>
 					<key>description</key>

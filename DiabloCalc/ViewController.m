@@ -22,7 +22,8 @@
 @synthesize monkLabel;
 @synthesize wdLabel;
 @synthesize wizLabel;
-
+@synthesize hud;
+@synthesize classView;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -30,7 +31,7 @@
     [self setLabelFonts];
     [self.mainScrollView setContentSize:(CGSizeMake(self.mainScrollView.frame.size.width, 461))];
     [self.mainScrollView setClipsToBounds:YES];
-    
+    self.classView = [[ClassViewController alloc] initWithCharacterClass:1];
     
 }
 
@@ -76,56 +77,84 @@
 
 
 
+- (void)dismissHUD:(id)arg{
+    
+    [MBProgressHUD hideHUDForView:self.navigationController.view animated:YES];
+    hud = nil;
+    
+}
+
+
+
+
+//- (void)hudWasHidden {
+//    // Remove HUD from screen 
+//    [hud removeFromSuperview];
+//    
+//    // add here the code you may need
+//    
+//}
+
+
 
 
 
 
 #pragma mark ViewController Logic
 
--(IBAction)pushClassViewController:(id)sender {
-    ClassViewController *classViewController;
-//    switch ([sender tag]) {
-//        case 1: {
-//            //NSLog(@"case 1");
-//            classViewController = [[ClassViewController alloc] initWithTitle:@"Barbarian"]  ;
-//            break;
-//        }
-//        case 2: {
-// 
-//            
-//            //NSLog(@"case 5");
-//            classViewController = [[ClassViewController alloc] initWithTitle:@"Demon Hunter"];
-//   
-//            break; 
-//        }
-//        case 3: {
-//            
-//            //NSLog(@"case 2");
-//            classViewController = [[ClassViewController alloc] initWithTitle:@"Monk"];
-//            break;  
-//            
+//-(void)initializeClassViewController:(NSNumber *)number {
 //
-//        }
-//        case 4: {
-//            //NSLog(@"case 4");
-//            classViewController = [[ClassViewController alloc] initWithTitle:@"Witch Doctor"];
-//            break;  
-//        }
-//        case 5: {
-//            //NSLog(@"case 3");
-//            classViewController = [[ClassViewController alloc] initWithTitle:@"Wizard"];
-//            break;  
-//        }
-//        default:
-//            break;
-//    }
-    classViewController = [[ClassViewController alloc] initWithCharacterClass:[sender tag]];
-    if (classViewController) {
-        //NSLog(@"char %@", classViewController.characterClass);
-        [self.navigationController pushViewController:classViewController animated:YES];
-      
-    }
+//    ClassViewController *classViewController = [[ClassViewController alloc] initWithCharacterClass:[number intValue]];      
+//
+//    //[self performSelector:@selector(pushClassViewController:) withObject:classViewController];
+//    [self performSelectorOnMainThread:@selector(pushClassViewController:) withObject:classViewController waitUntilDone:NO];
+//  
+//}
+//
+//
+//-(IBAction)callPushClassViewController:(id)sender {
+//    hud = [[MBProgressHUD alloc] initWithView:self.navigationController.view];
+//    //self.hud = [MBProgressHUD showHUDAddedTo:self.navigationController.view animated:YES];
+//    
+//    hud.delegate = self;
+//    hud.labelText = NSLocalizedString(@"Loading Skills", nil);
+//    hud.detailsLabelText = NSLocalizedString(@"Please Wait", nil);
+//    [self.navigationController.view addSubview:hud];
+//    //[self.view.window addSubview:hud];
+//    [NSThread detachNewThreadSelector:@selector(initializeClassViewController:) toTarget:self withObject:[NSNumber numberWithInt:[sender tag]]];
+//    //[hud showWhileExecuting:@selector(initializeClassViewController:) onTarget:self withObject:[NSNumber numberWithInt:[sender tag]] animated:YES];
+//}
+//
+//
+//
+//-(void)pushClassViewController:(ClassViewController *)vc {
+//
+//        //NSLog(@"char %@", classViewController.characterClass);
+//    [self.navigationController pushViewController:vc animated:YES];
+//
+//    //[self dismissHUD:nil];
+//}
+
+
+-(void)pushVC:(NSNumber *)tag {
+    ClassViewController *classViewController = [[ClassViewController alloc] initWithCharacterClass:[tag intValue]];
+    [self.navigationController pushViewController:classViewController animated:YES];
+    [self dismissHUD:nil];
+}
+
+
+-(IBAction)pushViewControllerForClass:(id)sender {
+    //hud = [[MBProgressHUD alloc] initWithView:self.navigationController.view];
+    self.hud = [MBProgressHUD showHUDAddedTo:self.navigationController.view animated:YES];
+    hud.dimBackground = YES;
+    hud.delegate = self;
+    hud.labelText = NSLocalizedString(@"Loading Calculator", nil);
+    hud.detailsLabelText = NSLocalizedString(@"Please Wait", nil);
+   // [self.navigationController.view addSubview:hud];
+    [self performSelector:@selector(pushVC:) withObject:[NSNumber numberWithInt:[sender tag]] afterDelay:0];
+
     
 }
+
 
 @end

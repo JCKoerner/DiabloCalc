@@ -229,6 +229,13 @@
 		EF18A430155E142200C80596 /* wizard_stormarmor.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A374155E142200C80596 /* wizard_stormarmor.png */; };
 		EF18A431155E142200C80596 /* wizard_teleport.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A375155E142200C80596 /* wizard_teleport.png */; };
 		EF18A432155E142200C80596 /* wizard_waveofforce.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A376155E142200C80596 /* wizard_waveofforce.png */; };
+		EFA291F11565D2FB00EB5C89 /* Navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = EFA291EF1565D2FB00EB5C89 /* Navbar.png */; };
+		EFA291F21565D2FB00EB5C89 /* Navbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFA291F01565D2FB00EB5C89 /* Navbar@2x.png */; };
+		EFA291F61565EB4500EB5C89 /* Checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = EFA291F41565EB4500EB5C89 /* Checkmark.png */; };
+		EFA291F71565EB4500EB5C89 /* Checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFA291F51565EB4500EB5C89 /* Checkmark@2x.png */; };
+		EFA291FD156683E900EB5C89 /* tableViewSectionHeader@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFA291FC156683E900EB5C89 /* tableViewSectionHeader@2x.png */; };
+		EFA291FF1566B01500EB5C89 /* tableViewSectionHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = EFA291FE1566B01500EB5C89 /* tableViewSectionHeader.png */; };
+		EFA292011566D47200EB5C89 /* parchmentBG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFA292001566D47200EB5C89 /* parchmentBG@2x.png */; };
 		EFBBA8F8155EE333007BCDB6 /* RuneTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBBA8F7155EE333007BCDB6 /* RuneTableViewCell.m */; };
 		EFBBA8FA155EE359007BCDB6 /* RuneTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFBBA8F9155EE359007BCDB6 /* RuneTableViewCell.xib */; };
 		EFDBBE99155AACD800EA854D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDBBE98155AACD800EA854D /* UIKit.framework */; };
@@ -298,6 +305,13 @@
 		EFDBBF78155C80B500EA854D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDBBF77155C80B500EA854D /* QuartzCore.framework */; };
 		EFDBBF7E155DB0EF00EA854D /* out.plist in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF7D155DB0EF00EA854D /* out.plist */; };
 		EFDBBF80155DCB1800EA854D /* classData.plist in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF7F155DCB1800EA854D /* classData.plist */; };
+		EFF1B299156407C30020492D /* resetButton.png in Resources */ = {isa = PBXBuildFile; fileRef = EFF1B295156407C30020492D /* resetButton.png */; };
+		EFF1B29A156407C30020492D /* resetButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFF1B296156407C30020492D /* resetButton@2x.png */; };
+		EFF1B29B156407C30020492D /* resetButtonHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = EFF1B297156407C30020492D /* resetButtonHighlighted.png */; };
+		EFF1B29C156407C30020492D /* resetButtonHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFF1B298156407C30020492D /* resetButtonHighlighted@2x.png */; };
+		EFF1B2A71564149D0020492D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF1B2A6156413510020492D /* MBProgressHUD.m */; };
+		EFF1B2B315644BBE0020492D /* SavedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF1B2B115644BBE0020492D /* SavedViewController.m */; };
+		EFF1B2B415644BBE0020492D /* SavedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFF1B2B215644BBE0020492D /* SavedViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -524,6 +538,13 @@
 		EF18A374155E142200C80596 /* wizard_stormarmor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_stormarmor.png; sourceTree = "<group>"; };
 		EF18A375155E142200C80596 /* wizard_teleport.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_teleport.png; sourceTree = "<group>"; };
 		EF18A376155E142200C80596 /* wizard_waveofforce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_waveofforce.png; sourceTree = "<group>"; };
+		EFA291EF1565D2FB00EB5C89 /* Navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Navbar.png; sourceTree = "<group>"; };
+		EFA291F01565D2FB00EB5C89 /* Navbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Navbar@2x.png"; sourceTree = "<group>"; };
+		EFA291F41565EB4500EB5C89 /* Checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Checkmark.png; sourceTree = "<group>"; };
+		EFA291F51565EB4500EB5C89 /* Checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Checkmark@2x.png"; sourceTree = "<group>"; };
+		EFA291FC156683E900EB5C89 /* tableViewSectionHeader@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tableViewSectionHeader@2x.png"; sourceTree = "<group>"; };
+		EFA291FE1566B01500EB5C89 /* tableViewSectionHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tableViewSectionHeader.png; sourceTree = "<group>"; };
+		EFA292001566D47200EB5C89 /* parchmentBG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "parchmentBG@2x.png"; sourceTree = "<group>"; };
 		EFBBA8F6155EE333007BCDB6 /* RuneTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuneTableViewCell.h; sourceTree = "<group>"; };
 		EFBBA8F7155EE333007BCDB6 /* RuneTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuneTableViewCell.m; sourceTree = "<group>"; };
 		EFBBA8F9155EE359007BCDB6 /* RuneTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RuneTableViewCell.xib; sourceTree = "<group>"; };
@@ -601,6 +622,15 @@
 		EFDBBF77155C80B500EA854D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		EFDBBF7D155DB0EF00EA854D /* out.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = out.plist; sourceTree = "<group>"; };
 		EFDBBF7F155DCB1800EA854D /* classData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = classData.plist; sourceTree = "<group>"; };
+		EFF1B295156407C30020492D /* resetButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resetButton.png; sourceTree = "<group>"; };
+		EFF1B296156407C30020492D /* resetButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "resetButton@2x.png"; sourceTree = "<group>"; };
+		EFF1B297156407C30020492D /* resetButtonHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resetButtonHighlighted.png; sourceTree = "<group>"; };
+		EFF1B298156407C30020492D /* resetButtonHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "resetButtonHighlighted@2x.png"; sourceTree = "<group>"; };
+		EFF1B2A5156413510020492D /* MBProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		EFF1B2A6156413510020492D /* MBProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		EFF1B2B015644BBE0020492D /* SavedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SavedViewController.h; sourceTree = "<group>"; };
+		EFF1B2B115644BBE0020492D /* SavedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SavedViewController.m; sourceTree = "<group>"; };
+		EFF1B2B215644BBE0020492D /* SavedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SavedViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -873,6 +903,7 @@
 		EFDBBE9E155AACD800EA854D /* DiabloCalc */ = {
 			isa = PBXGroup;
 			children = (
+				EFF1B2A2156410F70020492D /* MBProgressHUD */,
 				EF0D25491561A033006A7785 /* ClassSpell.h */,
 				EF0D254A1561A033006A7785 /* ClassSpell.m */,
 				EFDBBEA7155AACD800EA854D /* AppDelegate.h */,
@@ -889,6 +920,9 @@
 				EFBBA8F6155EE333007BCDB6 /* RuneTableViewCell.h */,
 				EFBBA8F7155EE333007BCDB6 /* RuneTableViewCell.m */,
 				EFBBA8F9155EE359007BCDB6 /* RuneTableViewCell.xib */,
+				EFF1B2B015644BBE0020492D /* SavedViewController.h */,
+				EFF1B2B115644BBE0020492D /* SavedViewController.m */,
+				EFF1B2B215644BBE0020492D /* SavedViewController.xib */,
 				EFDBBE9F155AACD800EA854D /* Supporting Files */,
 			);
 			path = DiabloCalc;
@@ -945,6 +979,12 @@
 		EFDBBEED155AD15A00EA854D /* images */ = {
 			isa = PBXGroup;
 			children = (
+				EFA291EF1565D2FB00EB5C89 /* Navbar.png */,
+				EFA291F01565D2FB00EB5C89 /* Navbar@2x.png */,
+				EFA291F41565EB4500EB5C89 /* Checkmark.png */,
+				EFA291F51565EB4500EB5C89 /* Checkmark@2x.png */,
+				EFA291FE1566B01500EB5C89 /* tableViewSectionHeader.png */,
+				EFA291FC156683E900EB5C89 /* tableViewSectionHeader@2x.png */,
 				EFBBA8EA155ECF91007BCDB6 /* runes */,
 				EF18A139155DD68A00C80596 /* skill_icons */,
 				EFDBBF49155B67D900EA854D /* class_crests */,
@@ -966,6 +1006,7 @@
 				EFDBBEF7155AE1B400EA854D /* mainBG.png */,
 				EFDBBEF8155AE1B400EA854D /* mainBG@2x.png */,
 				EFDBBF64155C417900EA854D /* parchmentBG.png */,
+				EFA292001566D47200EB5C89 /* parchmentBG@2x.png */,
 				EFDBBF20155B1BA000EA854D /* skillFrame.png */,
 				EFDBBF21155B1BA000EA854D /* skillFrame@2x.png */,
 				EF0D254C1561DAE4006A7785 /* skillFrame_r.png */,
@@ -984,6 +1025,10 @@
 				EFDBBF18155B0F5E00EA854D /* demonStatueReversed.png */,
 				EFDBBF19155B0F5E00EA854D /* demonStatueReversed@2x.png */,
 				EF0D253F15618EB3006A7785 /* passiveHighlightBG.png */,
+				EFF1B295156407C30020492D /* resetButton.png */,
+				EFF1B296156407C30020492D /* resetButton@2x.png */,
+				EFF1B297156407C30020492D /* resetButtonHighlighted.png */,
+				EFF1B298156407C30020492D /* resetButtonHighlighted@2x.png */,
 			);
 			name = random;
 			sourceTree = "<group>";
@@ -1018,6 +1063,15 @@
 				EFDBBF57155B683000EA854D /* wizardClassCrest@2x.png */,
 			);
 			name = class_crests;
+			sourceTree = "<group>";
+		};
+		EFF1B2A2156410F70020492D /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				EFF1B2A5156413510020492D /* MBProgressHUD.h */,
+				EFF1B2A6156413510020492D /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1351,6 +1405,18 @@
 				EF0D258615621284006A7785 /* buttonActiveHighlighted.png in Resources */,
 				EF0D2589156212A7006A7785 /* buttonActive.png in Resources */,
 				EF0D258B15621354006A7785 /* buttonActiveHighlighted@2x.png in Resources */,
+				EFF1B299156407C30020492D /* resetButton.png in Resources */,
+				EFF1B29A156407C30020492D /* resetButton@2x.png in Resources */,
+				EFF1B29B156407C30020492D /* resetButtonHighlighted.png in Resources */,
+				EFF1B29C156407C30020492D /* resetButtonHighlighted@2x.png in Resources */,
+				EFF1B2B415644BBE0020492D /* SavedViewController.xib in Resources */,
+				EFA291F11565D2FB00EB5C89 /* Navbar.png in Resources */,
+				EFA291F21565D2FB00EB5C89 /* Navbar@2x.png in Resources */,
+				EFA291F61565EB4500EB5C89 /* Checkmark.png in Resources */,
+				EFA291F71565EB4500EB5C89 /* Checkmark@2x.png in Resources */,
+				EFA291FD156683E900EB5C89 /* tableViewSectionHeader@2x.png in Resources */,
+				EFA291FF1566B01500EB5C89 /* tableViewSectionHeader.png in Resources */,
+				EFA292011566D47200EB5C89 /* parchmentBG@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1368,6 +1434,8 @@
 				EFDBBF76155C71C400EA854D /* SpellPageView.m in Sources */,
 				EFBBA8F8155EE333007BCDB6 /* RuneTableViewCell.m in Sources */,
 				EF0D254B1561A033006A7785 /* ClassSpell.m in Sources */,
+				EFF1B2A71564149D0020492D /* MBProgressHUD.m in Sources */,
+				EFF1B2B315644BBE0020492D /* SavedViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1413,7 +1481,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -1431,7 +1499,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -1443,6 +1511,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DiabloCalc/DiabloCalc-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "DiabloCalc/DiabloCalc-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -1454,6 +1523,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DiabloCalc/DiabloCalc-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "DiabloCalc/DiabloCalc-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;

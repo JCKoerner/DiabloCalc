@@ -12,6 +12,7 @@
 
 @synthesize skillRunesLabel;
 @synthesize runesPlaceholderLabel;
+@synthesize activeButtonHighlightedSquareView;
 @synthesize runeTableView;
 @synthesize runeTableViewCells;
 @synthesize specialLabel;
@@ -56,6 +57,17 @@
             [self.runeTableViewCells addObject:cell];
             
         }
+        
+        
+        //self.activeButtonHighlightedSquareView.alpha = 0;
+        //self.passiveButtonHighlightedCircleView.layer.cornerRadius = 22;
+        self.activeButtonHighlightedSquareView.layer.masksToBounds = NO;
+        self.activeButtonHighlightedSquareView.layer.shadowOffset = CGSizeMake(1, 1);
+        self.activeButtonHighlightedSquareView.layer.shadowRadius = 4;
+        self.activeButtonHighlightedSquareView.layer.shadowOpacity = .8;
+        
+        
+        
         self.runeTableView.layer.cornerRadius = 5;
         
         
@@ -144,9 +156,7 @@
     int tempTag = [[sender superview] tag];
     //[self setActivePageTag:tempTag];
     [self.delegate buttonPressed:[sender tag] inSuperview:tempTag];
-    //NSLog(@"%@, %d %d", sender, [sender tag], [[sender superview] tag]);
-  
-  
+
 }
 
 @end
