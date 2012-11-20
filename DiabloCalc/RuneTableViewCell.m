@@ -33,6 +33,7 @@
         [bgColorView setBackgroundColor:[UIColor colorWithRed:0 green:0 blue:0 alpha:.3]];
         [self setSelectedBackgroundView:bgColorView];
         [self.selectedBackgroundView.layer setCornerRadius:5];
+        //[self.selectedBackgroundView.layer
         [self.backgroundView.layer setBackgroundColor:[UIColor clearColor].CGColor];
         
         [self.textLabel setHighlightedTextColor:[UIColor colorWithRed:1 green:1 blue:1 alpha:.85]];

@@ -26,7 +26,7 @@
     self.rootNavigationController = [[UINavigationController alloc] initWithRootViewController:self.viewController];
     [self.rootNavigationController setNavigationBarHidden:YES animated:NO];
     //[[self.rootNavigationController navigationBar] setTintColor:[UIColor blackColor]];
-    [[self.rootNavigationController navigationBar] setBarStyle:UIBarStyleBlackTranslucent];
+    [[self.rootNavigationController navigationBar] setBarStyle:UIBarStyleBlackOpaque];
     
     
    [self customizeAppearance];
@@ -65,33 +65,17 @@
 - (void)customizeAppearance {
     if ([[[UIDevice currentDevice] systemVersion] floatValue] > 4.9) {
         //iOS 5
-        //[self.tabBarController.tabBar insertSubview:imageView atIndex:1];
-               
-        //[[UITabBar appearance] setSelectionIndicatorImage:[UIImage imageNamed:@"tab_select_indicator"]]; 
+
         
         UIImage *navBackground = [[UIImage imageNamed:@"Navbar"] resizableImageWithCapInsets:UIEdgeInsetsMake(0,0,0,0)];
         [[UINavigationBar appearance] setBackgroundImage:navBackground forBarMetrics:UIBarMetricsDefault];
         
-        
-        
-//        [[UINavigationBar appearance] setTitleTextAttributes:
-//         [NSDictionary dictionaryWithObjectsAndKeys:
-//          [UIColor colorWithRed:255.0/255.0 green:255.0/255.0 blue:255.0/255.0 alpha:.9], 
-//          UITextAttributeTextColor, 
-//          [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.8], 
-//          UITextAttributeTextShadowColor, 
-//          [NSValue valueWithUIOffset:UIOffsetMake(0, -1)], 
-//          UITextAttributeTextShadowOffset, 
-//          [UIFont fontWithName:@"Arial-Bold" size:0.0], 
-//          UITextAttributeFont, 
-//          nil]];
-        
-        //UIImage *backButton = [[UIImage imageNamed:@"back_button"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 14.0, 0, 6.0)];
-      //  [[UIBarButtonItem appearance] setBackgroundImage:backButton forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
-      //  [self.tabBarController.tabBar setSelectedImageTintColor:[UIColor colorWithRed:.35 green:.48 blue:.82 alpha:1]];
-       // UIImage *indicatorImage = [[UIImage imageNamed:@"TabBarSelection"] resizableImageWithCapInsets:UIEdgeInsetsMake(10, 4, 4, 4)];
-        // UIImage *indicatorImage = [[UIImage imageNamed:@"tabbar_temp"] resizableImageWithCapInsets:UIEdgeInsetsMake(10, 4, 0, 4)];
-        //[[UITabBar appearance] setSelectionIndicatorImage:indicatorImage];
+        UIImage *defaultButton = [[UIImage imageNamed:@"defaultButton"] resizableImageWithCapInsets:UIEdgeInsetsMake(6.0, 6.0, 6.0, 6.0)];
+        UIImage *backButton =  [[UIImage imageNamed:@"backButton"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 14.0, 0, 6.0)];
+        [[UIBarButtonItem appearance] setBackgroundImage:defaultButton forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
+
+        [[UIBarButtonItem appearance] setBackButtonBackgroundImage:backButton forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
+
         
     }
     

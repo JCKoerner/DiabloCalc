@@ -72,6 +72,7 @@
     UIBarButtonItem *rightButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemTrash target:self action:@selector(toggleEdit)];
     [rightButton setStyle:UIBarButtonItemStylePlain];
     self.navigationItem.rightBarButtonItem = rightButton;
+    
     isEditing = NO;
     [self initializeData];
 }

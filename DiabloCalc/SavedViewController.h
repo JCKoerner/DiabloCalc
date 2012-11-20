@@ -18,7 +18,7 @@
 }
 
 
-@property (weak, nonatomic) IBOutlet UITableView *saveTableView;
+@property (retain, nonatomic) IBOutlet UITableView *saveTableView;
 @property (retain, nonatomic) NSMutableDictionary *buildsDictionary;
 @property (retain, nonatomic) NSMutableArray *nonEmptySectionArray;
 @property (nonatomic, retain) MBProgressHUD *hud;

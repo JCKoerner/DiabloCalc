@@ -34,24 +34,24 @@
 
 
 
-@property (weak, nonatomic) IBOutlet UIView *activeButtonHighlightedSquareView;
+@property (retain, nonatomic) IBOutlet UIView *activeButtonHighlightedSquareView;
 @property (nonatomic, retain) IBOutlet UITableView *runeTableView;
 @property (nonatomic, retain) NSMutableArray *runeTableViewCells;
 @property (nonatomic, retain) IBOutlet UIView *view;
 @property (nonatomic, retain) IBOutlet UILabel *topLabel;
-@property (weak, nonatomic) IBOutlet UILabel *skillRunesLabel;
-@property (weak, nonatomic) IBOutlet UILabel *runesPlaceholderLabel;
+@property (retain, nonatomic) IBOutlet UILabel *skillRunesLabel;
+@property (retain, nonatomic) IBOutlet UILabel *runesPlaceholderLabel;
 
-@property (weak, nonatomic) IBOutlet UILabel *specialLabel;
-@property (weak, nonatomic) IBOutlet UILabel *cooldownLabel;
-@property (weak, nonatomic) IBOutlet UILabel *unlockedLabel;
+@property (retain, nonatomic) IBOutlet UILabel *specialLabel;
+@property (retain, nonatomic) IBOutlet UILabel *cooldownLabel;
+@property (retain, nonatomic) IBOutlet UILabel *unlockedLabel;
 @property (nonatomic, retain) IBOutlet UITextView *topDescription;
-@property (weak, nonatomic) IBOutlet UILabel *activeSpellTitle;
+@property (retain, nonatomic) IBOutlet UILabel *activeSpellTitle;
 
-@property (weak, nonatomic) IBOutlet UIButton *skillButton1;
-@property (weak, nonatomic) IBOutlet UIButton *skillButton2;
-@property (weak, nonatomic) IBOutlet UIButton *skillButton3;
-@property (weak, nonatomic) IBOutlet UIButton *skillButton4;
+@property (retain, nonatomic) IBOutlet UIButton *skillButton1;
+@property (retain, nonatomic) IBOutlet UIButton *skillButton2;
+@property (retain, nonatomic) IBOutlet UIButton *skillButton3;
+@property (retain, nonatomic) IBOutlet UIButton *skillButton4;
 
 @property (nonatomic, assign) id <SpellPageViewDelegate> delegate;
 @end

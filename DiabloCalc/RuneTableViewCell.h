@@ -16,9 +16,9 @@
 
 
 
-@property (weak, nonatomic) IBOutlet UILabel *textLabel;
+@property (retain, nonatomic) IBOutlet UILabel *textLabel;
 @property(nonatomic, retain)IBOutlet UIView *view;
-@property (weak, nonatomic) IBOutlet UILabel *unlockedLabel;
-@property (weak, nonatomic) IBOutlet UITextView *runeDescription;
-@property (weak, nonatomic) IBOutlet UIImageView *runeImageView;
+@property (retain, nonatomic) IBOutlet UILabel *unlockedLabel;
+@property (retain, nonatomic) IBOutlet UITextView *runeDescription;
+@property (retain, nonatomic) IBOutlet UIImageView *runeImageView;
 @end

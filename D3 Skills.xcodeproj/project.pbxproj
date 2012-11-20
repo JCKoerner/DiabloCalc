@@ -229,6 +229,12 @@
 		EF18A430155E142200C80596 /* wizard_stormarmor.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A374155E142200C80596 /* wizard_stormarmor.png */; };
 		EF18A431155E142200C80596 /* wizard_teleport.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A375155E142200C80596 /* wizard_teleport.png */; };
 		EF18A432155E142200C80596 /* wizard_waveofforce.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18A376155E142200C80596 /* wizard_waveofforce.png */; };
+		EF2EE8331567118300AE67D0 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EF2EE8321567118300AE67D0 /* Icon.png */; };
+		EF2EE8351567118D00AE67D0 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF2EE8341567118D00AE67D0 /* Icon@2x.png */; };
+		EF2EE837156779BB00AE67D0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EF2EE836156779BB00AE67D0 /* Default.png */; };
+		EF2EE839156779CB00AE67D0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF2EE838156779CB00AE67D0 /* Default@2x.png */; };
+		EF9F7AFB15991384001F1CAC /* d3_57.png in Resources */ = {isa = PBXBuildFile; fileRef = EF9F7AFA15991384001F1CAC /* d3_57.png */; };
+		EF9F7AFE1599138D001F1CAC /* d3_114.png in Resources */ = {isa = PBXBuildFile; fileRef = EF9F7AFD1599138D001F1CAC /* d3_114.png */; };
 		EFA291F11565D2FB00EB5C89 /* Navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = EFA291EF1565D2FB00EB5C89 /* Navbar.png */; };
 		EFA291F21565D2FB00EB5C89 /* Navbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFA291F01565D2FB00EB5C89 /* Navbar@2x.png */; };
 		EFA291F61565EB4500EB5C89 /* Checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = EFA291F41565EB4500EB5C89 /* Checkmark.png */; };
@@ -236,8 +242,14 @@
 		EFA291FD156683E900EB5C89 /* tableViewSectionHeader@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFA291FC156683E900EB5C89 /* tableViewSectionHeader@2x.png */; };
 		EFA291FF1566B01500EB5C89 /* tableViewSectionHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = EFA291FE1566B01500EB5C89 /* tableViewSectionHeader.png */; };
 		EFA292011566D47200EB5C89 /* parchmentBG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFA292001566D47200EB5C89 /* parchmentBG@2x.png */; };
+		EFA3D3D515AB5A3B00D2546C /* mainBG.png in Resources */ = {isa = PBXBuildFile; fileRef = EFA3D3D315AB5A3B00D2546C /* mainBG.png */; };
+		EFA3D3D615AB5A3B00D2546C /* mainBG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFA3D3D415AB5A3B00D2546C /* mainBG@2x.png */; };
 		EFBBA8F8155EE333007BCDB6 /* RuneTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBBA8F7155EE333007BCDB6 /* RuneTableViewCell.m */; };
 		EFBBA8FA155EE359007BCDB6 /* RuneTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFBBA8F9155EE359007BCDB6 /* RuneTableViewCell.xib */; };
+		EFCF124315DEA94B00EB419D /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCF124115DEA94B00EB419D /* backButton.png */; };
+		EFCF124415DEA94B00EB419D /* backButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCF124215DEA94B00EB419D /* backButton@2x.png */; };
+		EFCF124715DEA95400EB419D /* defaultButton_o.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCF124515DEA95400EB419D /* defaultButton_o.png */; };
+		EFCF124815DEA95400EB419D /* defaultButton_o@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCF124615DEA95400EB419D /* defaultButton_o@2x.png */; };
 		EFDBBE99155AACD800EA854D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDBBE98155AACD800EA854D /* UIKit.framework */; };
 		EFDBBE9B155AACD800EA854D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDBBE9A155AACD800EA854D /* Foundation.framework */; };
 		EFDBBE9D155AACD800EA854D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDBBE9C155AACD800EA854D /* CoreGraphics.framework */; };
@@ -270,8 +282,6 @@
 		EFDBBEEC155AD14B00EA854D /* wizardButtonPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBEE0155AD14B00EA854D /* wizardButtonPressed@2x.png */; };
 		EFDBBEF4155ADE2200EA854D /* Exocet2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBEF3155ADE2200EA854D /* Exocet2.ttf */; };
 		EFDBBEF6155ADF7200EA854D /* Fanwood Text.otf in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBEF5155ADF7200EA854D /* Fanwood Text.otf */; };
-		EFDBBEF9155AE1B400EA854D /* mainBG.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBEF7155AE1B400EA854D /* mainBG.png */; };
-		EFDBBEFA155AE1B400EA854D /* mainBG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBEF8155AE1B400EA854D /* mainBG@2x.png */; };
 		EFDBBEFD155AF00300EA854D /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBEFB155AF00300EA854D /* bg.png */; };
 		EFDBBEFE155AF00300EA854D /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBEFC155AF00300EA854D /* bg@2x.png */; };
 		EFDBBF16155B0CEF00EA854D /* demonStatue.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBBF14155B0CEF00EA854D /* demonStatue.png */; };
@@ -538,6 +548,12 @@
 		EF18A374155E142200C80596 /* wizard_stormarmor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_stormarmor.png; sourceTree = "<group>"; };
 		EF18A375155E142200C80596 /* wizard_teleport.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_teleport.png; sourceTree = "<group>"; };
 		EF18A376155E142200C80596 /* wizard_waveofforce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_waveofforce.png; sourceTree = "<group>"; };
+		EF2EE8321567118300AE67D0 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		EF2EE8341567118D00AE67D0 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		EF2EE836156779BB00AE67D0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EF2EE838156779CB00AE67D0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EF9F7AFA15991384001F1CAC /* d3_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = d3_57.png; sourceTree = "<group>"; };
+		EF9F7AFD1599138D001F1CAC /* d3_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = d3_114.png; sourceTree = "<group>"; };
 		EFA291EF1565D2FB00EB5C89 /* Navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Navbar.png; sourceTree = "<group>"; };
 		EFA291F01565D2FB00EB5C89 /* Navbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Navbar@2x.png"; sourceTree = "<group>"; };
 		EFA291F41565EB4500EB5C89 /* Checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Checkmark.png; sourceTree = "<group>"; };
@@ -545,17 +561,23 @@
 		EFA291FC156683E900EB5C89 /* tableViewSectionHeader@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tableViewSectionHeader@2x.png"; sourceTree = "<group>"; };
 		EFA291FE1566B01500EB5C89 /* tableViewSectionHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tableViewSectionHeader.png; sourceTree = "<group>"; };
 		EFA292001566D47200EB5C89 /* parchmentBG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "parchmentBG@2x.png"; sourceTree = "<group>"; };
+		EFA3D3D315AB5A3B00D2546C /* mainBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainBG.png; sourceTree = "<group>"; };
+		EFA3D3D415AB5A3B00D2546C /* mainBG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mainBG@2x.png"; sourceTree = "<group>"; };
 		EFBBA8F6155EE333007BCDB6 /* RuneTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuneTableViewCell.h; sourceTree = "<group>"; };
 		EFBBA8F7155EE333007BCDB6 /* RuneTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuneTableViewCell.m; sourceTree = "<group>"; };
 		EFBBA8F9155EE359007BCDB6 /* RuneTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RuneTableViewCell.xib; sourceTree = "<group>"; };
-		EFDBBE94155AACD800EA854D /* DiabloCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiabloCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFCF124115DEA94B00EB419D /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton.png; sourceTree = "<group>"; };
+		EFCF124215DEA94B00EB419D /* backButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backButton@2x.png"; sourceTree = "<group>"; };
+		EFCF124515DEA95400EB419D /* defaultButton_o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defaultButton_o.png; sourceTree = "<group>"; };
+		EFCF124615DEA95400EB419D /* defaultButton_o@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "defaultButton_o@2x.png"; sourceTree = "<group>"; };
+		EFDBBE94155AACD800EA854D /* D3 Skills.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "D3 Skills.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFDBBE98155AACD800EA854D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EFDBBE9A155AACD800EA854D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EFDBBE9C155AACD800EA854D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		EFDBBEA0155AACD800EA854D /* DiabloCalc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DiabloCalc-Info.plist"; sourceTree = "<group>"; };
+		EFDBBEA0155AACD800EA854D /* D3 Skills-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "D3 Skills-Info.plist"; sourceTree = "<group>"; };
 		EFDBBEA2155AACD800EA854D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EFDBBEA4155AACD800EA854D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EFDBBEA6155AACD800EA854D /* DiabloCalc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DiabloCalc-Prefix.pch"; sourceTree = "<group>"; };
+		EFDBBEA6155AACD800EA854D /* D3 Skills-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "D3 Skills-Prefix.pch"; sourceTree = "<group>"; };
 		EFDBBEA7155AACD800EA854D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EFDBBEA8155AACD800EA854D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EFDBBEAA155AACD800EA854D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -586,8 +608,6 @@
 		EFDBBEE0155AD14B00EA854D /* wizardButtonPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wizardButtonPressed@2x.png"; sourceTree = "<group>"; };
 		EFDBBEF3155ADE2200EA854D /* Exocet2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Exocet2.ttf; sourceTree = "<group>"; };
 		EFDBBEF5155ADF7200EA854D /* Fanwood Text.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Fanwood Text.otf"; path = "../Fanwood Text.otf"; sourceTree = "<group>"; };
-		EFDBBEF7155AE1B400EA854D /* mainBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainBG.png; sourceTree = "<group>"; };
-		EFDBBEF8155AE1B400EA854D /* mainBG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mainBG@2x.png"; sourceTree = "<group>"; };
 		EFDBBEFB155AF00300EA854D /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
 		EFDBBEFC155AF00300EA854D /* bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@2x.png"; sourceTree = "<group>"; };
 		EFDBBF14155B0CEF00EA854D /* demonStatue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonStatue.png; sourceTree = "<group>"; };
@@ -875,6 +895,12 @@
 		EFDBBE89155AACD800EA854D = {
 			isa = PBXGroup;
 			children = (
+				EF9F7AFD1599138D001F1CAC /* d3_114.png */,
+				EF9F7AFA15991384001F1CAC /* d3_57.png */,
+				EF2EE838156779CB00AE67D0 /* Default@2x.png */,
+				EF2EE836156779BB00AE67D0 /* Default.png */,
+				EF2EE8341567118D00AE67D0 /* Icon@2x.png */,
+				EF2EE8321567118300AE67D0 /* Icon.png */,
 				EFDBBE9E155AACD800EA854D /* DiabloCalc */,
 				EFDBBE97155AACD800EA854D /* Frameworks */,
 				EFDBBE95155AACD800EA854D /* Products */,
@@ -884,7 +910,7 @@
 		EFDBBE95155AACD800EA854D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EFDBBE94155AACD800EA854D /* DiabloCalc.app */,
+				EFDBBE94155AACD800EA854D /* D3 Skills.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -932,12 +958,12 @@
 			isa = PBXGroup;
 			children = (
 				EFDBBEED155AD15A00EA854D /* images */,
-				EFDBBEA0155AACD800EA854D /* DiabloCalc-Info.plist */,
+				EFDBBEA0155AACD800EA854D /* D3 Skills-Info.plist */,
 				EFDBBEF5155ADF7200EA854D /* Fanwood Text.otf */,
 				EFDBBEF3155ADE2200EA854D /* Exocet2.ttf */,
 				EFDBBEA1155AACD800EA854D /* InfoPlist.strings */,
 				EFDBBEA4155AACD800EA854D /* main.m */,
-				EFDBBEA6155AACD800EA854D /* DiabloCalc-Prefix.pch */,
+				EFDBBEA6155AACD800EA854D /* D3 Skills-Prefix.pch */,
 				EFDBBF7D155DB0EF00EA854D /* out.plist */,
 				EFDBBF7F155DCB1800EA854D /* classData.plist */,
 				EFDBBF5A155B6FF300EA854D /* classData1.plist */,
@@ -979,6 +1005,10 @@
 		EFDBBEED155AD15A00EA854D /* images */ = {
 			isa = PBXGroup;
 			children = (
+				EFCF124115DEA94B00EB419D /* backButton.png */,
+				EFCF124215DEA94B00EB419D /* backButton@2x.png */,
+				EFCF124515DEA95400EB419D /* defaultButton_o.png */,
+				EFCF124615DEA95400EB419D /* defaultButton_o@2x.png */,
 				EFA291EF1565D2FB00EB5C89 /* Navbar.png */,
 				EFA291F01565D2FB00EB5C89 /* Navbar@2x.png */,
 				EFA291F41565EB4500EB5C89 /* Checkmark.png */,
@@ -1003,8 +1033,8 @@
 				EFDBBEFC155AF00300EA854D /* bg@2x.png */,
 				EFDBBF1C155B176100EA854D /* descriptionBG.png */,
 				EFDBBF1D155B176100EA854D /* descriptionBG@2x.png */,
-				EFDBBEF7155AE1B400EA854D /* mainBG.png */,
-				EFDBBEF8155AE1B400EA854D /* mainBG@2x.png */,
+				EFA3D3D315AB5A3B00D2546C /* mainBG.png */,
+				EFA3D3D415AB5A3B00D2546C /* mainBG@2x.png */,
 				EFDBBF64155C417900EA854D /* parchmentBG.png */,
 				EFA292001566D47200EB5C89 /* parchmentBG@2x.png */,
 				EFDBBF20155B1BA000EA854D /* skillFrame.png */,
@@ -1077,9 +1107,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EFDBBE93155AACD800EA854D /* DiabloCalc */ = {
+		EFDBBE93155AACD800EA854D /* D3 Skills */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EFDBBEB2155AACD800EA854D /* Build configuration list for PBXNativeTarget "DiabloCalc" */;
+			buildConfigurationList = EFDBBEB2155AACD800EA854D /* Build configuration list for PBXNativeTarget "D3 Skills" */;
 			buildPhases = (
 				EFDBBE90155AACD800EA854D /* Sources */,
 				EFDBBE91155AACD800EA854D /* Frameworks */,
@@ -1089,9 +1119,9 @@
 			);
 			dependencies = (
 			);
-			name = DiabloCalc;
+			name = "D3 Skills";
 			productName = DiabloCalc;
-			productReference = EFDBBE94155AACD800EA854D /* DiabloCalc.app */;
+			productReference = EFDBBE94155AACD800EA854D /* D3 Skills.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -1103,7 +1133,7 @@
 				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = "Etude Group";
 			};
-			buildConfigurationList = EFDBBE8E155AACD800EA854D /* Build configuration list for PBXProject "DiabloCalc" */;
+			buildConfigurationList = EFDBBE8E155AACD800EA854D /* Build configuration list for PBXProject "D3 Skills" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1115,7 +1145,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EFDBBE93155AACD800EA854D /* DiabloCalc */,
+				EFDBBE93155AACD800EA854D /* D3 Skills */,
 			);
 		};
 /* End PBXProject section */
@@ -1150,8 +1180,6 @@
 				EFDBBEEC155AD14B00EA854D /* wizardButtonPressed@2x.png in Resources */,
 				EFDBBEF4155ADE2200EA854D /* Exocet2.ttf in Resources */,
 				EFDBBEF6155ADF7200EA854D /* Fanwood Text.otf in Resources */,
-				EFDBBEF9155AE1B400EA854D /* mainBG.png in Resources */,
-				EFDBBEFA155AE1B400EA854D /* mainBG@2x.png in Resources */,
 				EFDBBEFD155AF00300EA854D /* bg.png in Resources */,
 				EFDBBEFE155AF00300EA854D /* bg@2x.png in Resources */,
 				EFDBBF16155B0CEF00EA854D /* demonStatue.png in Resources */,
@@ -1417,6 +1445,18 @@
 				EFA291FD156683E900EB5C89 /* tableViewSectionHeader@2x.png in Resources */,
 				EFA291FF1566B01500EB5C89 /* tableViewSectionHeader.png in Resources */,
 				EFA292011566D47200EB5C89 /* parchmentBG@2x.png in Resources */,
+				EF2EE8331567118300AE67D0 /* Icon.png in Resources */,
+				EF2EE8351567118D00AE67D0 /* Icon@2x.png in Resources */,
+				EF2EE837156779BB00AE67D0 /* Default.png in Resources */,
+				EF2EE839156779CB00AE67D0 /* Default@2x.png in Resources */,
+				EF9F7AFB15991384001F1CAC /* d3_57.png in Resources */,
+				EF9F7AFE1599138D001F1CAC /* d3_114.png in Resources */,
+				EFA3D3D515AB5A3B00D2546C /* mainBG.png in Resources */,
+				EFA3D3D615AB5A3B00D2546C /* mainBG@2x.png in Resources */,
+				EFCF124315DEA94B00EB419D /* backButton.png in Resources */,
+				EFCF124415DEA94B00EB419D /* backButton@2x.png in Resources */,
+				EFCF124715DEA95400EB419D /* defaultButton_o.png in Resources */,
+				EFCF124815DEA95400EB419D /* defaultButton_o@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1492,7 +1532,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Etude Group LLC";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -1501,6 +1541,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C851F42B-B0DD-47BF-AA5C-0ACAC9715631";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1510,10 +1551,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DiabloCalc/DiabloCalc-Prefix.pch";
+				GCC_PREFIX_HEADER = "DiabloCalc/D3 Skills-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INFOPLIST_FILE = "DiabloCalc/DiabloCalc-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "DiabloCalc/D3 Skills-Info.plist";
+				PRODUCT_NAME = "D3 Skills";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1521,11 +1563,16 @@
 		EFDBBEB4155AACD800EA854D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Etude Group LLC";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Etude Group LLC";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DiabloCalc/DiabloCalc-Prefix.pch";
+				GCC_PREFIX_HEADER = "DiabloCalc/D3 Skills-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INFOPLIST_FILE = "DiabloCalc/DiabloCalc-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "DiabloCalc/D3 Skills-Info.plist";
+				PRODUCT_NAME = "D3 Skills";
+				PROVISIONING_PROFILE = "EA6879F4-1C5F-43A1-A7FF-2DEB33962D65";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "EA6879F4-1C5F-43A1-A7FF-2DEB33962D65";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -1533,7 +1580,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EFDBBE8E155AACD800EA854D /* Build configuration list for PBXProject "DiabloCalc" */ = {
+		EFDBBE8E155AACD800EA854D /* Build configuration list for PBXProject "D3 Skills" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EFDBBEB0155AACD800EA854D /* Debug */,
@@ -1542,7 +1589,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EFDBBEB2155AACD800EA854D /* Build configuration list for PBXNativeTarget "DiabloCalc" */ = {
+		EFDBBEB2155AACD800EA854D /* Build configuration list for PBXNativeTarget "D3 Skills" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EFDBBEB3155AACD800EA854D /* Debug */,

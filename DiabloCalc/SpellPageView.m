@@ -27,6 +27,8 @@
 @synthesize skillButton4;
 @synthesize delegate = _delegate;
 @synthesize topLabel, topDescription;
+
+
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];

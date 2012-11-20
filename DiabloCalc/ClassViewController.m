@@ -36,7 +36,7 @@
 @synthesize passiveSkillButton15;
 @synthesize passiveSkillButton16;
 @synthesize selectedButtonTag;
-
+@synthesize isInitialized;
 //f@synthesize passiveButtonHighlightedCircleView;
 @synthesize descriptionTextView;
 @synthesize requiredLevelLabel;
@@ -72,6 +72,12 @@
 @synthesize activeSpellImage6;
 @synthesize activeSpellLabel6;
 @synthesize runeImage6;
+@synthesize activityIndicator1;
+@synthesize activityIndicator2;
+@synthesize activityIndicator3;
+@synthesize activityIndicator4;
+@synthesize activityIndicator5;
+@synthesize activityIndicator6;
 @synthesize characterClass;
 @synthesize classDict;
 @synthesize spellPageViewsArray;
@@ -82,7 +88,7 @@
 @synthesize buttonIndexForSpellIndex;
 
 @synthesize buildString;
-
+@synthesize alertViewTextField;
 #pragma mark Load/Unload Methods
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -113,18 +119,124 @@
         // add settings button to nav bar
         UIBarButtonItem *rightButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAction target:self action:@selector(showSettingsPopup)];
         [rightButton setStyle:UIBarButtonItemStyleDone];
-        
+        //[self.navigationItem.backBarButtonItem setStyle:UIBarButtonItemStyled];
         
         self.navigationItem.rightBarButtonItem = rightButton;
         self.navigationItem.title = @"Back";
         [label sizeToFit];
+        self.isInitialized = NO;
     }
     return self;
     
 }
 
 
+
+
+-(void)backgroundLoad {
+    [self loadPopupViews];
+    [self loadPassivePopupView];
+    //[self performSelectorInBackground:@selector(loadClassData) withObject:nil];
+    [self loadClassData];
+    [self loadActiveViewsInitialData];
+    [self loadPassiveViewInitialData];
+    [self initializeModel];
+
+    
+}
+
+-(void)viewDidAppear:(BOOL)animated {
+    if (!isInitialized) {
+        [self.mainScrollView setContentSize:(CGSizeMake(self.mainScrollView.frame.size.width, 690))];
+        [self.mainScrollView setClipsToBounds:YES];
+        
+        
+        
+
+        
+        
+        [self styleUIElements];
+        [self backgroundLoad];
+        //[self performSelectorInBackground:@selector(backgroundLoad) withObject:nil];
+        
+//        [self loadPopupViews];
+//        [self loadPassivePopupView];
+//        //[self performSelectorInBackground:@selector(loadClassData) withObject:nil];
+//        [self loadClassData];
+//        [self loadActiveViewsInitialData];
+//        [self loadPassiveViewInitialData];
+//        [self initializeModel];
+        
+        
+        
+        self.selectedButtonTag = 0;
+        // [self initializeModel];
+        [self updateMainUIElements];
+        self.alertViewTextField = [[UITextField alloc] initWithFrame:CGRectMake(12, 45, 260, 25)];
+        [self.alertViewTextField setBackgroundColor:[UIColor colorWithWhite:1 alpha:.8]];
+        
+        alertViewTextField.borderStyle = UITextBorderStyleBezel;
+        
+        alertViewTextField.textColor = [UIColor blackColor];
+        
+        alertViewTextField.textAlignment = UITextAlignmentCenter;
+        
+        alertViewTextField.font = [UIFont systemFontOfSize:14.0];
+        
+        alertViewTextField.placeholder = @"Enter a title for this build";
+        
+        
+        alertViewTextField.backgroundColor = [UIColor whiteColor];
+        
+        alertViewTextField.autocorrectionType = UITextAutocorrectionTypeNo; // no auto correction support
+        
+        alertViewTextField.keyboardType = UIKeyboardTypeEmailAddress; // use the default type input method (entire keyboard)
+        
+        alertViewTextField.returnKeyType = UIReturnKeyDone;
+        
+        //alertViewTextField.delegate = self;
+        
+        alertViewTextField.clearButtonMode = UITextFieldViewModeWhileEditing;
+        
+        
+        
+        
+        pageControlBeingUsed = NO;
+        
+        
+        if (self.buildString) {
+            [self loadNormalEncodedStringForDataModel:buildString];
+            [[self.navigationController.view.window viewWithTag:25] removeFromSuperview];
+        }
+
+        self.popupView.alpha = 0;
+        [self.mainScrollView addSubview:self.popupView];
+        [self removePopup:nil];
+        
+        self.isInitialized = YES;
+        
+        [self.activityIndicator1 stopAnimating];
+        [self.activityIndicator2 stopAnimating];
+        [self.activityIndicator3 stopAnimating];
+        [self.activityIndicator4 stopAnimating];
+        [self.activityIndicator5 stopAnimating];
+        [self.activityIndicator6 stopAnimating];
+        
+    }
+    
+    
+    
+    
+
+}
+
+
 - (void)viewWillAppear:(BOOL)animated {
+    if (self.buildString) {
+        [self.mainScrollView setContentOffset:CGPointMake(0, 143) animated:NO];
+    } else {
+        [self.mainScrollView setContentOffset:CGPointMake(0, 143) animated:YES];
+    }
     [self.navigationController setNavigationBarHidden:NO animated:YES];
 }
 
@@ -147,38 +259,10 @@
     //[self.overlayView setAlpha:1];
     
     
-    [self.mainScrollView setContentSize:(CGSizeMake(self.mainScrollView.frame.size.width, 690))];
-    [self.mainScrollView setClipsToBounds:YES];
-    
-    [self styleUIElements];
-    [self loadPopupViews];
-    [self loadPassivePopupView];
-    [self loadClassData];
-    [self loadActiveViewsInitialData];
-    [self loadPassiveViewInitialData];
-    [self initializeModel];
-    self.selectedButtonTag = 0;
-    // [self initializeModel];
-    [self updateMainUIElements];
-   
-    pageControlBeingUsed = NO;
-    
-
-    if (self.buildString) {
-        [self loadNormalEncodedStringForDataModel:buildString];
-        [[self.navigationController.view.window viewWithTag:25] removeFromSuperview];
-    }
-    
+       
 }
 
 
--(void)viewDidAppear:(BOOL)animated {
-    if (self.buildString) {
-        [self.mainScrollView setContentOffset:CGPointMake(0, 143) animated:NO];
-    } else {
-        [self.mainScrollView setContentOffset:CGPointMake(0, 143) animated:YES];
-    }
-}
 
 - (void)viewDidUnload
 {
@@ -240,6 +324,12 @@
     [self setPassiveSpellLabel2:nil];
     [self setPassiveSpellLabel3:nil];
     
+    [self setActivityIndicator1:nil];
+    [self setActivityIndicator2:nil];
+    [self setActivityIndicator3:nil];
+    [self setActivityIndicator4:nil];
+    [self setActivityIndicator5:nil];
+    [self setActivityIndicator6:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -1025,7 +1115,7 @@
     //    [UIView commitAnimations];
     
     
-    [self resetButtonAlphas];
+    //[self resetButtonAlphas];
     self.popupView.alpha = 1;
     self.passivePopupView.alpha = 1;
     
@@ -1053,7 +1143,7 @@
     self.popupView.alpha = 0;
     self.passivePopupView.alpha = 0;
     [UIView commitAnimations];
-    [self updateMainUIElements];
+    
 //    
 //    [self.popupView removeFromSuperview];
 //    [self.passivePopupView removeFromSuperview];
@@ -1062,6 +1152,12 @@
 //
 //    [self resetButtonAlphas];
 //    [self updateMainUIElements];
+//    
+//    
+//    [self.popupView removeFromSuperview];
+//    [self.passivePopupView removeFromSuperview];
+    [self updateMainUIElements];
+    
 }
 
 -(void)resetButtonAlphas {
@@ -1195,9 +1291,14 @@
 
 -(void)actionSheet:(UIActionSheet *)actionSheet didDismissWithButtonIndex:(NSInteger)buttonIndex {
     if (buttonIndex==0) {
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Save Build" message:@"Enter a title for this build" delegate:self cancelButtonTitle:@"Save" otherButtonTitles:@"Cancel",nil];
-        alert.alertViewStyle = UIAlertViewStylePlainTextInput;
-        alert.alertViewStyle = UIBarStyleBlackTranslucent;
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Save Build" message:@" " delegate:self cancelButtonTitle:@"Save" otherButtonTitles:@"Cancel",nil];
+        //[alert setFrame:CGRectMake(12, 45, 300, 100)];
+//        alert.alertViewStyle = UIAlertViewStylePlainTextInput;
+//        alert.alertViewStyle = UIBarStyleBlackTranslucent;
+//        CGAffineTransform myTransform = CGAffineTransformMakeTranslation(0, 60);
+//        [alert setTransform:myTransform];
+
+        [alert addSubview:self.alertViewTextField];
         alert.tag = 1;
         [alert show];
         //NSLog(@"%@", [self normalEncodedStringForDataModel]);
@@ -1221,9 +1322,11 @@
             //NSLog(@"%@",  [self stringWithTrimmedDots:[alertView textFieldAtIndex:0].text]);
             //[self loadNormalEncodedStringForDataModel:[self normalEncodedStringForDataModel]];
             
-            NSString *text = [[alertView textFieldAtIndex:0] text];
+            //NSString *text = [[alertView textFieldAtIndex:0] text];
+            NSString *text = [self.alertViewTextField text];
             if ([text length]>0) {
                 [self saveBuildToFileFromNormalEncodedString:[self normalEncodedStringForDataModel] withTitle:text];
+                [self.alertViewTextField setText:@""];
             } else {
                 UIAlertView *newAlertView = [[UIAlertView alloc] initWithTitle:@"Error" message:@"You must include a title to save a build" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
                 newAlertView.tag = 2;

@@ -27,15 +27,15 @@
 -(IBAction)pushViewControllerForClass:(id)sender;
 
 @property(nonatomic, retain) ClassViewController *classView;
-@property (weak, nonatomic) IBOutlet UIScrollView *mainScrollView;
+@property (retain, nonatomic) IBOutlet UIScrollView *mainScrollView;
 
-@property (weak, nonatomic) IBOutlet UILabel *chooseClassLabel;
+@property (retain, nonatomic) IBOutlet UILabel *chooseClassLabel;
 
-@property (weak, nonatomic) IBOutlet UILabel *barbLabel;
-@property (weak, nonatomic) IBOutlet UILabel *dhLabel;
-@property (weak, nonatomic) IBOutlet UILabel *monkLabel;
-@property (weak, nonatomic) IBOutlet UILabel *wdLabel;
-@property (weak, nonatomic) IBOutlet UILabel *wizLabel;
+@property (retain, nonatomic) IBOutlet UILabel *barbLabel;
+@property (retain, nonatomic) IBOutlet UILabel *dhLabel;
+@property (retain, nonatomic) IBOutlet UILabel *monkLabel;
+@property (retain, nonatomic) IBOutlet UILabel *wdLabel;
+@property (retain, nonatomic) IBOutlet UILabel *wizLabel;
 @property (retain) MBProgressHUD *hud;
 
 

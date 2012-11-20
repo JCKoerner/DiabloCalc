@@ -8,8 +8,38 @@
 	<string>${PRODUCT_NAME}</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIconFiles</key>
+	<array>
+		<string>d3_57.png</string>
+		<string>d3_114.png</string>
+		<string>Default.png</string>
+		<string>Default@2x.png</string>
+		<string>Icon.png</string>
+		<string>Icon@2x.png</string>
+		<string>Default.png</string>
+		<string>Default@2x.png</string>
+	</array>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>d3_57.png</string>
+				<string>d3_114.png</string>
+				<string>Default.png</string>
+				<string>Default@2x.png</string>
+				<string>Icon.png</string>
+				<string>Icon@2x.png</string>
+				<string>Default.png</string>
+				<string>Default@2x.png</string>
+			</array>
+			<key>UIPrerenderedIcon</key>
+			<true/>
+		</dict>
+	</dict>
 	<key>CFBundleIdentifier</key>
-	<string>etudesoft.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>com.etudesoft.d3.skills</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -29,6 +59,8 @@
 		<string>Fanwood Text.otf</string>
 		<string>Exocet2.ttf</string>
 	</array>
+	<key>UIPrerenderedIcon</key>
+	<true/>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
